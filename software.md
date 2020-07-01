@@ -203,27 +203,27 @@ VLC multimedia player is used in the lab to view and appraise born digital audio
 https://www.videolan.org/vlc/index.html  
 ## Scripts  
 The following is list of scripts used in born-digital workflows at NYPL.  
-### ft.sh  
+### [ft.sh ](https://github.com/NYPL/digarch_scripts/blob/main/Mac/ft.sh){:target="_blank"}
 This script is used in the lab to create bagit transfers and Siegfried csvs for born-digital media.  
-### kmv.sh  
+### [kryofluxmove.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}  
 This script is used in the lab to move KryoFlux disk images to folders with the MediaIDs of the disks.  
-### mmv.sh  
+### [metadata.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
 This script is used in the lab to move metadata from disk images to folders with the MediaIDs of the disks.  
-### Brunnhilde with disktype  
+### [Brunnhilde with disktype](https://github.com/NYPL/digarch_scripts/blob/main/BitCurator/brudt.sh){:target="_blank"}  
 This script is used in BitCurator to identify disk image type and pass the type to Brunnhilde to generate the correct output.  
-### makesips script  
+### [makesips script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/SIPdir.sh){:target="_blank"}  
 This script is used to create a consecutive number of submission information packages for material from digital media.   
 Alternatively, ``mkdir`` command can be used to create SIPs. This works when SIPs aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
-### moveimages script  
+### [moveimages script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}  
 This script is used in the lab to move a disk image into the objects folder of a SIP.  
-### movemetadata script  
+### [movemetadata script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
 This script is used in the lab to move metadata into the metadata folder of SIP.  
-### movephotograph script  
+### [movephotograph script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/movephotograph.sh){:target="_blank"}  
 This script is used in the lab to copy JPEGS of media from the photographs directory on the staging drive to the submissionDocumentation directory in the MediaID directory of SIPs.  
-### FACTools  
+### [FACTools](https://github.com/NYPL/digarch_scripts/blob/main/Mac/qctools.sh){:target="_blank"}  
 This script is used in the lab to repackage Finding Aid Component packages.  
 ### iterative scripts  
 Scripts are created per collection using a directory listing as input in a while loop. This allows previous move scripts to run per collection rather than one MediaID.  
