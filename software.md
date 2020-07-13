@@ -202,29 +202,38 @@ VLC multimedia player is used in the lab to view and appraise born digital audio
 #### Installation  
 https://www.videolan.org/vlc/index.html  
 ## Scripts  
-The following is list of scripts used in born-digital workflows at NYPL.  
-### [ft.sh ](https://github.com/NYPL/digarch_scripts/blob/main/Mac/ft.sh){:target="_blank"}
+The following is list of scripts used in born-digital workflows at NYPL. The scripts are located in the [digarch_scripts](https://github.com/NYPL/digarch_scripts/blob/main/){:target="_blank"} Github repository. A link to each script is provided after the description.  
+### ft.sh 
 This script is used in the lab to create bagit transfers and Siegfried csvs for born-digital media.  
-### [kryofluxmove.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}  
+[ft.sh ](https://github.com/NYPL/digarch_scripts/blob/main/Mac/ft.sh){:target="_blank"}   
+### kryofluxmove.sh  
 This script is used in the lab to move KryoFlux disk images to folders with the MediaIDs of the disks.  
-### [metadata.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
+[kryofluxmove.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}
+### metadata.sh  
 This script is used in the lab to move metadata from disk images to folders with the MediaIDs of the disks.  
-### [Brunnhilde with disktype](https://github.com/NYPL/digarch_scripts/blob/main/BitCurator/brudt.sh){:target="_blank"}  
+[metadata.sh](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
+### Brunnhilde with disktype  
 This script is used in BitCurator to identify disk image type and pass the type to Brunnhilde to generate the correct output.  
-### [makesips script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/SIPdir.sh){:target="_blank"}  
+[Brunnhilde with disktype](https://github.com/NYPL/digarch_scripts/blob/main/BitCurator/brudt.sh){:target="_blank"}  
+### makesips script
 This script is used to create a consecutive number of submission information packages for material from digital media.   
+[makesips script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/SIPdir.sh){:target="_blank"}  
 Alternatively, ``mkdir`` command can be used to create SIPs. This works when SIPs aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
-### [moveimages script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}  
+### moveimages script  
 This script is used in the lab to move a disk image into the objects folder of a SIP.  
-### [movemetadata script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
+[moveimages script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/kryofluxmove.sh){:target="_blank"}  
+### movemetadata script  
 This script is used in the lab to move metadata into the metadata folder of SIP.  
-### [movephotograph script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/movephotograph.sh){:target="_blank"}  
+[movemetadata script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/metadata.sh){:target="_blank"}  
+### movephotograph script  
 This script is used in the lab to copy JPEGS of media from the photographs directory on the staging drive to the submissionDocumentation directory in the MediaID directory of SIPs.  
-### [FACTools](https://github.com/NYPL/digarch_scripts/blob/main/Mac/qctools.sh){:target="_blank"}  
+[movephotograph script](https://github.com/NYPL/digarch_scripts/blob/main/Mac/movephotograph.sh){:target="_blank"}  
+### FACTools  
 This script is used in the lab to repackage Finding Aid Component packages.  
+[FACTools](https://github.com/NYPL/digarch_scripts/blob/main/Mac/qctools.sh){:target="_blank"}  
 ### iterative scripts  
 Scripts are created per collection using a directory listing as input in a while loop. This allows previous move scripts to run per collection rather than one MediaID.  
 ### CMS metadata import  
