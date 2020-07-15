@@ -20,7 +20,7 @@ The following is a list of software used in born-digital workflows at NYPL.
 ### 7-zip  
 7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK. 
 #### Install 7-zip binary  
-https://www.7-zip.org/  
+[Download 7-zip](https://www.7-zip.org/){:target="_blank"}  
 
 ### AWS  
 Amazon Web Services features S3 and Glacier are used to store copies of born-digital material both before and after the collection has been processed by archivists.  
@@ -45,9 +45,9 @@ BitCurator is a Linux distribution with a suite of open source digital forensics
  
 #### Installation  
 Download software
-BitCurator VM or Live CD: https://github.com/BitCurator/bitcurator-distro/wiki/Releases
+[BitCurator VM or Live CD](https://github.com/BitCurator/bitcurator-distro/wiki/Releases){:target="_blank"}  
 
-Current release of VirtualBox: https://www.virtualbox.org/wiki/Downloads
+[Current release of VirtualBox](https://www.virtualbox.org/wiki/Downloads){:target="_blank"}  
 
 The VirtualBox Extension Pack must be installed on the host for shared folder support, USB 2.0/3.0 support, and support for some NVMe SSDs. Once you’ve installed VirtualBox, use the link below the main download on VirtualBox download site to install the Extension Pack on your host.  
 
@@ -99,7 +99,7 @@ Installing Filemaker requires license keys. Make sure you have the proper keys a
 ### Forensic Toolkit
 Forensic Toolkit is used in the lab to appraise, and arrange born-digital material. 
 #### Installation
-Forensic Toolkit is licensed software and require a dongle to open. The software can be downloaded from https://accessdata.com/product-download
+Forensic Toolkit is licensed software and requires a dongle to open. The software can be downloaded from [AccessData](https://accessdata.com/product-download){:target="_blank"}  
 #### Use
 <!-- own page -->
 ### gtar
@@ -122,7 +122,7 @@ openssl is used in the lab to SSH between computers. SSH is used to run workflow
 ### Oracle VM VirtualBox
 VirtualBox is used in the lab to run the BitCurator environment as a virtual machine.  
 #### Installation  
-Current release of VirtualBox: https://www.virtualbox.org/wiki/Downloads  
+Current release of [VirtualBox](https://www.virtualbox.org/wiki/Downloads){:target="_blank"}  
 
 The VirtualBox Extension Pack must be installed on the host for shared folder support, USB 2.0/3.0 support, and support for some NVMe SSDs. Once you’ve installed VirtualBox, use the link below the main download on VirtualBox download site to install the Extension Pack on your host.  
 ### pip 
@@ -141,8 +141,7 @@ Python3 is used in the lab to run a a variety of scripts, including bagit.py.
 Windows:  
 Check python version  
 ``` python --version ```  
-Installers are available on the python site.  
-https://docs.python.org/3.8/using/windows.html#windows-full  
+Installers are available at [python.org](https://docs.python.org/3.8/using/windows.html#windows-full){:target="_blank"}  
 
 Mac:  
 Check python version  
@@ -163,9 +162,11 @@ Mac:
 ``` brew install rsync```  
 ### Siegfried  
 Siegfried is used in the lab to identify and validate file formats. Siegfried output also includes checksums, useful when rsync is used for transfer instead of bagit.py.
-#### Installation 
-
-https://www.itforarchivists.com/siegfried  
+#### Installation  
+Windows:  
+[Download binary](https://github.com/richardlehane/siegfried/releases/download/v1.8.0/siegfried_1-8-0_win64.zip){:target="_blank"}  
+Mac:  
+```brew install richardlehane/digipres/siegfried```  
 
 #### Use  
 Current installations of siegfried use the config file to store preferred command options.  
