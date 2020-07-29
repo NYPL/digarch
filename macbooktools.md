@@ -1,7 +1,7 @@
 ---
-title: MacBook Tools
+title: MacBook
 layout: default
-nav_order: 1
+nav_order: 5
 parent: Workstations
 grand_parent: Hardware
 ---
