@@ -22,9 +22,9 @@ Born digital collection material can be acquired through file transfer or forens
 The forensic imaging workflows are detailed in this document. Currently, there are three ways disk images are created on a forensic workstation. Floppy disk images are created using the Kryoflux Disk System. Optical media (CD-R/DVD-R) are imaged using the dd command. Hard drives, USB thumbdrives, and Zip disks are imaged with FTK Imager. These workflows cover imaging the media, acquiring basic metadata, and preparing the files for staging for archival processing. The workflows may vary based on media types and file types encountered but the general steps are as follows:  
 
 
-## Image the media object.  
-## Extract metadata from the filesystem of the image.  
-## Package the SIP.   
+1. Image the media object.  
+2. Extract metadata from the filesystem of the image.  
+3. Package the SIP.    
      
 **Before a media object can be imaged it first must be recorded in the collection’s media log in CMS.**   
 
