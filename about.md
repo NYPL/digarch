@@ -1,8 +1,8 @@
-
 ---
 title: About NYPL Digital Archives
 layout: default
-nav_order: 2
+nav_order: 1
+has_children: false
 ---
 
 # About NYPL Digital Archives
@@ -34,13 +34,9 @@ The program works with all digital materials from the 1980s to the present day s
 {: .no_toc }
 Consults on assessments of born-digital material before accessioning, transfers digital objects from original media, supports archivists during processing of electronic records, and packages collections for long-term storage and access.
 
-### Chris Tong, Library Technical Assistant
-{: .no_toc }
-Inventories collections of removable media and transfers their contents to processing storage.
-
 ### Nick Krabbenhoeft, Digital Preservation Manager
 {: .no_toc }
 Manages the Digital Archives programs, develops workflows in response to changing collecting needs, and oversees long-term management of born-digital materials.
 
 ## Program History
-The Digital Archives program began in 2011. Major collections include the [Timothy Leary papers](http://archives.nypl.org/mss/18400), the [Merce Cunningham papers](http://archives.nypl.org/dan/19852](http://archives.nypl.org/dan/19852), and the [Lou Reed papers](http://archives.nypl.org/mus/24078) (winner of SAA's [2019 CFW Coker Award](https://www2.archivists.org/node/23739)).
+The Digital Archives program began in 2011. Major collections include the [Timothy Leary papers](http://archives.nypl.org/mss/18400), the [Merce Cunningham papers](http://archives.nypl.org/dan/19852), and the [Lou Reed papers](http://archives.nypl.org/mus/24078) (winner of SAA's [2019 CFW Coker Award](https://www2.archivists.org/node/23739)).
