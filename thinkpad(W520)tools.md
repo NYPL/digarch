@@ -35,7 +35,4 @@ System type: 64-bit operating system, x64-based processor
 
 | Tool                     | Path                   |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-eyJoaXN0b3J5IjpbMjExODM3NDcxNywtMTE1MDg2NjA2OSwtMj
-k3MjQyMzg0XX0=
--->
+|  |  |
