@@ -52,7 +52,7 @@ It is useful to check the process every 1-2 hours to ensure it is running correc
 Most disc transfers take less than 10 minutes to complete. If the Nimbie has not loaded a new disc in a while, the most likely reason is that the disc being processed is scratched. Depending on the extent of the scratches, it may take up to 24 hours for the Nimbie to complete the disc. You can confirm this is happening if you hear the motor inside the Nimbie repeatedly spinning up and cutting power. This is normal.
 
 ### Red Light
-If the red light on the front of the Nimbie is on, the auto-loading mechanism has probably jammed. Follow the instructions for [Stopping a Batch](stopping-a-batch) below.
+If the red light on the front of the Nimbie is on, the auto-loading mechanism has probably jammed. Follow the instructions for [Stopping a Batch](#stopping-a-batch) below.
 
 ### Discs and Queue Out of Sync
 Accidents and mistakes while loading the Nimbie will cause the transferred files to be linked with the wrong discs. If this is happening:
