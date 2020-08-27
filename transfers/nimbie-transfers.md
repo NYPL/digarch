@@ -69,7 +69,7 @@ You may need to stop the Nimbie because one of the above solutions did not work 
 
 1. Close IROMLAB. If you cannot close the IROMLAB window, close the terminal window named "iromlab.ps1".
 2. Remove the discs from the hopper.
-3. Remove the disc from the drive if one is currently in the drive. To open the drive, press the buttom on the bottom right of the disc drive inside of the Nimbie, remove the disc from the tray, and then press the button to close the tray again.
+3. Remove the disc from the drive if one is currently in the drive. To open the drive, press the button on the bottom right of the disc drive inside of the Nimbie, remove the disc from the tray, and then press the button to close the tray again.
 
 ### Restarting a Batch
 If you had to stop a batch, it is possible to reload the queue by using the "Load Batch" button in IROMLAB. In the file dialog box, navigate to the collection-level folder, highlight the batch folder, and select open.
