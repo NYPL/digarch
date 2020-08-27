@@ -24,7 +24,7 @@ Using the Nimbie Robot consists of three steps.
 ## Loading discs into the Nimbie Robot
 
 1.  Follow these steps to setup up the workstation:
-	- Turn on the [Thinkpad W520](thinkpad520) laptop
+	- Turn on the [Thinkpad W520](../thinkpad(W520)tools) laptop
 	- On the Thinkpad, login to the mssa-admin account.
 	- Plug-in the USB cable from the Nimbie USB disc robot to the Thinkpad.
 	- Turn on the Nimbie using the power switch at the back of the device.
