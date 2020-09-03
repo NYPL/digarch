@@ -1,7 +1,7 @@
 ---
-title: MacBook
+title: MacBook Tools
 layout: default
-nav_order: 5
+nav_order: 1
 parent: Workstations
 grand_parent: Hardware
 ---
@@ -35,10 +35,10 @@ SMC Version (system):	2.19f12
 | Tool                     | Path                   |
 | ------------------------ | ---------------------- |
 | Transfer                 |                        |
-| sf (Siegfried)           | /usr/ocal/bin          |
-| bagit                    | /usr/ocal/bin          |
-| gtar                     | /usr/ocal/bin          |
-| [ft.sh](http://ft.sh/)   | /usr/ocal/bin          |
+| sf (Siegfried)           | /usr/local/bin          |
+| bagit                    | /usr/local/bin          |
+| gtar                     | /usr/local/bin          |
+| [ft.sh](http://ft.sh/)   | /usr/local/bin          |
 | sha1deep                 | not installed          |
 | [kmv.sh](http://kmv.sh/) | /users/digitalarchives |
 | [mmv.sh](http://mmv.sh/) | /users/digitalarchives |
