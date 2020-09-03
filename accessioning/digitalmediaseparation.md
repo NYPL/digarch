@@ -96,7 +96,7 @@ information in the media log page for the collection.
 
 An example of a completed record for separation:
 
-![](/accessioning/digitalmediaseparation/media/image1.png)
+![](/digitalmediaseparation/media/image1.png)
 
 ## 5. Fill out a digital media separation form.  
 
@@ -108,7 +108,7 @@ format on the form. Enter the correct
 format after the word Other if the format is not listed. Print the form on BLUE
 paper (for visibility) and place it in the object's previous container.  
 
-![DigiSeparation.jpg](/accessioning/digitalmediaseparation/media/image2.jpg)
+![Digital Separation Sheet](/digitalmediaseparation/media/image2.jpg)
 
 
 ## 6. Create a shelving card and shelve the media.
