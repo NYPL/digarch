@@ -66,7 +66,7 @@ on the media's plastic hub using a using a medium point Sharpie pen. House CDs o
 
 * Contact the Digital Archives Assistant to discuss labeling other media types.  
 
-![](/accessioning/digitalmediaseparation/media/image3.jpg)  
+![](/digitalmediaseparation/media/image3.jpg)  
 
 ## 4. Create a media log record.  
 
