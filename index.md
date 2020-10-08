@@ -1,31 +1,22 @@
 ---
 title: About NYPL Digital Archives
 layout: default
-nav_order: 1
+nav_order: -1
 has_children: false
 ---
 
 # About NYPL Digital Archives
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-## Program Responsibility
-The Digital Archives program facilitates the management of all born-digital portions of archival acquisitions by the 11 curatorial units of the NYPL Research Libraries. The program is part of the Digital Preservation unit of the Digital Research Division. It also works closely with Archives Unit with the Preservation and Collections Processing division.
+The Digital Archives program facilitates the management of all born-digital portions of archival acquisitions by the 11 curatorial units of the NYPL Research Libraries. The program is part of the Digital Preservation unit of the Digital Research Division. It also works closely with Archives Unit within the Preservation and Collections Processing division.
 
 ## Services
 
 The Digital Archives program provides the following services:
-* Assessing the scope of born-digital materials of an archival collection prior to acquisition
-* Providing appropriate transfer methods for digital materials between a donor and the library
-* Transferring accessioned digital files to secure storage environment for further analysis, processing, and description
-* Analyzing the composition of a collection's digital components as a whole
-* Supporting archivists in processing the born-digital component of a collection
-* Transferring processed born-digital materials to systems for long-term storage and access
+* Site Visits - Assessing the scope of born-digital materials of an archival collection prior to acquisition
+* Accessioning - Providing appropriate transfer methods for digital materials between a donor and the library
+* Transfers - Transferring accessioned digital files to secure storage environment for further analysis, processing, and description
+* Staging - Analyzing the composition of a collection's digital components as a whole. Supporting archivists in processing the born-digital component of a collection
+* Packaging - Transferring processed born-digital materials to systems for long-term storage and access
 
 The program works with all digital materials from the 1980s to the present day such as floppy diskettes, personal laptops, CDs and DVDs, backup hard drives, network folders, and email accounts.
 

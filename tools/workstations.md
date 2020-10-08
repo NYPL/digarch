@@ -1,9 +1,8 @@
 ---
 title: Workstations
 layout: default
-nav_order: 2
-parent: Hardware
-grand_parent: Resources
+nav_order: 1
+parent: Tools
 has_children: true
 ---
 

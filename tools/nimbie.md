@@ -3,7 +3,7 @@ title: Nimbie Disc Autoloader
 layout: default
 nav_order: 1
 parent: Transfer Equipment
-grand_parent: Hardware
+grand_parent: Tools
 ---
 The Nimbie Disc Autoloader is used to transfer files from most optical disc media formats.
 

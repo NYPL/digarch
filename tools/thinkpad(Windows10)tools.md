@@ -3,7 +3,7 @@ title: Thinkpad (Windows 10)
 layout: default
 nav_order: 4
 parent: Workstations
-grand_parent: Hardware
+grand_parent: Tools
 ---
 
 

@@ -2,7 +2,7 @@
 title: Transfer Equipment
 layout: default
 nav_order: 2
-parent: Hardware
+parent: Tools
 has_children: true
 ---
 

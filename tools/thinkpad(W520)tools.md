@@ -3,7 +3,7 @@ title: Thinkpad W520
 layout: default
 nav_order: 3
 parent: Workstations
-grand_parent: Hardware
+grand_parent: Tools
 ---
 The Thinkpad W520 is used primarily to run the Nimbie Disc Autoloader. Formerly, it was used for appraisal and acquisition during site visits.
 
