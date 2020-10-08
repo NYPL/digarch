@@ -3,7 +3,7 @@ title: KryoFlux
 layout: default
 nav_order: 6
 parent: Transfer Equipment
-grand_parent: Hardware
+grand_parent: Tools
 ---
 
 # KryoFlux

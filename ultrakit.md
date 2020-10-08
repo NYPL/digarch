@@ -3,7 +3,7 @@ title: Tableau Ultrakit
 layout: default
 nav_order: 5
 parent: Transfer Equipment
-grand_parent: Hardware
+grand_parent: Tools
 ---
 
 # Tableau Ultrakit

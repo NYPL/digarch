@@ -3,7 +3,7 @@ title: FRED 1
 layout: default
 nav_order: 1
 parent: Workstations
-grand_parent: Hardware
+grand_parent: Tools
 ---
 
 ---

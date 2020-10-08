@@ -3,7 +3,7 @@ title: Tableau Ultrabay
 layout: default
 nav_order: 4
 parent: Transfer Equipment
-grand_parent: Hardware
+grand_parent: Tools
 ---
 
 # Tableau Ultrabay
