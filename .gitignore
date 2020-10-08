@@ -1,0 +1,19 @@
+# Jekyll
+_posts/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+.bundle/
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# Mac/Windows System Files
+.DS_Store
+._*
+Icon
+Thumbs.db
