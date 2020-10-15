@@ -4,7 +4,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
+_config.yml
 # Ruby
 .bundle/
 .ruby-gemset
@@ -15,5 +15,6 @@ Gemfile.lock
 # Mac/Windows System Files
 .DS_Store
 ._*
-Icon
+Icon
+
 Thumbs.db
