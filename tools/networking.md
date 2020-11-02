@@ -3,7 +3,6 @@ title: Networking
 layout: default
 nav_order: 4
 parent: Tools
-has_children: false
 ---
 
 # Networking
