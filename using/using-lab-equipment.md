@@ -48,7 +48,7 @@ Below are locations of other useful items in the lab.
 
 ## Shelving 
 The shelving along the wall with the entry door holds born-digital media.
-* The left shelf contains media yet to imaged or transferred.
+* The left shelf contains media yet to be imaged or transferred.
 * The middle shelf contains media in the process of being imaged or transferred.
 * The right shelf contains media that has been transferred and is ready for final disposition.
 

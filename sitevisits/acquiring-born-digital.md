@@ -34,7 +34,7 @@ Steps to acquiring born-digital material for curators
 
 * Briefly inform your donor of our processes. 
     * The Digital Archives program ingest born digital material by two methods: digital forensics and file transfers. Digital forensics involves creating a disk image which is a bit by bit copy of the entire contents of a storage device including software and system files. For both ingest methods, we record all salient characteristics of the media, generate file directory listings, and ensure file fixity.
-    * We may reformat or migrate files to new formats to support preservation and/or access
+    * We may reformat or migrate files to new formats to support preservation and/or access.
 
 
 
