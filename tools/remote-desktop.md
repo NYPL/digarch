@@ -1,9 +1,9 @@
 ---
-title: Remote Desktop Access
+title: Remote Desktop
 layout: default
-nav_order: 1
-grandparent: Tools
+nav_order: 3
 parent: Networking
+grand_parent: Tools
 has_children: false
 ---
 
