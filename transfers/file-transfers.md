@@ -65,7 +65,10 @@ On Mac:
 
 Or
 
-* ``mkdir`` command can be used to create SIPs. This works when SIPs aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.  
+* ``mkdir`` command can be used to create SIPs. This works when SIPs aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on. 
+* Change to fileTransfers directory.  
+```$ filetransfers```
+* Enter ```mkdir``` command.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
@@ -113,30 +116,3 @@ Or
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
-
-* To ensure all packages for a collection are complete run qctools.
-
-On Windows:
-
-* Start Cygwin from the desktop. A terminal like screen should appear.
-
-![](media/image4.png)
-
-On Mac:
-* Open Terminal.  
-
-* Connect to ARCHV Mac.  
-
- ```$ ssh archv```
-
-* Change to fileTransfers directory.
-
- ```$ fileTransfers```
-
-* Changed into collection directory.
-
- ```$ cd M1111```
-
-* Run program to check packages.
-
- ```$ qctools```

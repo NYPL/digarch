@@ -1,7 +1,7 @@
 ---
 title: Digital Preservation Site Visits
 layout: default
-nav_order: 3
+nav_order: 2
 parent: Site Visits
 ---
 # Digital Preservation Site Visits
