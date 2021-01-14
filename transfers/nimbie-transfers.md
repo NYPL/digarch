@@ -7,7 +7,7 @@ parent: Transfers
 
 # Mass Optical Disc File Transfers with the Nimbie Auto-Loader
 
-This document describes how to use the [Nimbie Disc Auto-Loader](../nimbie) to transfer files from optical media in archival collections to staging storage for processing and arrangement. For information on the Nimbie and the software this process depends on, see the Nimbie page. 
+This document describes how to use the [Nimbie Disc Auto-Loader]({{ site.baseurl }}/tools/nimbie) to transfer files from optical media in archival collections to staging storage for processing and arrangement. For information on the Nimbie and the software this process depends on, see the Nimbie page. 
 
 This applies for the vast majority of CD's, DVD's. and BluRays with born-digital contents.  
 
