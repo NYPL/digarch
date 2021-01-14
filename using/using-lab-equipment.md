@@ -7,7 +7,15 @@ parent: Using the Lab
 
 # Reserving a Workstation Session
 Reserve your session to use a FRED or the 205 iMac at least 24 hours in advance using the
-[msserec@gmail.com](https://calendar.google.com/calendar?cid=bXNzZXJlY3NAZ21haWwuY29t){:target="_blank"} calendar.
+[Digital Archives Lab Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbjYzaTM1aGVnZWduaGhmaGtiZzg0aGozb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"} calendar.
+
+To schedule a time
+* Create a Google Calendar event while logged into your NYPL Google Account
+* Title your event with the collection you will be processing
+* Select a date and time
+* Change the calendar from your personal calendar to Digital Archives Lab
+
+If there are any issues, please contact lab staff.
 
 # Labeling
 A P-touch labeler is available in 205 for inventorying media.

@@ -13,8 +13,7 @@ Instructions
 1. TOC
 {:toc}
 
-* Reserve your FTK session at least 24 hours in advance using the
-[msserec@gmail.com](https://calendar.google.com/calendar?cid=bXNzZXJlY3NAZ21haWwuY29t){:target="_blank"} calendar.
+* [Reserve your FTK session]({{ site.baseurl }}/using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 
 * Click the FTK icon to open FTK and begin your session. 
 

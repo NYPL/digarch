@@ -14,14 +14,13 @@ Instructions
 
 ### Prepare to Process
 
-* Reserve your FTK session at least 24 hours in advance using the
-msserec@gmail.com calendar.
+* [Reserve your FTK session]({{ site.baseurl }}/using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 
 * Click the FTK icon to open FTK and begin your session. 
 
 * Sign in using your username and password.
     * Your username is the first initial of your first name and
-full last name (e.g. smalsbury). 
+full last name (e.g. losborne). 
 
 * Select your collection from the bar on the left hand side of the screen. 
 
