@@ -19,7 +19,7 @@ parent: Transfers
 
 Born digital collection material can be acquired through file transfer or forensic imaging. Most material will be transferred using a Bagit script through command line. Forensic imaging is reserved for cases where imaging facilitates viewing or accessing material. For instance, some legacy file formats cannot be viewed on  recent operating systems. Imaging this material allows it to be viewed in an emulator.  
 
-The forensic imaging workflows are detailed in this document. Currently, there are three ways disk images are created on a forensic workstation. Floppy disk images are created using the Kryoflux Disk System. Optical media (CD-R/DVD-R) are imaged using the dd command. Hard drives, <!-- and removable media such as -->USB thumbdrives, and Zip<!-- Change to Iomega  --> disks are imaged with FTK Imager. These workflows cover imaging the media, acquiring basic metadata, and preparing the files for staging for archival processing. The workflows may vary based on media types and file types encountered but the general steps are as follows:  
+The forensic imaging workflows are detailed in this document. Currently, there are three ways disk images are created on a forensic workstation. Floppy disk images are created using the Kryoflux Disk System. Optical media (CD-R/DVD-R) are imaged using the dd command. Hard drives, and removable media such as USB thumbdrives, and Iomega disks are imaged with FTK Imager. These workflows cover imaging the media, acquiring basic metadata, and preparing the files for staging for archival processing. The workflows may vary based on media types and file types encountered but the general steps are as follows:  
 
 
 1. Image the media object.  
@@ -37,7 +37,7 @@ The forensic imaging workflows are detailed in this document. Currently, there a
 
 * Attach the AC power cable to the power supply. See the green LED on the power supply light up.  Listen for a faint click from the disk drive.   
 
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Contact the Digital Archives Assistant<!-- Change staff --> if the media object is not listed in CMS.  
+* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Check in with Digital Preservation staff if the media object is not listed in CMS.  
 
 * Open the Kryoflux software from the desktop. Click on the drive menu and ensure that ‘Drive 0’ is selected. Select ‘calibrate’ from the drive menu. Select ‘yes’ from the pop-up window. When the calibration is complete you should see the message ‘calibration is successful, the maximum number of tracks available is: 83’. Calibrate only once when you begin a session, unless calibration fails.  
 
@@ -196,7 +196,7 @@ Select the current date under ‘Progress’  for the ‘Imaging done” field.
 
 * Place the optical media in the optical drive.
 
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Contact the Digital Archives Assistant if the media object is not listed in CMS.
+* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Check in with Digital Preservation staff if the media object is not listed in CMS.
 * Open Cygwin. A terminal like screen should appear.
 
 * Use the dd command to copy optical media in the drive to iso. ```if``` is the input file and ```of``` is the output file.  
