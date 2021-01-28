@@ -16,7 +16,9 @@ parent: Accessioning
 
 # Introduction
 
-When digital media is encountered during the processing of archival collections it is separated from folders and prepared for transfer.  
+When digital media is encountered during the processing of archival collections it is separated from folders and prepared for transfer. 
+
+|When commercial software is present do not enter it in CMS or label it. Send commercial software as is to Digital Preservation.|
 
 Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
 
@@ -64,7 +66,10 @@ label and affixed it to the media. Labeling media with a P-Touch is best.
 * For Optical media (CDs, DVDs), print the number
 on the media's plastic hub using a using a medium point Sharpie pen. House CDs or DVDs in a sleeve or case if they are not housed. Rehouse CDs or DVDs that are sleeved/cased together into individual sleeves or cases, unless the case is designed for multiple CDs or DVDs.  
 
-* Contact the Digital Archives Assistant to discuss labeling other media types.  
+* Check in with Digital Preservation staff to discuss labeling other media types.  
+
+|Digital Preservation staff can label commercial software with a simple collection name.
+```Crouch``` for Stanley Crouch papers.|
 
 ![](/digitalmediaseparation/media/image3.jpg)  
 
@@ -93,6 +98,8 @@ information in the media log page for the collection.
 * serial number (hd)
 
     * Enter the serial number if the media object is a hard disk drive. Leave blank for other media types.  
+
+| Label transcript is an optional field. If you want to transcript a label you can enter text as it appears on the label. You can enter ```[illegible]``` for words you can't decipher.|  
 
 An example of a completed record for separation:
 
