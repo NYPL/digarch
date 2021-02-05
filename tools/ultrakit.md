@@ -33,8 +33,6 @@ The Tableau Ultrakit is a case of portable forensic bridges, power supply, and c
 ### IDE
 * Connect the blue Host side of an IDE cable to the forensic bridge. Connect the black side to the device.  
 
-
-
 ## Set internal hard drives to single or master.  
 * Make sure the jumper pins on the hard drive are set to single or master.  
     * Look for a schematic displaying where to place a shunt on the pins or etched labels on the circuit board.  
