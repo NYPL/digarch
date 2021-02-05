@@ -19,13 +19,21 @@ grand_parent: Tools
 The Tableau Ultrakit is a case of portable forensic bridges, power supply, and cables. The kit contains IDE, SCSI, SATA, USB, and card forensic bridges. A firewire device forensic bridge was purchased separately but uses the same instructions as the Ultrakit. The Ultrakit can be used during site visits or in the lab. Currently, the Ultrakit forensic bridges are most commonly used with a Mac to transfer Apple formatted devices that are not recognized by the FREDs.    
 
 ## Connect cables.  
+
+### Power cables
 * Connect the power supply to the forensic bridge.
-* Device cables are available in the yellow case or labeled plastic drawers on the bakers rack. 
-* Connect devices with external power as usual.  
-* Connect uncased internal devices to power through the forensic bridge with a 3M drive power cable or a Molex to 3M drive power cable.  
+  - Device cables are available in the yellow case or labeled plastic drawers on the bakers rack. 
+* Connect the device to power:
+  - Connect devices with external power as usual.  
+  - Connect uncased internal devices to power through the forensic bridge with a 3M drive power cable or a Molex to 3M drive power cable.  
+
+### FireWire or USB
+* Connect the forensic bridge to the computer via Firewire or USB.
 
 ### IDE
 * Connect the blue Host side of an IDE cable to the forensic bridge. Connect the black side to the device.  
+
+
 
 ## Set internal hard drives to single or master.  
 * Make sure the jumper pins on the hard drive are set to single or master.  
