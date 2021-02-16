@@ -20,12 +20,14 @@ As part of the Library's and the (Lab's COVID-19 safety protocols)[covid], in-pe
 * Multiple staff will refrain from interacting with the same equipment unless it is sanitized between each user.
 
 # Remote Assistance
-Staff who are not currently in the lab are able to to provide remote assistance sessions.
+Staff who are not currently in the lab are able to to provide remote assistance sessions with prior notice.
 
-* Contact the staff to schedule a remote assistance session.
+* [Contact](mailto:digitalarchives@nypl.org) the staff to schedule a remote assistance session at least 24 hours in advance.
 * At the beginning of your session, login to the computer you will be using.
 * Start a video or audio conference with the staff.
 	* It may be easier to do this with a separate device, such as an office phone, laptop, or smartphone.
+* Follow the instructions the staff give you to share the screen or connect to Chrome Remote apps.
+### Example method
 * Click on the Chrome Remote Assistance icon.
 * Sign in using your NYPL Google username and password.
 	* If you do not see a login screen, click on the circle in the top right of the window and sign out.
