@@ -139,7 +139,6 @@ Select the current date under ‘Progress’  for the ‘Imaging done” field.
 ```$ makesips```  
 
 
-
 ### Package SIPs
 
 * Open Cygwin and enter the following commands:   
@@ -155,13 +154,7 @@ Select the current date under ‘Progress’  for the ‘Imaging done” field.
 
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
 ```$ moveimages```  
-
-* Change to the diskImages directory and change directory to the objects folder for the media object.  
-```$ diskimages```  
-```$cd M1111/M1111-0004/objects```  
-
-* Run the program to move metadata files to metadata directory.  
-```$ movemetadata```  
+ 
  
 ### Problem disks
 <!-- Change to delete problem images? -->
