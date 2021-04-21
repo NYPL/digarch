@@ -35,21 +35,22 @@ The forensic imaging workflows are detailed in this document. Currently, there a
 
 #### Getting set up
 * Connect the KryoFlux.
-  - Ensure the floppy drive is correctly connected to the Kryoflux. (See the [KyroFlux page in the Tools section for more](https://nypl.github.io/digarch/tools/kryoflux).)
+  - Ensure the floppy drive is correctly connected to the Kryoflux. 
   - Attach the KryoFlux USB cable from the forensic workstation to the Kryoflux board. See a green power light glow on the Kryoflux board.  
   - Attach the AC power cable to the power supply. See the green LED on the power supply light up. Listen for a faint click from the disk drive.   
-
+  
+**See the [KyroFlux page in the Tools section for more](https://nypl.github.io/digarch/tools/kryoflux).**
 * Open CMS and locate the collection that you will be working with.
   - Navigate to the electronic records view through the collection management screen.
   - Click on the media number that you are going to image from the “other objects” list. (Check in with Digital Preservation staff if the media object is not listed in the CMS.) 
 
 * Calibrate the KryoFlux.
-     - Open the KryoFlux software from the desktop ("kryoflux-ui.jar").
+     - Open the KryoFlux software from the desktop "kryoflux-ui.jar".
      - Click on the drive menu and ensure that ‘Drive 0’ is selected.
      - Select ‘calibrate’ from the drive menu, then ‘yes’ from the pop-up window. When the calibration is complete you should see the message ‘calibration is successful, the maximum number of tracks available is: 83’.
      - Calibrate only once when you begin a session, unless calibration fails.  
 
-* Follow these steps if the KryoFlux is unable to communicate with the drive:  
+* Follow these steps if the KryoFlux is unable to communicate with the drive.  
      * Close the application.  
      * Disconnect the power source from the drive.  
      * Disconnect the USB cable from the KryoFlux board.  
@@ -64,7 +65,12 @@ The forensic imaging workflows are detailed in this document. Currently, there a
 
 * Determine the filesystem format of the disk.
      - “MFM sector image” is usually the correct format for PC disks, “Apple DOS 400/800k” is usually the correct format for Apple Macintosh disks.
-     - If you're unsure about the format, test the disk. Select a format in the dropdown underneath the name field and click "start" to begin imaging the disk. The sector grid will fill in with either grey or some type of color (green, yellow, orange, red). If the grid is filling in grey, the format is likely incorrect. Green, orange, or yellow indicates the correct sector format has been determined. (Red sectors indicate either the disk or the drive is damaged. **See the section on Problem disks for more on damaged media.**)
+     -  Test the disk if you're unsure about the format. Select a format in the dropdown underneath the name field and click "start" to begin imaging the disk. The sector grid displays color as the disk is imaged.  
+     * Grey indicates the format is likely incorrect. Try another format.  
+     * Green, orange, or yellow indicates the correct sector format has been determined.  
+     * Red sectors indicate either the disk or the drive is damaged. 
+     
+**See the section on [Problem disks](https://nypl.github.io/digarch/transfers/digital-forensic-imaging.html#problem-disks) for more on damaged media.**
      
 * Select “Multiple” from the drop-down below the "Enter name ..." text field when you have determined the correct sector format. Select “KryoFlux stream image” and, while holding down the control key, select the correct sector format from the dropdown. Click ‘ok’ to close the popup.  
 
@@ -81,7 +87,7 @@ interface:	Kryoflux
 imaging software:	Kryoflux Imager  
 image successful:	Yes | No  
 interpret successful:	Yes | Yes w/Errors | No  
-(Use ‘yes w/errors’ if a few red sectors were observed with the KryoFlux software, such as in the example on the previous page.)  
+* Use ‘yes w/errors’ if a few red sectors were observed with the KryoFlux software.  
 
 
 sector format:	select the sector format from the dropdown  

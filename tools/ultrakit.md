@@ -23,14 +23,14 @@ The Tableau Ultrakit is a case of portable forensic bridges, power supply, and c
 ### Power cables
 * Connect the power supply to the forensic bridge.
   - Device cables are available in the yellow case or labeled plastic drawers on the bakers rack. 
-* Connect the device to power:
+* Connect the device to power.
   - Connect devices with external power as usual.  
   - Connect uncased internal devices to power through the forensic bridge with a 3M drive power cable or a Molex to 3M drive power cable.  
 
-### FireWire or USB
-* Connect the forensic bridge to the computer via Firewire or USB.
+### Host computer cables
+* Connect the forensic bridge to the host computer via Firewire or USB.
 
-### IDE
+### IDE device cables
 * Connect the blue Host side of an IDE cable to the forensic bridge. Connect the black side to the device.  
 
 ## Set internal hard drives to single or master.  
