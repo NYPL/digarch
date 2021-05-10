@@ -13,3 +13,6 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 #color_scheme: "dark"
+
+ga_tracking: UA-196626519-1
+ga_tracking_anonymize_ip: true
