@@ -1,7 +1,7 @@
 ---
 title: Using Tableau Write Blockers
 layout: default
-nav_order: 2
+nav_order: 7
 parent: Transfers
 ---
 

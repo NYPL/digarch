@@ -20,7 +20,7 @@ Media is transferred to provide mediated access to born-digital material in the 
 The most common method of transfer uses a Bagit script via command line.  
 
 ## Disk Imaging
-Disk images are created when they facilitate viewing and accessing born-digital material.  Some legacy file formats cannot be viewed in recent operating systems. Imaging this material allows it to be viewed in an emulator.  
+Disk images are created when they facilitate viewing and accessing born-digital material.  Some legacy file formats cannot be viewed in recent operating systems. Imaging this material allows it to be viewed in an emulator. Floppy disks and Iomega disks are usually imaged.    
 
 ## Vendor Transfers
 When the lab does not have the proper drive to access a type of media the media may be sent to a vendor for transfer.  
