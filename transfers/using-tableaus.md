@@ -14,10 +14,12 @@ parent: Transfers
 1. TOC
 {:toc}
 
-These are instrucitons on how to connect drive using either the Tableau [forensic bridges]({% link tools/ultrakit.md %}) or [write blockers]({% link tools/ultrabay.md %}).
+These are instructions on how to connect drive using either the Tableau [forensic bridges]({% link tools/ultrakit.md %}) or [write blockers]({% link tools/ultrabay.md %}).
 
 ## Connect cables
+
 ### Power cables
+
 * Connect the power supply to the forensic bridge.
   - Device cables are available in the yellow case or labeled plastic drawers on the bakers rack. 
 * Connect the device to power.
