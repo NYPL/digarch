@@ -121,7 +121,7 @@ paper (for visibility) and place it in the object's previous container.
 ## 6. Create a shelving card and shelve the media.
 
 * Place the separated media on the shelf labeled 'INCOMING MEDIA' outside
-the MAP's office. The label should contain the collection type (M or L),
+the Manager of Archival Processing's office. The label should contain the collection type (M or L),
 the collection number and the
 collection title. For example 'M2654 V Russo' for media from the
 Vito Russo papers.
