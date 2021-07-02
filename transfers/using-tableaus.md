@@ -1,7 +1,7 @@
 ---
 title: Using Tableau Write Blockers
 layout: default
-nav_order: 1
+nav_order: 1.1
 parent: Transfers
 ---
 
@@ -14,7 +14,7 @@ parent: Transfers
 1. TOC
 {:toc}
 
-These are instructions on how to connect drive using either the Tableau [forensic bridges]({% link tools/ultrakit.md %}) or [write blockers]({% link tools/ultrabay.md %}).
+These are instructions on how to connect drives using either the Tableau Ultrakit [forensic bridges](/digarch/tools/ultrakit.html) or FRED panel Ultrabay [write blockers](/digarch/tools/ultrabay.html).
 
 ## Connect cables
 
@@ -53,7 +53,7 @@ These are instructions on how to connect drive using either the Tableau [forensi
 
 ## Completing a transfer
 
-* Contact the Digital Archives Assistant if transfer fails.
+* Contact Digital Preservation staff if transfer fails.
 * Turn the device and the forensic bridge off once the media has been transferred.  
 * Disconnect the cables and place them back in the case or the labeled drawers.  
   * If you are using an Ultrakit bridge, place it back in the case.  

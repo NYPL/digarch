@@ -7,7 +7,7 @@ parent: Transfers
 
 ## Optical Media - CD-R/DVD-R
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS.**
+**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
 
 ### Build destination directories
 
@@ -51,7 +51,8 @@ image segmented:	Yes | No
 * Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection. Move the media to the “Small collections complete” box if you are working on a small collection without a box.
 
 ### Metadata
-
+Deprecated
+{: .label .label-red }
 * Open Cygwin and enter the following commands:
 * Connect to ARCHV Mac.  
 ```$ ssh archv```  

@@ -17,7 +17,7 @@ evidence files, and database in Forensic Toolkit need to be aggregated into a si
 directory and backed-up to storage. The FTK manual calls this process archiving. Before you begin
 archiving a case, first reference the [FTK Archive
 Policy](/staging/FTK-Backups-and-Archive-Policy.html){:target="_blank"}
-and speak to the Digital Archives Assistant to determine whether this collection
+and speak to Digital Preservation staff to determine whether this collection
 will be archived according to the policy or if an exception will be
 made. If an exception is to be made, you will be provided with a
 README.txt template to include in the case.

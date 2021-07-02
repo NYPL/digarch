@@ -18,17 +18,9 @@ parent: Transfers
 
 Born digital collection material can be acquired through file transfer or forensic imaging. Most material will be transferred using a Bagit script through command line.
 
-The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types encountered but the general steps are as follows:  
+The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types.  
 
-1. Verify inventory in the media log
-2. Prepare destination folders for files
-3. Transfer files from media object
-
-## Verify inventory in the media log
-
-* Before a media object can be transferred it first must be recorded in the collection’s media log in CMS.
-
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to transfer from the “other objects” list. Contact the Digital Archives Assistant if the media object is not listed in CMS.
+**Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
 
 ## Prepare destination folders for files
 
@@ -81,7 +73,7 @@ Files that have been updated by the donor within the past 30
  days should be quarantined for 30 days to ensure that
  all virus definitions are up to date.
 
-* Use a write-blocker to connect the drive to the computer.
+* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
 * Run [ft.sh](../software#ftsh){:target="_blank"} to create a transfer package.
 
 On Windows:
@@ -100,5 +92,13 @@ Or
 * Enter ```/usr/local/bin/ft.sh``` and hit return if the alias is not set.
 * Drag the destination directory from the media object to the window and hit return as prompted.
 * Enter the MediaID for the file transfer and hit return.
+
+
+Deprecated
+{: .label .label-red }
+
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
+
+### FT.sh
+<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>

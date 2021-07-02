@@ -8,7 +8,7 @@ parent: Transfers
 ## Floppy Disks  
 
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS.**
+**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
 
 ### Image disks
 
@@ -73,7 +73,11 @@ imaged by:	your name
 
 * Select the current date under ‘Progress’  for the ‘Imaging done” field.  
 
+
 ### Metadata  
+
+Deprecated
+{: .label .label-red }
 
 * Open Cygwin and enter the following commands:
 * Connect to ARCHV Mac.  

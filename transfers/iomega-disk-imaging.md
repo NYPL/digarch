@@ -7,7 +7,7 @@ parent: Transfers
 
 ## Iomega Disks
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS.**
+**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
 
 This section covers imaging with FTK Imager. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.  
 
@@ -32,7 +32,7 @@ height="2.3472222222222223in"} -->
 
 ### Image disks
 
-* Connect the Iomega drive to the FRED's Tableau Ultrabay.
+* Connect the Iomega drive to the FRED's Tableau Ultrabay. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
 * Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Check in with Digital Preservation staff if the media object is not listed in CMS.*
 * Start FTK Imager from the FRED's launch bar and select
 Create New Image from the application's file menu.
@@ -107,7 +107,8 @@ imaged by: select your name from the dropdown
 metadata extracted fields.
 
 ### Metadata
-
+Deprecated
+{: .label .label-red }
 * Open Cygwin and enter the following commands:
 * Connect to ARCHV Mac.  
 ```$ ssh archv```

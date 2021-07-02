@@ -30,7 +30,7 @@ certain exceptions, noted below.
 *   The previous backup will be deleted at this time.
 
 *   There will always only be one backup per case in FTK unless a
-     collection is particularly complex and the Digital Archives Assistant
+     collection is particularly complex and Digital Preservation staff
      decides that multiple backups would be beneficial.
 
 ## Archive of Case
