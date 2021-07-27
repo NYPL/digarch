@@ -13,7 +13,7 @@ Instructions
 1. TOC
 {:toc}
 
-* [Reserve your FTK session]({{ site.baseurl }}/using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
+* [Reserve your FTK session](/using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 
 * Click the FTK icon to open FTK and begin your session. 
 
