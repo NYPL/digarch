@@ -1,7 +1,7 @@
 ---
-title: Digital Media Separation (Inventory)
+title: Inventorying Digital Media (Accessioning)
 layout: default
-nav_order: 1.2
+nav_order: 1
 parent: Accessioning
 ---
 
@@ -16,7 +16,7 @@ parent: Accessioning
 
 # Introduction
 
-When digital media is encountered during the processing of archival collections it is separated from folders and prepared for transfer. 
+When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer. 
 
 |When commercial software is present do not enter it in CMS or label it. Send commercial software as is to Digital Preservation.|
 
@@ -34,6 +34,8 @@ Digital media separation procedures are detailed in this document. The workflows
 * Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen.  
 
 ## 2. Determine the identification number.
+
+|Use this process when you are not using barcodes to label media.|
 
 Create an identification number for a digital media object using
 4 elements:
@@ -58,6 +60,9 @@ that hasn't been allocated.  For example, the
 tenth object in manuscript collection ```1087``` would be labeled:
 ```M1087-0010```.  
 
+The id numbers Digital Preservation uses are only for differentiating one disk from another. Sequence is only relevant for counting a number of disks. This method of id may be deprecated.
+{: .label .label-red }
+
 ## 3. Label media.
 
 * For floppy and zip disks, print the number in ink on a new
@@ -65,6 +70,8 @@ label and affixed it to the media. Labeling media with a P-Touch is best.
 
 * For Optical media (CDs, DVDs), print the number
 on the media's plastic hub using a using a medium point Sharpie pen. House CDs or DVDs in a sleeve or case if they are not housed. Rehouse CDs or DVDs that are sleeved/cased together into individual sleeves or cases, unless the case is designed for multiple CDs or DVDs.  
+
+* Make sure no label adhesive sticks to moving parts of the media. Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.  
 
 * Check in with Digital Preservation staff to discuss labeling other media types.  
 
@@ -86,6 +93,7 @@ information in the media log page for the collection.
 
     * Enter or select the appropriate media type (for example: 5.25 inch floppy disk,
 3.5 inch floppy disk, CD-R, DVD-R, zip disk, hard drive, flash drive).  
+    * See [Identifying Digital Media](../sitevisits/identifying-digital-media){:target="_blank"} for media types.   
 
 * floppy density
 
@@ -120,15 +128,7 @@ paper (for visibility) and place it in the object's previous container.
 ![Digital Separation Sheet](/digitalmediaseparation/media/image2.jpg)
 
 
-## 6. Create a shelving card and shelve the media.
+## 6. Shelve the media.
 
-* Place the separated media on the shelf labeled 'INCOMING MEDIA' outside
-the Manager of Archival Processing's office. The label should contain the collection type (M or L),
-the collection number and the
-collection title. For example 'M2654 V Russo' for media from the
-Vito Russo papers.
-
-* File the media by collection number and each media item sequentially.
-Floppy and zip disks lacking cases should be filed with the read/write
-access shutter facing up.
+* 
 
