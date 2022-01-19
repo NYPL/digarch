@@ -130,5 +130,6 @@ paper (for visibility) and place it in the object's previous container.
 
 ## 6. Shelve the media.
 
-* 
+* Place completed boxes on shelf 02 in 205. The shelf is closest to 205A.  
+* Email [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) and confirm boxes are shelved.  
 
