@@ -113,10 +113,10 @@ An example of a completed record for separation:
 
 ![](/digitalmediaseparation/media/image1.png)
 
+
+## 5. Fill out a digital media separation form.  
 Deprecated
 {: .label .label-red }
-## 5. Fill out a digital media separation form.  
-
 * Fill out a
 [media separation form](https://docs.google.com/document/d/1Tn9j4q3WO5BhhMdXY0Ed09XoRFP_jUJyP96IYCJmkgs/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
 

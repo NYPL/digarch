@@ -15,7 +15,9 @@ This page outlines times archivists and Digital Archives staff should communicat
 * Find out whether media has been transferred and how that will affect your processing schedule.  
 * Discuss whether you would like to appraise/survey hard drive directories before transfer.  
 
-### Survey Directories (DRAFT)
+### Survey Directories  
+Draft
+{: .label .label-red }
 * Report the titles of directories to retain to Digital Archives
 * Report on duplicates and PII found by Bulk Reviewer to Digital Archives
 
