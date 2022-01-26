@@ -21,17 +21,21 @@ The Digital Archives program provides the following services:
 The program works with all digital materials from the 1980s to the present day such as floppy diskettes, personal laptops, CDs and DVDs, backup hard drives, network folders, and email accounts.
 
 ## Staff
-### Al Rhonemus, Digital Archives Assistant
+### Al Rhonemus, Digital Archivist
 {: .no_toc }
 Consults on assessments of born-digital material before accessioning, transfers digital objects from original media, supports archivists during processing of electronic records, and packages collections for long-term storage and access.
 
-### Caroline Gil Rodríguez, Digital Archives Assistant
+### Drey Jonathan, Digital Archivist
 {: .no_toc }
 Consults on assessments of born-digital material before accessioning, transfers digital objects from original media, supports archivists during processing of electronic records, and packages collections for long-term storage and access.
 
-### Nick Krabbenhoeft, Digital Preservation Manager
+### Nick Krabbenhoeft, Assistant Director of Digital Preservation
 {: .no_toc }
 Manages the Digital Archives programs, develops workflows in response to changing collecting needs, and oversees long-term management of born-digital materials.
+
+## Former Staff
+The following people contributed to this web site and the Digital Archives program.
+* Caroline Gil Rodríguez
 
 ## Program History
 The Digital Archives program began in 2011. Major collections include the [Timothy Leary papers](http://archives.nypl.org/mss/18400), the [Merce Cunningham papers](http://archives.nypl.org/dan/19852), and the [Lou Reed papers](http://archives.nypl.org/mus/24078) (winner of SAA's [2019 CFW Coker Award](https://www2.archivists.org/node/23739)).
