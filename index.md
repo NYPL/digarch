@@ -21,7 +21,7 @@ The Digital Archives program provides the following services:
 The program works with all digital materials from the 1980s to the present day such as floppy diskettes, personal laptops, CDs and DVDs, backup hard drives, network folders, and email accounts.
 
 ## Staff
-### Al Rhonemus, Digital Archives Assistant
+### Al Rhonemus, Digital Archivist
 {: .no_toc }
 Consults on assessments of born-digital material before accessioning, transfers digital objects from original media, supports archivists during processing of electronic records, and packages collections for long-term storage and access.
 
