@@ -58,6 +58,9 @@ that hasn't been allocated.  For example, the
 tenth object in manuscript collection ```1087``` would be labeled:
 ```M1087-0010```.  
 
+The id numbers Digital Preservation uses are only for differentiating one disk from another. Sequence is only relevant for counting a number of disks. This method of id may be deprecated.
+{: .label .label-red }
+
 ## 3. Label media.
 
 * For floppy and zip disks, print the number in ink on a new
@@ -65,6 +68,8 @@ label and affixed it to the media. Labeling media with a P-Touch is best.
 
 * For Optical media (CDs, DVDs), print the number
 on the media's plastic hub using a using a medium point Sharpie pen. House CDs or DVDs in a sleeve or case if they are not housed. Rehouse CDs or DVDs that are sleeved/cased together into individual sleeves or cases, unless the case is designed for multiple CDs or DVDs.  
+
+* Make sure no label adhesive sticks to moving parts of the media. Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.  
 
 * Check in with Digital Preservation staff to discuss labeling other media types.  
 
@@ -86,6 +91,8 @@ information in the media log page for the collection.
 
     * Enter or select the appropriate media type (for example: 5.25 inch floppy disk,
 3.5 inch floppy disk, CD-R, DVD-R, zip disk, hard drive, flash drive).  
+
+    * See [Identifying Digital Media](../sitevisits/identifying-digital-media){:target="_blank"} for media types.   
 
 * floppy density
 

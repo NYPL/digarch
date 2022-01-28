@@ -93,6 +93,7 @@ information in the media log page for the collection.
 
     * Enter or select the appropriate media type (for example: 5.25 inch floppy disk,
 3.5 inch floppy disk, CD-R, DVD-R, zip disk, hard drive, flash drive).  
+    
     * See [Identifying Digital Media](../sitevisits/identifying-digital-media){:target="_blank"} for media types.   
 
 * floppy density
