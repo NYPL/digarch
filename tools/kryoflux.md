@@ -69,7 +69,7 @@ ports. In this case, right-click and choose to replace the driver manually. Repe
 * Re-connect Windows computers to the internet.  
 
 Mac: 
-* Run KryoFlux.pkg installer.  
+* Run KryoFlux.dmg installer.  
 * Attach the USB cable to KryoFlux and then attach it to your computer. Do not use a
 USB hub.  
 * Open Terminal.
@@ -120,7 +120,7 @@ BitCurator:
 * Green blocks indicate a track is decoded.  
 * Orange blocks indicate a track is decoded and has been modified. The disk has been written to more than once.  
 * Grey blocks indicate an unknown sector format or an unformatted disk.  
-* Red blocks indicate a track is decoded with errors. Kyroflux will retry the track the number of times indicated in settings.  
+* Red blocks indicate a track is decoded with errors. Kryoflux will retry the track the number of times indicated in settings.  
 * Yellow blocks indicate a track is decoded with warnings. Change sector size until the result is green or orange.  
 * Point to a track to get information about the result. The result will output in the status line.  
 * The right section of the GUI window displays visualizations of stream files as they are written.  
