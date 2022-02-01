@@ -12,6 +12,7 @@ The kind of equipment used on site visits will depend on your communication with
 * [Ultrakit](../tools/ultrakit){:target="_blank"}, [Portable Forensic Bridges](../using/using-lab-equipment#portable-forensic-bridges){:target="_blank"}
 * [MacBook Pro](../tools/macbooktools){:target="_blank"}
 * [Thinkpad (Windows 10)](../tools/thinkpad(Windows10)tools){:target="_blank"}
+* External Hard Drive  
 
 ## Talking to Donors
 Coordinate with curators and Archives Unit staff to conduct the donor survey. 

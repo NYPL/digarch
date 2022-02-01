@@ -19,7 +19,7 @@ parent: Transfers
   * Attach the KryoFlux USB cable from the forensic workstation to the Kryoflux board. See a green power light glow on the Kryoflux board.  
   * Attach the AC power cable to the power supply. See the green LED on the power supply light up. Listen for a faint click from the disk drive.   
   
-**See the [KyroFlux page in the Tools section for more](https://nypl.github.io/digarch/tools/kryoflux).**
+**See the [KryoFlux page in the Tools section for more](https://nypl.github.io/digarch/tools/kryoflux).**
 
 * Open CMS and locate the collection that you will be working with.
   * Navigate to the electronic records view through the collection management screen.
@@ -82,7 +82,7 @@ Deprecated
 * Open Cygwin and enter the following commands:
 * Connect to ARCHV Mac.  
 ```$ ssh archv```  
-* Change to the kryrofluxOutput directory.  
+* Change to the kryofluxOutput directory.  
 ```$ kryofluxoutput```  
 * Run disktype on the disk image to get the file system metadata.  
 ```$ disktype M1111-0004.001```  
@@ -116,7 +116,7 @@ Deprecated
 * Open Cygwin and enter the following commands:
 * Connect to ARCHV Mac.  
 ```$ ssh archv```
-* Change to the kryrofluxOutput directory.  
+* Change to the kryofluxOutput directory.  
 ```$ kryofluxoutput```  
 * Run the command to tar the stream files.  
 ```$ compress```  
