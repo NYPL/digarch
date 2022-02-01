@@ -26,8 +26,8 @@ A P-touch labeler is available in 205 for inventorying media.
 
 <!-- Other equipment locations here or on their equipment pages? -->
 # Portable Forensic Bridges
-* The Ultrakit yellow Pelican case is on the rack between the 2 FREDs. The Ultrakit contains IDE, SCSI, SATA, USB, and card forensic bridges, power supply and cables. Additional cables can be found in the labeled drawers on the rack.  
-* A firewire forensic bridge with power supply and cables can be found in a black travel bag on the table that is right-most as you enter 205. Be sure you find a micro usb cable in the bag. Additional cables can be found in the labeled drawers on the rack, if not.
+* The Ultrakit yellow Pelican case is in the cabinet to the left of the cord board. The Ultrakit contains IDE, SCSI, SATA, USB, and card forensic bridges, power supply and cables. Additional cables can be found in the labeled drawers in the cabinet and on the cord board.  
+* A firewire forensic bridge with power supply and cables can be found in a black travel bag on the table that is right-most as you enter 205. Be sure you find a micro usb cable in the bag. Additional cables can be found in the in the cabinet and on the cord board.  
 <!-- Should we label cabinets and tables, is there a convention for this? -->
 
 # Good to Know
