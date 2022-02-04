@@ -122,6 +122,7 @@ Deprecated
 ```$ compress```  
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
 ```$ moveimages```  
+* Move s0 and s1 images separately.  
 
 ### Problem disks
 <!-- Change to delete problem images? -->

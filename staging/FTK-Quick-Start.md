@@ -14,7 +14,7 @@ Instructions
 
 ### Prepare to Process
 
-* [Reserve your FTK session](/using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
+* [Reserve your FTK session](../using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 
 * Click the FTK icon to open FTK and begin your session. 
 

@@ -16,7 +16,7 @@ grand_parent: Tools
 {:toc}
 
 # Introduction  
-KryoFlux is used in the lab to image 5.25" and 3.5" floppy disks. Kryoflux is a hardware and software system that can read, convert, store, and write contents of various legacy disk formats. The system consists of a control board and a Java application, DiskTool Console (DTC). DTC refers to the command line interface. The DTC folder contains a jar file user interface. Before KryoFlux can be used on a computer for the first time setup must be completed through DTC. Here you will find initial setup instructions and optional settings. To image floppy disks with KryoFlux follow [Digital Forensic Imaging](/transfers/digital-forensic-imaging#floppy-disks){:target="_blank"} instructions.  
+KryoFlux is used in the lab to image 5.25" and 3.5" floppy disks. Kryoflux is a hardware and software system that can read, convert, store, and write contents of various legacy disk formats. The system consists of a control board and a Java application, DiskTool Console (DTC). DTC refers to the command line interface. The DTC folder contains a jar file user interface. Before KryoFlux can be used on a computer for the first time setup must be completed through DTC. Here you will find initial setup instructions and optional settings. Kryoflux software package names in these instructions may not exactly match depending on your OS. To image floppy disks with KryoFlux follow [Digital Forensic Imaging](/transfers/digital-forensic-imaging#floppy-disks){:target="_blank"} instructions.  
 
 ## How Kryoflux works  
 Magnetic disks store data by changing the orientation of ferro oxide particles bound onto a durable and flexible plastic platter. The data is represented as flux transitions which indicate a change in the polarity of the magnetic field. Kryoflux records data from an attached drive as a flux data stream. Kryoflux can also output disk images in a variety of sector formats. Disk images are used in archival processing.  
@@ -66,10 +66,11 @@ USB hub.
 * DTC will check for maximum track access. The seek might fail but this should not interfere with operation.  
 * Check to see if Windows 10 installed a Bossa device under COM
 ports. In this case, right-click and choose to replace the driver manually. Repeat the instructions after opening Command Prompt.  
+* Check to see if Windows installed any unknown drivers under ports. In this case, right-click and choose to replace the driver manually. Repeat the instructions after opening Command Prompt.   
 * Re-connect Windows computers to the internet.  
 
 Mac: 
-* Run KryoFlux.pkg installer.  
+* Run KryoFlux.dmg installer.  
 * Attach the USB cable to KryoFlux and then attach it to your computer. Do not use a
 USB hub.  
 * Open Terminal.
@@ -120,7 +121,7 @@ BitCurator:
 * Green blocks indicate a track is decoded.  
 * Orange blocks indicate a track is decoded and has been modified. The disk has been written to more than once.  
 * Grey blocks indicate an unknown sector format or an unformatted disk.  
-* Red blocks indicate a track is decoded with errors. Kyroflux will retry the track the number of times indicated in settings.  
+* Red blocks indicate a track is decoded with errors. Kryoflux will retry the track the number of times indicated in settings.  
 * Yellow blocks indicate a track is decoded with warnings. Change sector size until the result is green or orange.  
 * Point to a track to get information about the result. The result will output in the status line.  
 * The right section of the GUI window displays visualizations of stream files as they are written.  
