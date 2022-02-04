@@ -22,25 +22,9 @@ These formats often appear in collections. Most of these formats can be transfer
 
 <img src="https://www.fileformat.info/media/superdisk/top.jpg" width="40%" />  
 
-[CD/DVD Optical Media](https://www.fileformat.info/media/compact-disk/index.htm){:target="_blank"}  
-
-<img src="https://www.fileformat.info/media/compact-disk/top.jpg" width="40%" /> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Maxell_Branded_DVD-R.JPG/1197px-Maxell_Branded_DVD-R.JPG" width="50%" />  
-
-[5.25 inch Magneto-Optical Disk](https://www.fileformat.info/media/5.25-mo-disk/index.htm){:target="_blank"}  
-
-<img src="https://www.fileformat.info/media/5.25-mo-disk/top.jpg" width="40%" />  
-
-[DVD-RAM](https://en.wikipedia.org/wiki/DVD-RAM){:target="_blank"}  
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/DVD-RAM_FUJIFILM_disc_removable_without_cartridge_locking_pin.jpg/800px-DVD-RAM_FUJIFILM_disc_removable_without_cartridge_locking_pin.jpg" width="40%" />  
-
 [Iomega Zip Disk](https://www.fileformat.info/media/zip-disk/index.htm){:target="_blank"}  
 
 <img src="https://www.fileformat.info/media/zip-disk/top.jpg" width="40%" /><img src="https://www.fileformat.info/media/zip-u250/top.jpg" width="40%" />  
-
-[Iomega Jaz Disk](https://www.fileformat.info/media/jaz/index.htm){:target="_blank"}  
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jaz-disc-2gb_hg.jpg" width="40%" />  
 
 [USB Flash Drive](https://en.wikipedia.org/wiki/USB_flash_drive){:target="_blank"}  
 
@@ -97,8 +81,24 @@ These formats sometimes appear in collections. Some of these formats can be tran
 
 <img src="https://www.fileformat.info/media/travan/top.jpg" width="40%" />  
 
+[5.25 inch Magneto-Optical Disk](https://www.fileformat.info/media/5.25-mo-disk/index.htm){:target="_blank"}  
+
+<img src="https://www.fileformat.info/media/5.25-mo-disk/top.jpg" width="40%" />  
+
+[DVD-RAM](https://en.wikipedia.org/wiki/DVD-RAM){:target="_blank"}  
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/DVD-RAM_FUJIFILM_disc_removable_without_cartridge_locking_pin.jpg/800px-DVD-RAM_FUJIFILM_disc_removable_without_cartridge_locking_pin.jpg" width="40%" />  
+
+[Iomega Jaz Disk](https://www.fileformat.info/media/jaz/index.htm){:target="_blank"}  
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jaz-disc-2gb_hg.jpg" width="40%" />  
+
 ## Digital or Audio-Visual  
 These formats can contain digital material or audio-visual material. You may need to check with the donor to identify whether it is digital or audio-visual material.  
+
+[CD/DVD Optical Media](https://www.fileformat.info/media/compact-disk/index.htm){:target="_blank"}  
+
+<img src="https://www.fileformat.info/media/compact-disk/top.jpg" width="40%" /> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Maxell_Branded_DVD-R.JPG/1197px-Maxell_Branded_DVD-R.JPG" width="50%" />  
 
 [MiniDV Tape](https://www.fileformat.info/media/minidv/index.htm){:target="_blank"}  
 
