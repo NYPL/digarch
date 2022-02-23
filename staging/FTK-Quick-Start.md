@@ -3,13 +3,13 @@ title: FTK Quick Start
 layout: default
 nav_order: 2
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Quick Start
 {: .no_toc }
-Instructions
-{: .no_toc .text-delta }
+&nbsp;
+{: .no_toc .text*delta }
 ## Electronic Records Processing Quick Start
 
 ### Prepare to Process
@@ -18,9 +18,12 @@ Instructions
 
 * Click the FTK icon to open FTK and begin your session. 
 
-* Sign in using your username and password.
+* Sign in using your username and password when using FRED 1.
     * Your username is the first initial of your first name and
 full last name (e.g. losborne). 
+
+Deprecated
+{: .label .label-red }
 
 * Select your collection from the bar on the left hand side of the screen. 
 
@@ -95,12 +98,7 @@ proposal - you are ready to begin bookmarking.**
 
 ![](ftkcs/media/image2.png)
 
--   You can create empty bookmarks to mimic the hierarchical structure of the finding aid. Right-click your name in the Bookmarks tab and select 'Create empty bookmark'.
-
--   If you are working on a collection with more than one archivist
-    account you must create a bookmark under your name to 'Add to
-    Bookmark' even though you can create a bookmark under another
-    archivist's name.
+-   You can create empty bookmarks to mimic the hierarchical structure of the finding aid. Right-click a top level bookmark in the Bookmarks tab and select 'Create empty bookmark'.
 
 -   Wait until
     you are finished processing to number your ER components.
@@ -134,6 +132,9 @@ collection so that we may export your components in a timely manner.
 
 ![](ftkcs/media/image5.png)
 
+Deprecated
+{: .label .label-red }
+
 -   Determine which media objects are to be deaccessioned.
 
 -   Complete the following fields in the collection
@@ -145,6 +146,10 @@ collection so that we may export your components in a timely manner.
     -   Add the final Finding aid extent. If you have to convert your
         extent to Kilobytes, use 
         ([Byte Converter](http://www.whatsabyte.com/P1/byteconverter.htm){:target="_blank"}).
+
+Deprecated
+{: .label .label-red }
+
 *  Please see the [ASpace Users
 Guide](https://docs.google.com/document/d/1sAAiJjDArvicy6y5vr61zZ-F_bQPmkoUkQrXnbep6gw/edit?usp=sharing{:target="_blank"}) for instructions on how to enter your electronic records in
 ArchivesSpace.

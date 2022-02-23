@@ -3,7 +3,7 @@ title: FTK Processing Instructions
 layout: default
 nav_order: 3
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Processing Instructions
@@ -17,9 +17,9 @@ Instructions
 
 * Click the FTK icon to open FTK and begin your session. 
 
-* Sign in using your username and password.
+* Sign in using your username and password when using FRED 1.
     * Your username is the first initial of your first name and
-full last name (e.g. smalsbury). 
+full last name (e.g. losborne). 
 
 * Select your collection from the bar on the left hand side of the screen. 
 
@@ -150,21 +150,12 @@ to display files created in November of 2013. It could be used in the
 Filter Manager to either include or exclude files created within that
 date range.
 
+<!-- Export filter for repeated use? -->
+
 ![](dapi/media/image38.png)
 
 * Consult the FTK
 Users Guide PDF for an in depth review of filter fields.  
-
-### Visualizing
-
-* Click
-![](dapi/media/image43.png) in the upper right hand side of the File
-List window for a visualization of files in the File List.
-
-![](dapi/media/image44.png)
-
-* This window can be used for summarizing the types of files, extensions, 
-and dates for a set of files.
 
 ### The Overview Tab
 
@@ -210,7 +201,7 @@ Live Search tab, and the Index Search tab.
 #### Index Search
 
 The index search is used to search the full-text index that FTK creates
-when disk images are ingested into FTK.
+when disk images or files are ingested into FTK.
 
 * Lookup terms in the index, highlight the desired term, and click Add.
 
@@ -507,8 +498,8 @@ collection.
 * Click the column
 settings![](dapi/media/image8.png) button from the File List window. Click
 the import button and navigate to
-```Z:\\FTK\\ColumnDefs\\Duplicates.xml```  click OK and close the column
-settings window.
+Storage(F:)\\FTKsettings\\ColumnDefs\\Duplicates.xml  
+* Click OK and close the column settings window.
 
 * Select Duplicates from the column dropdown.
 
@@ -534,8 +525,8 @@ does not have a duplicate in the collection.
 
 * Click the import filter button from the Filter Manager
 ![](dapi/media/image5.png) and navigate to
-```Z:\\FTK\\FilterDefs\\DuplicateSecondary.xml``` then click open and OK
-to import it into the case.
+Storage(F:)\\FTKsettings\\FilterDefs\\DuplicateSecondary.xml 
+* Click open and OK to import it into the case.
 
 * The Filter can now be used to either include or exclude secondary
 duplicates from a file list.

@@ -3,7 +3,7 @@ title: FTK Backups and Archive Policy
 layout: default
 nav_order: 6
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Backups and Archive Policy

@@ -3,13 +3,13 @@ title: FTK Case Removal
 layout: default
 nav_order: 5
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Case Removal
 {: .no_toc }
-Instructions
-{: .no_toc .text-delta }
+&nbsp;
+{: .no_toc .text*delta }
 ## Case archiving
 
 When the processing of a collection is complete, its case files,
@@ -24,15 +24,17 @@ README.txt template to include in the case.
 
 ## Archiving a case
 
-* Right-click on the completed collection from the FTK main menu.
- Point to Backup and  click Archive and detach. Click OK in the popup window. This will perform an SQL dump of the
+* Right-click on the completed collection from the FTK main menu.  
+* Point to Backup and click Archive and detach.  
+* Click OK in the popup window. 
+   * This will perform an SQL dump of the
  collection database into its case folder (archive) and remove all
  collection related data from the FTK database (detach). The directory
  will be named 'DB f-0'.
 
-* Open 7Zip manager from the desktop. Navigate to the evidence
- directory on the FRED. Highlight the collection you are working
- on and click the plus button to bring up the compression dialog.
+* Open 7Zip manager from the desktop.  
+* Navigate to the evidence directory on the FRED. Storage(F:)\\Evidence\\\[CollectionID\]  
+* Highlight the collection you are working on and click the plus button to bring up the compression dialog.
 
 ![](ftkca/media/image4.png)
 
@@ -59,8 +61,9 @@ README.txt template to include in the case.
 ![](ftkca/media/image3.png)
 
 * Open the archived directory and find the
- appropriate folder for the current year and quarter. The folder naming
- convention is yearQ\# (e.g. 2016Q1). Copy and paste the zipped case
+ appropriate folder for the current year and quarter. Storage(F:)\\Archived Cases  
+ * The folder naming convention is yearQ\# (e.g. 2016Q1).  
+ * Copy and paste the zipped case
  into this folder.
 
 

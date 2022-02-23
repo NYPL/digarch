@@ -3,43 +3,52 @@ title: FTK Evidence
 layout: default
 nav_order: 1
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 
-# Loading evidence into FTK  
+# Create and Manage FTK Cases  
 
 {: .no_toc }
-Instructions
-{: .no_toc .text-delta }
+&nbsp;
+{: .no_toc .text*delta }
+
+
+## Directories  
 * Create a directory with the CollectionID of the collection you are adding to FTK in the FTK evidence directory.  
-```N:\Evidence\[CollectionID]```  
+```Storage(F:)\Evidence\[CollectionID]```  
 
 * Copy bags and disk images from Staging to the FTK evidence directory.  
-
+<!-- Specify diskImages and fileTransfers? -->
 * Remove bag metadata from the evidence directory bags.  
 
 **Make sure the FTK license USB is inserted in the FRED before opening FTK.**  
+
+## Launch FTK  
 
 * Launch the FTK Application from the desktop.
 
  ![](ftkle/media/image7.jpg)
 
-* Log into the FTK database.
+* Log into the FTK database on FRED 1.
 
  ![](ftkle/media/image3.png)
 
+Deprecated
+{: .label .label-red }
+
+## Create and Manage Case  
 
 * For new cases, create a new case by selecting new from the Case menu.   
 
-* Enter the ID of the collection into the 'Case Name' field and
- set the 'processing Profile' drop-down to 'MSS', then click OK.  
+* Enter the ID and name of the collection into the 'Case Name' field and
+ set the 'processing Profile' drop-down to 'No Del', then click OK.  
  ```CollectionID Collection name```  
  ```M24017 Builders Association records```   
 
-![](ftkle/media/image1.png)
-
 * For existing cases, double-click the name of the case from the menu.  
+
+## Add Evidence  
 
 * Select 'Add/Remove...' from the Evidence menu. Click the
  'Add' button.  
@@ -60,7 +69,7 @@ Instructions
 
 * Navigate to the image file(s) or
  directories you are adding to the case from the
- N:\\Evidence\\\[CollectionID\] directory using the file browser and click 'open'. You can add multiple images or directories to a case.  
+ Storage(F:)\\Evidence\\\[CollectionID\] directory using the file browser and click 'open'. You can add multiple images or directories to a case.  
 
  ![](ftkle/media/image5.png)
 
@@ -79,11 +88,17 @@ Instructions
 
  ![](ftkle/media/image2.jpg)
 
+## Review PII  
+
 * Check for and label potentially personal information (PII).
 
 * Navigate to the Live Search and select the Pattern tab.  
 
-* The search patterns listed below are saved to FTK Live Search. Select the saved search. Click Search.   
+* The search patterns listed below are saved to FTK Live Search. 
+
+* Select Import. Select Storage(F:)\\FTKsettings\\PII.xml Click Open.
+
+* Set Max Hits per File to 1. Click Search.   
 
 * To add search patterns copy and paste the patterns below individually. Click the Add button each time. Click Search. This way, you can add multiple search patterns into one search.  
   
