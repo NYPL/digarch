@@ -17,6 +17,8 @@ Instructions
 
 * Click the FTK icon to open FTK and begin your session. 
 
+FRED 1 only
+{: .label .label-red }
 * Sign in using your username and password when using FRED 1.
     * Your username is the first initial of your first name and
 full last name (e.g. losborne). 
@@ -39,15 +41,20 @@ the components, and enter them into CMS and ArchivesSpace.
 
 ### The Explore Tab
 
-* After opening up the collection in FTK (or "case" in FTK terms) the
-application will default to the Explore tab. The Explore tab contains
-three main windows, the Evidence tree, the File List, and the File
-Content window.
+* Note the Explore tab is the default view after opening up the collection in FTK.  
+* The Explore tab contains three main windows.  
+    * Evidence tree  
+    * File List  
+    * File Content window  
+
+#### Evidence Tree
 
 * Click the QuickPix button (the arrow box) to the left of any
-node to display all files located at or below the highlighted points in the File List. A Yellow folder icon means there is a node
-selected below it. A Green arrow and folder means that node is selected. Unselect the node to remove all files
-from the current node and any nodes beneath from the File List.
+node to display all files located at or below the highlighted points in the File List.  
+* A Yellow folder icon means there is a node
+selected below it.  
+* A Green arrow and folder means that node is selected.  
+* Unselect the node to remove all files from the current node and any nodes beneath from the File List.  
 
 ![](dapi/media/image14.png)
 
@@ -56,8 +63,26 @@ from the current node and any nodes beneath from the File List.
 ![](dapi/media/image17.png)
 
 * Click the arrow for
-the top of the hierarchy (always titled Evidence) then click again to remove the selection to reset QuickPix. This will remove all files from
+the top of the hierarchy (Evidence) then click again to remove the selection to reset QuickPix. This will remove all files from
 the File List.
+
+#### File List  
+-   Expand fields or hide fields that are not useful to you in the File List, which makes up the bottom half of the screen.
+
+-   Click on any field in the File List to sort that field.
+
+    -   Sort by hash (MD5, SHA1, or SHA256) to identify duplicates.
+
+    -   Sort by Name to identify similar file names.
+
+    -   Sort by Path to see the original arrangement on the disk images
+        including which files were in a which folder.
+
+    -   Sort Modified date to see date ranges.
+
+-    Use the Category field instead of the Ext field when identifying formats if FTK does not recognize the correct extension.
+
+#### File Content Window
 
 * Highlight a file in the File List and FTK will attempt to
 render the file in the File Content window Natural pane using an
@@ -67,45 +92,48 @@ internal file viewer.
 
 ![](dapi/media/image30.png)
 
-* There are three other panes in the
-File Content window, Filtered, Text, and Hex panes for lower-level
-interpretations of the file if FTK cannot render the file in Natural. 
-    * Hex will display a hexadecimal rendering of the file.
-    * Text will render the file as ASCII text with non-printable characters
-as ".". Use the encoding drop-down to select an alternate
+* View Hex, Text, and  Filtered tabs for lower-level interpretations of the file if FTK cannot render the file in Natural.  
+    * Click the Hex tab to view a hexadecimal rendering of the file.
+    * Click the Text tab to view the file as ASCII text with non-printable characters
+as ".". 
+    * Use the encoding drop-down to select an alternate
 encoding. 
-    * Filtered is similar to Text with the exception that
-non-printable characters are ignored, like Text, Filtered defaults to
-ASCII encoding, but can be changed via the encoding dropdown.
+    * Click the Filtered tab to view text with non-printable characters ignored.  
+    * Use the encoding drop-down to select an alternate
+encoding. 
 
-### PII (Personally Identifiable Information)
+### PII (Personal Identifiable Information)
 
 * Please check to see if
-    any files have the label "Potentially Sensitive" and review to see if they indeed contain
-    sensitive material. When digital archives staff uploaded the collection's files into
+    any files have the label "Potentially Sensitive" and review to see if they contain
+    sensitive material.  
+    * When digital archives staff uploaded the collection's files into
     FTK, they ran a search for Pii. If there were any hits, these
-    files were labeled Potentially Sensitive.
+    files were labeled "Potentially Sensitive".
 
 ### Filtering
 
 * Use FTK's filtering functionality to reduce the number of files and file system artifacts in the
 File List window.
 
-* Select a preset filter from the drop
-down on the top of the screen or a click the Filter Manager button next to the filter dropdown to select complex filters. 
+* Select a preset filter from the dropdown on the top of the screen.  
+
+OR  
+
+* Click the Filter Manager button next to the filter dropdown to select complex filters. 
 
 #### Simple Filtering 
 
 ##### Initial File List window
+* Note the green background of the File List.  
+![](dapi/media/image35.png)
 
-###### Adding the Actual Files filter
-
+* Select Actual Files from the Filter dropdown.  
 ![](dapi/media/image32.png)
 
-###### Result
+##### Result
 
-* The File List is now yellow in color this
-indicates that there is an active filter.
+* Note the yellow background of the File List indicates that there is an active filter.  
 
 ![](dapi/media/image36.png)
 
@@ -125,8 +153,11 @@ filter hides compressed folders like .zip and .stuffit.**
 
 ![](dapi/media/image33.png)
 
-* Use the arrow keys to create a complex filter that can both include
-and exclude files.
+* Use the arrow keys to create a complex filter that can both include and exclude files.
+* Highlight a filter and click the right arrow button by Include to include files specified by that filter.  
+* Highlight a filter and click the right arrow button by Exclude to exclude files specified by that filter.
+* Highlight a filter in a box and click the left arrow beside it to remove it from the complex filter.  
+
 
 Example: Including Actual Files and excluding Folders. 
 
@@ -136,13 +167,11 @@ Example: Including Actual Files and excluding Folders.
 
 ![](dapi/media/image40.png)
 
-* The active filter can be toggled on and
-off using the ![](dapi/media/image41.png) button located in the upper left hand
-corner of the screen.
+* Toggle filters off and on by clicking the filter button ![](dapi/media/image41.png) to the left of the filter dropdown.  
 
 ####  Creating new filters
 
-* Click the 
+* Click the left most
 ![](dapi/media/image39.png) button on the Filter Manager window to create a new filter.
 
 Example: Below is a filter
@@ -164,8 +193,8 @@ In the Overview tab files are organized based on their characteristics
 rather than how they were organized when imaged. Below is the Overview
 tab with the File Category node opened on the left and the File Status
 node opened on the right. Highlight any node to actively display
-the files in the File List window, which can then be viewed,
-filtered, and visualized in the same manner as the Explore tab.
+the files in the File List window, which can then be viewed and 
+filtered in the same manner as the Explore tab.
 
 |  ![](dapi/media/image45.png) | ![](dapi/media/image20.png) |
  
@@ -176,7 +205,7 @@ to group together files from anywhere in a collection that can later be
 viewed on a single File List. 
 
 * Highlight one or more files from the File List and click the
-![](dapi/media/image19.png) button to use labels.
+![](dapi/media/image19.png) button of 4 squares to use labels.
 
 ![](dapi/media/image28.png)
 

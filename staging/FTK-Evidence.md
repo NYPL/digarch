@@ -32,10 +32,10 @@ parent: Processing
 
 * Log into the FTK database on FRED 1.
 
- ![](ftkle/media/image3.png)
-
-Deprecated
+ FRED 1 only
 {: .label .label-red }
+
+ ![](ftkle/media/image3.png)
 
 ## Create and Manage Case  
 
@@ -90,7 +90,7 @@ Deprecated
 
 ## Review PII  
 
-* Check for and label potentially personal information (PII).
+* Check for and label personal identifiable information (PII).
 
 * Navigate to the Live Search and select the Pattern tab.  
 
@@ -100,7 +100,7 @@ Deprecated
 
 * Set Max Hits per File to 1. Click Search.   
 
-* To add search patterns copy and paste the patterns below individually. Click the Add button each time. Click Search. This way, you can add multiple search patterns into one search.  
+* To add search patterns copy and paste the patterns below individually if you don't have PII.xml available. Click the Add button each time. Click Search.   
   
 
 | Type of PII            | Search Patterns                                 |
@@ -115,6 +115,6 @@ Deprecated
         
          
 
-* The results will appear in the right hand pane if there are matches. Click
+* View results in the right hand pane if there are matches. Click
 on the plus sign and select all matches in the File Viewer on the
 left. Label these matches "Potentially Sensitive."

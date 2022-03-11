@@ -18,12 +18,12 @@ parent: Processing
 
 * Click the FTK icon to open FTK and begin your session. 
 
+FRED 1 only
+{: .label .label-red }
+
 * Sign in using your username and password when using FRED 1.
     * Your username is the first initial of your first name and
 full last name (e.g. losborne). 
-
-Deprecated
-{: .label .label-red }
 
 * Select your collection from the bar on the left hand side of the screen. 
 
@@ -36,19 +36,32 @@ to the collection's media log.
 
 * Spend some time evaluating the electronic records before you begin bookmarking. You'll be using the same strategies you use for paper records for the most part but FTK has appraisal tools you should use as well.
 
--   Use filters. The Actual Files filter hides
-    system files, resource forks, and unallocated space.
+### Filters
 
+* Use filters. The Actual Files filter hides some system files, resource forks, and unallocated space.  
+* Toggle filters off and on by clicking the filter button to the left of the filter dropdown.  
+
+### Labels  
 -   Use labels to identify duplicates, items of interest, possible
-    organization, or items you have questions about as you would post-it notes. 
-*     Right-click on a file or set of selected files and choose 'Labels...' to create or manage labels.  
+    organization, or items you have questions about as you would post-it notes.  
+* Right-click on a file or set of selected files and choose 'Labels...' to create or manage labels.  
 
 Or  
 * Click the label icon:
     ![](ftkcs/media/image4.png). 
     
-* Select 'Manage Local' and click 'New' to create customized labels.
+* Select 'Manage Local' and click 'New' to create customized labels.  
 
+* View labels as a field in the File List from the Explore tab.  
+
+* Please check to see if
+    any files have the label "Potentially Sensitive" and review to see if they contain
+    sensitive material.  
+    * When digital archives staff uploaded the collection's files into
+    FTK, they ran a search for Pii. If there were any hits, these
+    files were labeled "Potentially Sensitive".
+
+### File List Fields
 -   Expand fields or hide fields that are not useful to you in the File List, which makes up the bottom half of the screen.
 
 -   Click on any field in the File List to sort that field.
@@ -64,16 +77,12 @@ Or
 
 -    Use the Category field instead of the Ext field when identifying formats if FTK does not recognize the correct extension.
 
--    Please check to see if
-    any files have the label "Potentially Sensitive" and review to see if they indeed contain
-    sensitive material. When digital archives staff uploaded the collection's files into
-    FTK, they ran a search for Pii. If there were any hits, these
-    files were labeled "Potentially Sensitive".
+### Media Log
 
-- Work back and forth between the media log and FTK - does the label
-transcript in the media log accurately portray the contents? If so, the
-label transcript can provide additional context for the electronic
-records.
+* Work back and forth between the media log and FTK.  
+* Note the label transcript in the media log and compare it to the contents in FTK.  
+* The label transcript can provide additional context for the electronic records.  
+
 
   | Common Questions |                                                                   
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -98,7 +107,9 @@ proposal - you are ready to begin bookmarking.**
 
 ![](ftkcs/media/image2.png)
 
--   You can create empty bookmarks to mimic the hierarchical structure of the finding aid. Right-click a top level bookmark in the Bookmarks tab and select 'Create empty bookmark'.
+-   Create empty bookmarks to mimic the hierarchical structure of the finding aid.  
+    * Right-click a top level bookmark in the Bookmarks tab and select 'Create empty bookmark'.  
+    * Drag and drop bookmarks to place them in the hierarchy.  
 
 -   Wait until
     you are finished processing to number your ER components.
@@ -106,19 +117,23 @@ proposal - you are ready to begin bookmarking.**
 ## Wrap Up
 
 * Please let Digital Archives staff known when you are done processing a
-collection so that we may export your components in a timely manner.
+collection.
 
 -   Determine the size and number of files in each bookmarked ER
-    component. Pull out and expand the File List in the
+    component.  
+    * Pull out and expand the File List in the
     Bookmarks tab to see the full size or 
-    scroll right.
+    scroll right.  
 
--   Determine the size of the entire collection. Return to the explore
-     screen and select the 'Bookmarked' filter.
+-   Determine the size of the entire collection.  
+    * Return to the explore
+     screen and select the 'Bookmarked' filter.  
 
 -   Check your work by ensuring that the collection size matches
-    the collective ER components' sizes.
+    the collective ER components' sizes.  
 
+Deprecated
+{: .label .label-red }
 <!-- CMS components or Aspace only? -->
 -   Select 'digital file' from the drop
     down in 'container info' and enter your bookmark number to add components to CMS.
@@ -132,9 +147,6 @@ collection so that we may export your components in a timely manner.
 
 ![](ftkcs/media/image5.png)
 
-Deprecated
-{: .label .label-red }
-
 -   Determine which media objects are to be deaccessioned.
 
 -   Complete the following fields in the collection
@@ -143,12 +155,12 @@ Deprecated
     -   Click on the calendar icon next to the 'Ecomponents created'
         field to add the date you finished creating your bookmarks.
 
-    -   Add the final Finding aid extent. If you have to convert your
-        extent to Kilobytes, use 
-        ([Byte Converter](http://www.whatsabyte.com/P1/byteconverter.htm){:target="_blank"}).
-
 Deprecated
 {: .label .label-red }
+
+* Add the final Finding aid extent. If you have to convert your
+        extent to Kilobytes, use 
+        ([Byte Converter](http://www.whatsabyte.com/P1/byteconverter.htm){:target="_blank"}).
 
 *  Please see the [ASpace Users
 Guide](https://docs.google.com/document/d/1sAAiJjDArvicy6y5vr61zZ-F_bQPmkoUkQrXnbep6gw/edit?usp=sharing{:target="_blank"}) for instructions on how to enter your electronic records in
