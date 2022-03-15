@@ -13,7 +13,9 @@ parent: Processing
 1. TOC
 {:toc}
 
-* Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged.  
+Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged.  
+
+## Using an External Hard Drive
 
 * Attach the drive to your workstation.  
 
@@ -48,11 +50,12 @@ the components, and enter them into CMS and ArchivesSpace.
 
 * Appraise the files.  
 * Ascertain the arrangement of the files.  
-* Use information like file naming conventions, how the files relate to each other, and whether there are possible duplicates.  
+* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
 * You can sort the .csv file by size, checksum, date, file , or path.  
 
 ### Arrangement  
-* Create a new folder named /M12345_FAcomponents on the drive you received at the same folder level as /M12345_workingfiles when you are ready to arrange files.  
+* Create a new folder on the drive you received at the same folder level as /M12345_workingfiles.  
+* Name the folder /M12345_FAcomponents.  
 	* Within this folder create a folder for each FA Component using the following naming convention M12345_ER_1, M12345_ER_2.  
 	* Create an objects folder within each ER_# folder.  
 	* Move the files into the new FA Component objects folders as your process the files.  

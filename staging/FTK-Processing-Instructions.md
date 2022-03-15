@@ -124,7 +124,7 @@ OR
 
 #### Simple Filtering 
 
-##### Initial File List window
+##### Initial File List Window
 * Note the green background of the File List.  
 ![](dapi/media/image35.png)
 
@@ -143,7 +143,7 @@ feeling for how they affect the File List.
 **Note: Actual Files
 filter hides compressed folders like .zip and .stuffit.**
 
-#### Complex filters
+#### Complex Filters
 
 ##### Initial File List Window
 
@@ -169,7 +169,7 @@ Example: Including Actual Files and excluding Folders.
 
 * Toggle filters off and on by clicking the filter button ![](dapi/media/image41.png) to the left of the filter dropdown.  
 
-####  Creating new filters
+####  Creating New Filters
 
 * Click the left most
 ![](dapi/media/image39.png) button on the Filter Manager window to create a new filter.
@@ -209,9 +209,11 @@ viewed on a single File List.
 
 ![](dapi/media/image28.png)
 
-* Click the Manage Local button to create a new label in the current case. Name the label and select a color.
+* Click the Manage Local button to create a new label in the current case.  
+* Name the label and select a color.  
 
-* Select the box for a label from the list in the Labels window and click OK to apply the label to a highlighted file.  
+* Select the box for a label from the list in the Labels window.  
+* Click OK to apply the label to a highlighted file.  
 ![](dapi/media/image23.png)
 
 * View the files by label in the Overview tab or sort by label in the Explore tab.  
@@ -232,11 +234,11 @@ Live Search tab, and the Index Search tab.
 The index search is used to search the full-text index that FTK creates
 when disk images or files are ingested into FTK.
 
-* Lookup terms in the index, highlight the desired term, and click Add.
+* Look up terms in the index, highlight a term, and click Add.
 
 ![](dapi/media/image16.png)
 
-* Combine terms into a Boolean query and click Search Now.
+* Select And/Or Operators and click Search Now.
 
 ![](dapi/media/image1.png)
 
@@ -244,8 +246,7 @@ when disk images or files are ingested into FTK.
 
 ![](dapi/media/image34.png)
 
-* Highlight hits to populate the File List. Then you
-can filter, bookmark, and label.
+* Highlight hits to populate the File List.
 
 ![](dapi/media/image42.png)
 
@@ -257,17 +258,19 @@ and time consuming.
 
 * The Live search has three modes: text, pattern, and hex.
 
-##### Text searching
+##### Text Searching
 
 ![](dapi/media/image26.png)
 
-##### Pattern searching
+##### Pattern Searching
 * Select the Pattern tab. Click the white arrow to the right of the search bar to use preset regular expressions (phone
 numbers, social security numbers, credit card numbers, etc.).
 
 ![](dapi/media/image25.png)
 
-* The live search will return results and populate a File List as the index search does.
+* Hits will display in the results window.  
+* Highlight hits to populate the File List.  
+
 
 ### Bookmarking
 
@@ -276,29 +279,32 @@ component to be entered into Aspace. It is in a bookmark that the unit
 identifier, unit title, physical extent, and date coverage will all be
 recorded.
 
+#### Creating Bookmarks
 * Highlight the files to be included in a bookmark from the File List then
-right-click and select Create a New Bookmark.  
-Or   
+right-click.  
+* Select Create a New Bookmark.  
+
+OR   
+
 * Click the
 ![](dapi/media/image18.png) button. This
 will bring up the Create a New Bookmark pop up.
 
 ![](dapi/media/image29.png)
 
-* Enter a title for the bookmark (it can be a temporary title) and select a
-parent node from the Select Bookmark window. 
-
+* Enter a title for the bookmark (it can be a temporary title).  
+* Select a parent node from the Select Bookmark window.  
 * Click on the Bookmark tab to view the bookmarks for a collection.
 
 ![](dapi/media/image24.png)
 
-* To finalize a bookmark you will need to enter the unit id, unit title,
-and date range of the files in the Bookmark name field. 
+#### Finalizing Bookmarks
+* Enter the unit id, unit title, and date range of the files in the Bookmark name field. 
 
 ![](dapi/media/image27.png)
 
-* Enter the physical description in the Bookmark Comment field.
-This can be determined from the metadata located in the bottom of the
+* Enter the physical description in the Bookmark Comment field.  
+* Note the Total and Total LSize located at the bottom of the
 File List.
 
 ![](dapi/media/image22.png)
@@ -312,7 +318,7 @@ computer files)
 **NOTE: Check whether or not filters are active, as this will
 modify these counts.**
 
-### Entering your collection in ArchivesSpace
+### Entering Your Collection in ArchivesSpace
 
 For instructions on how to enter your electronic records in
 ArchivesSpace, please see the [ASpace Users
@@ -493,20 +499,20 @@ Identifier, such as er.1.
 
 ### Deaccessions
 
-* Select the Bookmarked filter and then select each
-media object in the evidence items window one by one. If there are no
-files present that media object can be deaccessioned.
+* Select the Bookmarked filter.  
+* Select each media object in the evidence items window one by one.  
+* Note media objects with no files present.  
 
-Or
+OR
 
-* Select the Bookmarked filter and sort the File List by path. Note MediaIDs that don't appear in the File List.
+* Select the Bookmarked filter and sort the File List by path.  
+* Note MediaIDs that don't appear in the File List.  
 
-* The only exception to using this method are media objects that contain
-executables or other files that would be better served as a disk image.
+* Keep media objects that contain executables served as a disk image.
 
-## Appendix: De-duplicating Collections
+## De-duplicating Collections
 
-### Running a de-duplication job
+### Running a De-duplication Job
 
 * Select Additional Analysis from
 the Evidence menu. 
@@ -522,43 +528,38 @@ collection.
 
 * When complete close the Data Processing window.
 
-#### Adding a "duplicate file" column set to a FTK case
+### Adding a Duplicate File Column Set to a FTK Case
 
 * Click the column
-settings![](dapi/media/image8.png) button from the File List window. Click
-the import button and navigate to
-Storage(F:)\\FTKsettings\\ColumnDefs\\Duplicates.xml  
+settings![](dapi/media/image8.png) button from the File List window.  
+* Click the import button and navigate to Storage(F:)\\FTKsettings\\ColumnDefs\\Duplicates.xml  
 * Click OK and close the column settings window.
 
 * Select Duplicates from the column dropdown.
 
 ![](dapi/media/image9.png)
 
-* This will add an additional column to the file list titled Duplicate
-File that will either be blank or contain the number 1, 2, or 3.
+### Reading the Duplicate File Field
+* Note the Duplicate File field in the File List.  
+* Note the number in the Duplicate File field.  
 
 ![](dapi/media/image3.png)
 
 * If the Duplicate File field is blank the file has not been analyzed
-for duplication yet, re run the analysis on the previous page.
+for duplication.
 
-* The numeral 1 in the Duplicate File field means that the file is
-duplicated but it is the first instance of that file in the case. The
-numeral 2 means it is a duplicate file and a secondary copy. In the example
-above you can see a set of duplicates dm.exe and cm.exe denoted by
-their 1 and 2 codes respectively (note that the MD5 and SHA1 are
-identical for each file). The numeral 3 means the file is unique and
-does not have a duplicate in the collection.
+* 1 indicates the file is duplicated but it is the first instance of that file hashed in the case.  
+* 2 indicates the file is a duplicated and not the first instance of that file hashed in the case.  
+* 3 indicates the file is unique and does not have a duplicate in the collection.  
 
-#### Adding a duplicate filter
+### Adding a Duplicate Filter
 
 * Click the import filter button from the Filter Manager
-![](dapi/media/image5.png) and navigate to
-Storage(F:)\\FTKsettings\\FilterDefs\\DuplicateSecondary.xml 
-* Click open and OK to import it into the case.
-
-* The Filter can now be used to either include or exclude secondary
-duplicates from a file list.
+![](dapi/media/image5.png)  
+* Navigate to Storage(F:)\\FTKsettings\\FilterDefs\\DuplicateSecondary.xml  
+* Click open and OK to import it into the case.  
+* Use the filter to either include or exclude secondary
+duplicates from the File List.  
 
 Example: File list **excluding** secondary duplicates.
 ![](dapi/media/image15.png)
