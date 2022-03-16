@@ -128,10 +128,9 @@ paper (for visibility) and place it in the object's previous container.
 
 ## 6. Shelve the media.
 
-* Place the separated media on the shelf labeled 'INCOMING MEDIA' outside
-the Manager of Archival Processing's office.  
+* Place the separated media on the shelf labeled 'INCOMING MEDIA' outside of office 202A.  
 * Place media you can carry without a box in the small collections box on the Incoming Media shelf.  
-* Places larger collections of media in boxes and place the boxes on the Incoming Media shelf.  
+* Place larger collections of media in boxes and place the boxes on the Incoming Media shelf.  
 * File the media by collection number and each media item sequentially.  
 * Place floppy and zip disks with the read/write access shutter facing up.  
 
