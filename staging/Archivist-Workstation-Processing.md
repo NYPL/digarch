@@ -17,7 +17,7 @@ Archivists processing electronic records without using FTK or ePADD will receive
 
 ## Using an External Hard Drive
 
-* Attach the drive to your workstation.  
+* Attach the external hard drive or thumb drive to your workstation.  
 
 * Open CMS and navigate
 to the collection's media log.  
