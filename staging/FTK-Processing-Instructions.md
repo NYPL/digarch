@@ -242,6 +242,8 @@ when disk images or files are ingested into FTK.
 
 ![](dapi/media/image1.png)
 
+* Click Apply filter and Select a filter from the dropdown to apply a filter to results. Click OK.  
+![](dapi/media/indexfilter.png)
 * Hits will display in the results window.
 
 ![](dapi/media/image34.png)
@@ -260,14 +262,22 @@ and time consuming.
 
 ##### Text Searching
 
+* Enter text and click the Add button.  
+* Enter a value (1) in Max Hits per File.  
+* Select a filter from the dropdown next to Search Filter if you want to filter results.  
+* Click the Search button.  
 ![](dapi/media/image26.png)
 
 ##### Pattern Searching
-* Select the Pattern tab. Click the white arrow to the right of the search bar to use preset regular expressions (phone
+* Select the Pattern tab. 
+* Click the white arrow to the right of the search bar to use preset regular expressions  
+(phone
 numbers, social security numbers, credit card numbers, etc.).
 
+![](dapi/media/patternsearch.png)
+* Select a pattern from the menu to the right.  
 ![](dapi/media/image25.png)
-
+* Click the Search button.  
 * Hits will display in the results window.  
 * Highlight hits to populate the File List.  
 

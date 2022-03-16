@@ -24,7 +24,7 @@ to the collection's media log.
 
 **Information in the media log will assist with processing. You will need to update fields at various points during processing.**
 
-## Arranging and Describing Archives from a Workstation
+## Arranging and Describing Files from a Workstation
 
 The goal of the arrangement and description phase is to approximate the
 process in which an archivist works with a physical collection. By using
@@ -37,30 +37,34 @@ the components, and enter them into CMS and ArchivesSpace.
 
 * Double-click the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
-    * /M12345_workingfiles
-		* /M12345-0001
-			* /metadata
-			* /objects 
+    * \M12345_workingfiles
+		* \M12345-0001
+			* \metadata
+			* \objects 
         
-* The metadata folder may contain metadata created during the transfer of the files. The .csv provides a file directory listing of the files which will provide additional information regarding the files (similar to the path view in FTK). You can open a .csv file in Microsoft Excel.
-
-* The objects folder contains the files to be arranged. A Bagit transfer will contain a data folder within the objects folder. In this case, the data folder contains the files to be arranged.
+* Note the metadata folder may contain metadata created during the transfer of the files.  
+* Note a file directory listing of the files in .csv format, if present.
+* Open a .csv file in Microsoft Excel.  
+* Navigate to the objects folder to view the files to be arranged.  
+* Navigate to the data folder in the objects folder to view the files to be arranged in a Bagit transfer.  
+* Note manifest.txt files contain a directory listing.  
 
 ### Processing  
 
 * Appraise the files.  
 * Ascertain the arrangement of the files.  
 * Note file naming conventions, how the files relate to each other, and  possible duplicates.  
-* You can sort the .csv file by size, checksum, date, file , or path.  
+* Sort the .csv file by size, checksum, date, file , or path.  
 
 ### Arrangement  
-* Create a new folder on the drive you received at the same folder level as /M12345_workingfiles.  
-* Name the folder /M12345_FAcomponents.  
-	* Within this folder create a folder for each FA Component using the following naming convention M12345_ER_1, M12345_ER_2.  
-	* Create an objects folder within each ER_# folder.  
-	* Move the files into the new FA Component objects folders as your process the files.  
-
-* Calculate the size of each FA Component by right clicking on the FA Component folder and selecting Properties from the drop down menu.  
+* Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
+* Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
+* Name the folder /M12345_FAcomponents, for example.  
+* Create a folder for each FA Component using ```CollectionID_ER_1```, ```CollectionID_ER_2```.  
+* Create an objects folder within each ER_# folder. ```CollectionID_ER_1\objects```
+* Move the files into the new FA Component objects folders as your process the files.
+* Calculate the size of each FA Component by right clicking on the FA Component folder.
+* Select Properties from the drop down menu.  
 * Note the file count and byte extent, when you are done processing.  
 
 ### Entering your collection in ArchivesSpace
