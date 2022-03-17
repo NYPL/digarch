@@ -80,51 +80,63 @@ Repeat this process until no additional ports are available.
 * On the laptop, open the system disk manager or utility to check the status of drives.
 * Connect the source drive to laptop or hub and turn on the power.
 * Remount the source drive as read-only. Device numbers are available in the disk manager.
+
+  ``` bash
+  diskutil umount /dev/sda[]
+  diskutil mount readOnly /dev/sda[]
+  ```
+
 * Generate a file name and file size manifest of drive and save to the transfer drive
-* Create the command to copy the source drive to its own folder on the transfer drive
 
-Example commands
+  ``` bash
+  find /path/to/drive -type f -print0 | xargs -0r stat -f '%N, %z' | sort  > /path/to/transfer/storage/sourcedrive.csv
+  ```
 
-``` bash
-diskutil umount /dev/sda[]
-diskutil mount readOnly /dev/sda[]
-find /path/to/drive -type f -print0 | xargs -0r stat -f '%N, %z' | sort  > /path/to/transfer/storage/sourcedrive.csv
-rsync -rtP /path/to/source/drive /path/to/transfer/storage/sourcedrive/
-```
+* In a text editor, create the command to transfer the source drive to its own folder on the transfer drive
+
+  ``` bash
+  rsync -rtP /path/to/source/drive /path/to/transfer/storage/sourcedrive/
+  ```
 
 ### Connecting Source Network Drives
 
-#### TODO
+To be written{: .label .label-yellow }
 
 ### Starting Transfers
 
-* Chain together the copy commands with semi-colons to run them sequentially.
+* Chain together the transfer commands with semi-colons to run them sequentially.
 It is typically faster to copy from source drives sequentially, instead of simultaneously.
+
+  ``` bash
+  rsync -rtP ... ; rsync -rtP ... ; rsync -rtP ... ; ...
+  ```
+
 * Check transfer speed and calculate when an additional visit will be necessary to add new drives or to complete the transfer.
 For the number of expected days: `[total amount on drives in MB] / [transfer speed in MB] / 3600 / 24`
-
-Example commands
-
-``` bash
-rsync -rtP ... ; rsync -rtP ... ; rsync -rtP ... ; ...
-```
 
 ### Disconnecting Hard Drive Transfers
 
 * Compare the size of the source drive to the folder on the transfer drive.
+
+  ``` bash
+  du -sh /path/to/source/drive
+  du -sh /path/to/transfer/storage/sourcedrive/
+  ```
+
 * Generate a file name and file size manifest of folder on the transfer drive and save it to the transfer drive.
+
+  ``` bash
+  find /path/to/drive -type f -print0 | xargs -0r stat -f '%N, %z' | sort > /path/to/transfer/storage/sourcedrive_transferred.csv
+  ```
+
 * Investigate any discrepancies between the manifests and retransfer if necessary.
+
+  ``` bash
+  comm -2 -3 /path/to/transfer/storage/sourcedrive.csv /path/to/transfer/storage/sourcedrive_transferred.csv
+  ```
+
 * Unmount the source drive.
 * Disconnect completed drive from hub
-
-Example commands
-
-``` bash
-du -sh /path/to/source/drive
-du -sh /path/to/transfer/storage/sourcedrive/
-find /path/to/drive -type f -print0 | xargs -0r stat -f '%N, %z' | sort > /path/to/transfer/storage/sourcedrive_transferred.csv
-comm -2 -3 /path/to/transfer/storage/sourcedrive.csv /path/to/transfer/storage/sourcedrive_transferred.csv
-```
 
 ### Equipment Tear Down
 
