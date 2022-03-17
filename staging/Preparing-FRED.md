@@ -14,29 +14,29 @@ Digital Archives staff and processing archivists both use FRED workspaces in the
 Before processing archivists sit down at a FRED workspace Digital Archives staff can use the following steps to make sure the workspace is setup for processing archivists.
 
 ## Noting Appointment Times
- * Check the [Digital Archives Lab Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbjYzaTM1aGVnZWduaGhmaGtiZzg0aGozb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"} to see when processing archivists have reserved time.
- * Check the workspace before an appointment or the evening before if the appointment is early.
+ * [ ] Check the [Digital Archives Lab Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbjYzaTM1aGVnZWduaGhmaGtiZzg0aGozb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"} to see when processing archivists have reserved time.
+ * [ ] Check the workspace before an appointment or the evening before if the appointment is early.
 
 ## Managing the Workspace
-* Check that the FRED is on and unlocked.
-* Check that the monitors are on.
-* Check the keyboard and mouse.
-* Check that the security device (silver USB dongle) is plugged in.
-* Check that the workspace is free of objects that are not being used by the processing archivist.
-* Check the webcam if needed.
-* Check that Windows is not set to restart for updates.
+* [ ] Check that the FRED is on and unlocked.
+* [ ] Check that the monitors are on.
+* [ ] Check the keyboard and mouse.
+* [ ] Check that the security device (silver USB dongle) is plugged in.
+* [ ] Check that the workspace is free of objects that are not being used by the processing archivist.
+* [ ] Check the webcam if needed.
+* [ ] Check that Windows is not set to restart for updates.
 
 ## Managing Windows  
- * Close any browser or application windows that are not being used by the processing archivist.
- * Open FTK or any application the processing archivist will use to view files.
+* [ ] Close any browser or application windows that are not being used by the processing archivist.
+* [ ] Open FTK or any application the processing archivist will use to view files.
 
 ## Managing Locations
- * Check that the collection storage location is available to the FRED.
-    * Check that ```Storage(F:)\Evidence\[CollectionID]``` is available.
-    * Check that DigArchDiskstation is available if needed.
-    * Check that ICA is available if needed.
+Check that the collection storage location is available to the FRED.
+* [ ] Check that  ```Storage(F:)\Evidence\[CollectionID]```  is available.
+* [ ] Check that DigArchDiskstation is available if needed.
+* [ ] Check that ICA is available if needed.
 
 ## Managing Dual Sessions
 When both FRED workstations are in use:
-* Check that FTK is open on both workstations.
-* Check that the security device on one of the FREDs is visible and can be moved if needed.
+* [ ] Check that FTK is open on both workstations.
+* [ ] Check that the security device on one of the FREDs is visible and can be moved if needed.

@@ -91,6 +91,30 @@ parent: Processing
 
  ![](ftkle/media/image2.jpg)
 
+### Remove Problem Media
+
+* Note disk images marked unrecognizable filesystem in the Evidence tree.
+
+* Select 'Add/Remove...' from the Evidence menu.
+
+* Select disk images marked unrecognizable filesystem.
+
+* Click the 'Remove' button.
+
+* Note bags with nothing in the data folder aside from bagit generated txt files. 
+
+* Select 'Add/Remove...' from the Evidence menu. 
+
+* Select bags with no data.
+
+* Click the 'Remove' button.
+
+* Determine whether removed disk images can be displayed in CiderPress or an emulator.
+
+* Select Problem in the issue field of the CMS medialog for images that can't be displayed.
+
+* Select Problem in the issue field of the CMS medialog for bags with no data.
+
 ## Review PII  
 
 * Check for and label personal identifiable information (PII).
