@@ -31,8 +31,9 @@ Before processing archivists sit down at a FRED workspace Digital Archives staff
 * [ ] Open FTK or any application the processing archivist will use to view files.
 
 ## Managing Locations
-Check that the collection storage location is available to the FRED.
+Check that collection storage locations and networking are available to the FRED.
 * [ ] Check that  ```Storage(F:)\Evidence\[CollectionID]```  is available.
+* [ ] Check that internet access is available.
 * [ ] Check that DigArchDiskstation is available if needed.
 * [ ] Check that ICA is available if needed.
 
