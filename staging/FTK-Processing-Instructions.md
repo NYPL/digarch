@@ -3,7 +3,7 @@ title: FTK Processing Instructions
 layout: default
 nav_order: 3
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Processing Instructions
@@ -17,9 +17,11 @@ Instructions
 
 * Click the FTK icon to open FTK and begin your session. 
 
-* Sign in using your username and password.
+FRED 1 only
+{: .label .label-red }
+* Sign in using your username and password when using FRED 1.
     * Your username is the first initial of your first name and
-full last name (e.g. smalsbury). 
+full last name (e.g. losborne). 
 
 * Select your collection from the bar on the left hand side of the screen. 
 
@@ -39,15 +41,20 @@ the components, and enter them into CMS and ArchivesSpace.
 
 ### The Explore Tab
 
-* After opening up the collection in FTK (or "case" in FTK terms) the
-application will default to the Explore tab. The Explore tab contains
-three main windows, the Evidence tree, the File List, and the File
-Content window.
+* Note the Explore tab is the default view after opening up the collection in FTK.  
+* The Explore tab contains three main windows.  
+    * Evidence tree  
+    * File List  
+    * File Content window  
+
+#### Evidence Tree
 
 * Click the QuickPix button (the arrow box) to the left of any
-node to display all files located at or below the highlighted points in the File List. A Yellow folder icon means there is a node
-selected below it. A Green arrow and folder means that node is selected. Unselect the node to remove all files
-from the current node and any nodes beneath from the File List.
+node to display all files located at or below the highlighted points in the File List.  
+* A Yellow folder icon means there is a node
+selected below it.  
+* A Green arrow and folder means that node is selected.  
+* Unselect the node to remove all files from the current node and any nodes beneath from the File List.  
 
 ![](dapi/media/image14.png)
 
@@ -56,8 +63,26 @@ from the current node and any nodes beneath from the File List.
 ![](dapi/media/image17.png)
 
 * Click the arrow for
-the top of the hierarchy (always titled Evidence) then click again to remove the selection to reset QuickPix. This will remove all files from
+the top of the hierarchy (Evidence) then click again to remove the selection to reset QuickPix. This will remove all files from
 the File List.
+
+#### File List  
+-   Expand fields or hide fields that are not useful to you in the File List, which makes up the bottom half of the screen.
+
+-   Click on any field in the File List to sort that field.
+
+    -   Sort by hash (MD5, SHA1, or SHA256) to identify duplicates.
+
+    -   Sort by Name to identify similar file names.
+
+    -   Sort by Path to see the original arrangement on the disk images
+        including which files were in a which folder.
+
+    -   Sort Modified date to see date ranges.
+
+-    Use the Category field instead of the Ext field when identifying formats if FTK does not recognize the correct extension.
+
+#### File Content Window
 
 * Highlight a file in the File List and FTK will attempt to
 render the file in the File Content window Natural pane using an
@@ -67,45 +92,48 @@ internal file viewer.
 
 ![](dapi/media/image30.png)
 
-* There are three other panes in the
-File Content window, Filtered, Text, and Hex panes for lower-level
-interpretations of the file if FTK cannot render the file in Natural. 
-    * Hex will display a hexadecimal rendering of the file.
-    * Text will render the file as ASCII text with non-printable characters
-as ".". Use the encoding drop-down to select an alternate
+* View Hex, Text, and  Filtered tabs for lower-level interpretations of the file if FTK cannot render the file in Natural.  
+    * Click the Hex tab to view a hexadecimal rendering of the file.
+    * Click the Text tab to view the file as ASCII text with non-printable characters
+as ".". 
+    * Use the encoding drop-down to select an alternate
 encoding. 
-    * Filtered is similar to Text with the exception that
-non-printable characters are ignored, like Text, Filtered defaults to
-ASCII encoding, but can be changed via the encoding dropdown.
+    * Click the Filtered tab to view text with non-printable characters ignored.  
+    * Use the encoding drop-down to select an alternate
+encoding. 
 
-### PII (Personally Identifiable Information)
+### PII (Personal Identifiable Information)
 
 * Please check to see if
-    any files have the label "Potentially Sensitive" and review to see if they indeed contain
-    sensitive material. When digital archives staff uploaded the collection's files into
+    any files have the label "Potentially Sensitive" and review to see if they contain
+    sensitive material.  
+    * When digital archives staff uploaded the collection's files into
     FTK, they ran a search for Pii. If there were any hits, these
-    files were labeled Potentially Sensitive.
+    files were labeled "Potentially Sensitive".
 
 ### Filtering
 
 * Use FTK's filtering functionality to reduce the number of files and file system artifacts in the
 File List window.
 
-* Select a preset filter from the drop
-down on the top of the screen or a click the Filter Manager button next to the filter dropdown to select complex filters. 
+* Select a preset filter from the dropdown on the top of the screen.  
+
+OR  
+
+* Click the Filter Manager button next to the filter dropdown to select complex filters. 
 
 #### Simple Filtering 
 
-##### Initial File List window
+##### Initial File List Window
+* Note the green background of the File List.  
+![](dapi/media/image35.png)
 
-###### Adding the Actual Files filter
-
+* Select Actual Files from the Filter dropdown.  
 ![](dapi/media/image32.png)
 
-###### Result
+##### Result
 
-* The File List is now yellow in color this
-indicates that there is an active filter.
+* Note the yellow background of the File List indicates that there is an active filter.  
 
 ![](dapi/media/image36.png)
 
@@ -115,7 +143,7 @@ feeling for how they affect the File List.
 **Note: Actual Files
 filter hides compressed folders like .zip and .stuffit.**
 
-#### Complex filters
+#### Complex Filters
 
 ##### Initial File List Window
 
@@ -125,8 +153,11 @@ filter hides compressed folders like .zip and .stuffit.**
 
 ![](dapi/media/image33.png)
 
-* Use the arrow keys to create a complex filter that can both include
-and exclude files.
+* Use the arrow keys to create a complex filter that can both include and exclude files.
+* Highlight a filter and click the right arrow button by Include to include files specified by that filter.  
+* Highlight a filter and click the right arrow button by Exclude to exclude files specified by that filter.
+* Highlight a filter in a box and click the left arrow beside it to remove it from the complex filter.  
+
 
 Example: Including Actual Files and excluding Folders. 
 
@@ -136,13 +167,11 @@ Example: Including Actual Files and excluding Folders.
 
 ![](dapi/media/image40.png)
 
-* The active filter can be toggled on and
-off using the ![](dapi/media/image41.png) button located in the upper left hand
-corner of the screen.
+* Toggle filters off and on by clicking the filter button ![](dapi/media/image41.png) to the left of the filter dropdown.  
 
-####  Creating new filters
+####  Creating New Filters
 
-* Click the 
+* Click the left most
 ![](dapi/media/image39.png) button on the Filter Manager window to create a new filter.
 
 Example: Below is a filter
@@ -150,21 +179,12 @@ to display files created in November of 2013. It could be used in the
 Filter Manager to either include or exclude files created within that
 date range.
 
+<!-- Export filter for repeated use? -->
+
 ![](dapi/media/image38.png)
 
 * Consult the FTK
 Users Guide PDF for an in depth review of filter fields.  
-
-### Visualizing
-
-* Click
-![](dapi/media/image43.png) in the upper right hand side of the File
-List window for a visualization of files in the File List.
-
-![](dapi/media/image44.png)
-
-* This window can be used for summarizing the types of files, extensions, 
-and dates for a set of files.
 
 ### The Overview Tab
 
@@ -173,8 +193,8 @@ In the Overview tab files are organized based on their characteristics
 rather than how they were organized when imaged. Below is the Overview
 tab with the File Category node opened on the left and the File Status
 node opened on the right. Highlight any node to actively display
-the files in the File List window, which can then be viewed,
-filtered, and visualized in the same manner as the Explore tab.
+the files in the File List window, which can then be viewed and 
+filtered in the same manner as the Explore tab.
 
 |  ![](dapi/media/image45.png) | ![](dapi/media/image20.png) |
  
@@ -185,13 +205,15 @@ to group together files from anywhere in a collection that can later be
 viewed on a single File List. 
 
 * Highlight one or more files from the File List and click the
-![](dapi/media/image19.png) button to use labels.
+![](dapi/media/image19.png) button of 4 squares to use labels.
 
 ![](dapi/media/image28.png)
 
-* Click the Manage Local button to create a new label in the current case. Name the label and select a color.
+* Click the Manage Local button to create a new label in the current case.  
+* Name the label and select a color.  
 
-* Select the box for a label from the list in the Labels window and click OK to apply the label to a highlighted file.  
+* Select the box for a label from the list in the Labels window.  
+* Click OK to apply the label to a highlighted file.  
 ![](dapi/media/image23.png)
 
 * View the files by label in the Overview tab or sort by label in the Explore tab.  
@@ -210,22 +232,23 @@ Live Search tab, and the Index Search tab.
 #### Index Search
 
 The index search is used to search the full-text index that FTK creates
-when disk images are ingested into FTK.
+when disk images or files are ingested into FTK.
 
-* Lookup terms in the index, highlight the desired term, and click Add.
+* Look up terms in the index, highlight a term, and click Add.
 
 ![](dapi/media/image16.png)
 
-* Combine terms into a Boolean query and click Search Now.
+* Select And/Or Operators and click Search Now.
 
 ![](dapi/media/image1.png)
 
+* Click Apply filter and Select a filter from the dropdown to apply a filter to results. Click OK.  
+![](dapi/media/indexfilter.png)
 * Hits will display in the results window.
 
 ![](dapi/media/image34.png)
 
-* Highlight hits to populate the File List. Then you
-can filter, bookmark, and label.
+* Highlight hits to populate the File List.
 
 ![](dapi/media/image42.png)
 
@@ -237,17 +260,27 @@ and time consuming.
 
 * The Live search has three modes: text, pattern, and hex.
 
-##### Text searching
+##### Text Searching
 
+* Enter text and click the Add button.  
+* Enter a value (1) in Max Hits per File.  
+* Select a filter from the dropdown next to Search Filter if you want to filter results.  
+* Click the Search button.  
 ![](dapi/media/image26.png)
 
-##### Pattern searching
-* Select the Pattern tab. Click the white arrow to the right of the search bar to use preset regular expressions (phone
+##### Pattern Searching
+* Select the Pattern tab. 
+* Click the white arrow to the right of the search bar to use preset regular expressions  
+(phone
 numbers, social security numbers, credit card numbers, etc.).
 
+![](dapi/media/patternsearch.png)
+* Select a pattern from the menu to the right.  
 ![](dapi/media/image25.png)
+* Click the Search button.  
+* Hits will display in the results window.  
+* Highlight hits to populate the File List.  
 
-* The live search will return results and populate a File List as the index search does.
 
 ### Bookmarking
 
@@ -256,29 +289,32 @@ component to be entered into Aspace. It is in a bookmark that the unit
 identifier, unit title, physical extent, and date coverage will all be
 recorded.
 
+#### Creating Bookmarks
 * Highlight the files to be included in a bookmark from the File List then
-right-click and select Create a New Bookmark.  
-Or   
+right-click.  
+* Select Create a New Bookmark.  
+
+OR   
+
 * Click the
 ![](dapi/media/image18.png) button. This
 will bring up the Create a New Bookmark pop up.
 
 ![](dapi/media/image29.png)
 
-* Enter a title for the bookmark (it can be a temporary title) and select a
-parent node from the Select Bookmark window. 
-
+* Enter a title for the bookmark (it can be a temporary title).  
+* Select a parent node from the Select Bookmark window.  
 * Click on the Bookmark tab to view the bookmarks for a collection.
 
 ![](dapi/media/image24.png)
 
-* To finalize a bookmark you will need to enter the unit id, unit title,
-and date range of the files in the Bookmark name field. 
+#### Finalizing Bookmarks
+* Enter the unit id, unit title, and date range of the files in the Bookmark name field. 
 
 ![](dapi/media/image27.png)
 
-* Enter the physical description in the Bookmark Comment field.
-This can be determined from the metadata located in the bottom of the
+* Enter the physical description in the Bookmark Comment field.  
+* Note the Total and Total LSize located at the bottom of the
 File List.
 
 ![](dapi/media/image22.png)
@@ -292,7 +328,7 @@ computer files)
 **NOTE: Check whether or not filters are active, as this will
 modify these counts.**
 
-### Entering your collection in ArchivesSpace
+### Entering Your Collection in ArchivesSpace
 
 For instructions on how to enter your electronic records in
 ArchivesSpace, please see the [ASpace Users
@@ -473,20 +509,20 @@ Identifier, such as er.1.
 
 ### Deaccessions
 
-* Select the Bookmarked filter and then select each
-media object in the evidence items window one by one. If there are no
-files present that media object can be deaccessioned.
+* Select the Bookmarked filter.  
+* Select each media object in the evidence items window one by one.  
+* Note media objects with no files present.  
 
-Or
+OR
 
-* Select the Bookmarked filter and sort the File List by path. Note MediaIDs that don't appear in the File List.
+* Select the Bookmarked filter and sort the File List by path.  
+* Note MediaIDs that don't appear in the File List.  
 
-* The only exception to using this method are media objects that contain
-executables or other files that would be better served as a disk image.
+* Keep media objects that contain executables served as a disk image.
 
-## Appendix: De-duplicating Collections
+## De-duplicating Collections
 
-### Running a de-duplication job
+### Running a De-duplication Job
 
 * Select Additional Analysis from
 the Evidence menu. 
@@ -502,43 +538,38 @@ collection.
 
 * When complete close the Data Processing window.
 
-#### Adding a "duplicate file" column set to a FTK case
+### Adding a Duplicate File Column Set to a FTK Case
 
 * Click the column
-settings![](dapi/media/image8.png) button from the File List window. Click
-the import button and navigate to
-```Z:\\FTK\\ColumnDefs\\Duplicates.xml```  click OK and close the column
-settings window.
+settings![](dapi/media/image8.png) button from the File List window.  
+* Click the import button and navigate to Storage(F:)\\FTKsettings\\ColumnDefs\\Duplicates.xml  
+* Click OK and close the column settings window.
 
 * Select Duplicates from the column dropdown.
 
 ![](dapi/media/image9.png)
 
-* This will add an additional column to the file list titled Duplicate
-File that will either be blank or contain the number 1, 2, or 3.
+### Reading the Duplicate File Field
+* Note the Duplicate File field in the File List.  
+* Note the number in the Duplicate File field.  
 
 ![](dapi/media/image3.png)
 
 * If the Duplicate File field is blank the file has not been analyzed
-for duplication yet, re run the analysis on the previous page.
+for duplication.
 
-* The numeral 1 in the Duplicate File field means that the file is
-duplicated but it is the first instance of that file in the case. The
-numeral 2 means it is a duplicate file and a secondary copy. In the example
-above you can see a set of duplicates dm.exe and cm.exe denoted by
-their 1 and 2 codes respectively (note that the MD5 and SHA1 are
-identical for each file). The numeral 3 means the file is unique and
-does not have a duplicate in the collection.
+* 1 indicates the file is duplicated but it is the first instance of that file hashed in the case.  
+* 2 indicates the file is a duplicated and not the first instance of that file hashed in the case.  
+* 3 indicates the file is unique and does not have a duplicate in the collection.  
 
-#### Adding a duplicate filter
+### Adding a Duplicate Filter
 
 * Click the import filter button from the Filter Manager
-![](dapi/media/image5.png) and navigate to
-```Z:\\FTK\\FilterDefs\\DuplicateSecondary.xml``` then click open and OK
-to import it into the case.
-
-* The Filter can now be used to either include or exclude secondary
-duplicates from a file list.
+![](dapi/media/image5.png)  
+* Navigate to Storage(F:)\\FTKsettings\\FilterDefs\\DuplicateSecondary.xml  
+* Click open and OK to import it into the case.  
+* Use the filter to either include or exclude secondary
+duplicates from the File List.  
 
 Example: File list **excluding** secondary duplicates.
 ![](dapi/media/image15.png)

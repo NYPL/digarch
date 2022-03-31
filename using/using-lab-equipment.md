@@ -7,7 +7,7 @@ parent: Using the Lab
 
 # Reserving a Workstation Session
 Reserve your session to use a FRED or the 205 iMac at least 24 hours in advance using the
-[Digital Archives Lab Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbjYzaTM1aGVnZWduaGhmaGtiZzg0aGozb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"} calendar.
+[Digital Archives Lab Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbjYzaTM1aGVnZWduaGhmaGtiZzg0aGozb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"}.
 
 To schedule a time
 * Create a Google Calendar event while logged into your NYPL Google Account

@@ -3,7 +3,7 @@ title: FTK Backups and Archive Policy
 layout: default
 nav_order: 6
 has_children: false
-parent: Staging
+parent: Processing
 ---
 
 # FTK Backups and Archive Policy
@@ -21,17 +21,6 @@ archived. The case directory keeps the case information and the database files w
 are then deleted from the PostGresSQL database. Locally, we also include
 a compressed copy of the case's evidence in our archive except for
 certain exceptions, noted below.
-
-## Backup of Case
-
-*   Backups will be made daily when an archivist does significant work
-     on a collection to preserve their work.
-
-*   The previous backup will be deleted at this time.
-
-*   There will always only be one backup per case in FTK unless a
-     collection is particularly complex and Digital Preservation staff
-     decides that multiple backups would be beneficial.
 
 ## Archive of Case
 

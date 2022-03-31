@@ -8,7 +8,7 @@ baseurl: "/digarch"
 
 # Build settings
 # theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
