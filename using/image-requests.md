@@ -25,9 +25,12 @@ Curators may request images from a born-digital collection processed by Digital 
   
 * Image files may be located at any stage of Digital Archives processing. 
   
-* Once images are located  
+* Once images are located, copy image files into a folder. The folder name should be the service now ticket number. 
 
 ### Uploading requested images to Google Drive:
+* Once requested images have been colelcted in the folder they are uploaded to a Collection Share google drive folder named for the associated curatorial division of the requester, by Digital Archives staff. Request packages are uploaded to Collection Share folders using rclone . 
+
+#### Uploading using rclone: 
 *rclone instructions to be described*
 
 ### Completing Image Request
