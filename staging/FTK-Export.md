@@ -16,7 +16,7 @@ When a finding aid has been approved and the Bookmarks have been reviewed the co
 * Open the case for the collection and navigate to the Bookmark
 tab.  
 * Note how many finding aid components you have in the Bookmarks.  
-* Windows subsystem for Linux and enter the following commands to build your folders:  
+* Open Windows subsystem for Linux and enter the following commands to build your folders:  
 
 ```$ cd /mnt/y/Staging/faComponents```
 

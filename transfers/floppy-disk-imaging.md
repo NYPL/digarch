@@ -79,7 +79,7 @@ imaged by:	your name
 Deprecated
 {: .label .label-red }
 
-* Open Cygwin and enter the following commands:
+* Open Windows subsystem for Linux.  
 * Connect to ARCHV Mac.  
 ```$ ssh archv```  
 * Change to the kryofluxOutput directory.  
@@ -94,12 +94,9 @@ Deprecated
 ### Create destination directories
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
-* Open Cygwin and enter the following commands:   
-
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
-
-* Change to diskImage directory.  
+* Open Windows subsystem for Linux.     
+ 
+* Navigate to diskImage directory.  
 ```$ diskimages```  
 
 * Create a directory for your collection if it does not exist.  
@@ -113,7 +110,7 @@ Deprecated
 
 ### Package images
 
-* Open Cygwin and enter the following commands:
+* Open Windows subsystem for Linux.  
 * Connect to ARCHV Mac.  
 ```$ ssh archv```
 * Change to the kryofluxOutput directory.  

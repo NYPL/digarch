@@ -204,7 +204,7 @@ VLC multimedia player is used in the lab to view and appraise born digital audio
 #### Installation  
 https://www.videolan.org/vlc/index.html  
 ## Scripts  
-The following is list of scripts used in born-digital workflows at NYPL. The scripts are located in the [digarch_scripts](https://github.com/NYPL/digarch_scripts/blob/main/){:target="_blank"} Github repository. A link to each script is provided after the description.  
+The following is list of scripts used in born-digital workflows at NYPL. The scripts are located in the [digarch_scripts](https://github.com/NYPL/digarch_scripts/blob/main/){:target="_blank"} Github repository. A link to each script is provided after the description. Workflow instructions including scripts assume the script is available locally on the workstation, has permission to execute, and has an alias in bash. Check that these steps have been completed on the workstation you are using before executing a script. Instructions using ssh to ARCHV are deprecated.   
 ### ft.sh 
 This script is used in the lab to create bagit transfers and Siegfried csvs for born-digital media.  
 [ft.sh ](https://github.com/NYPL/digarch_scripts/blob/main/Mac/ft.sh){:target="_blank"}   

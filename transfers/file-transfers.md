@@ -22,7 +22,12 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 **Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
 
+Under construction  
+{: .label .label-yellow }
+
 ## Prepare destination folders for files
+Deprecated (Prepare folders)
+{: .label .label-red }
 
 **These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
 
