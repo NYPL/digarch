@@ -24,7 +24,7 @@ To avoid the risk of tripping hazards, staff should keep cable runs short and aw
 To protect against inhalation of chemical vapors and mold spores, staff may use N95 masks stored in the lab supply cabinet.
 Further questions about respiratory hazards should be directed to Collections Management.
 
-The lab carpets should be cleaned monthly.
+The lab carpets should be cleaned bi-weekly.
 Vacuuming is scheduled on-demand with the Facilities department.
 
 ## Infectious Disease Protocols
