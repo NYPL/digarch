@@ -17,6 +17,14 @@ To prevent the risk of pulling a device off of a table, staff should avoid runni
 
 To avoid the risk of tripping hazards, staff should keep cable runs short and away from active walkways.
 
+## Respiratory Safety Protocols
+
+To protect against inhalation of chemical vapors and mold spores, staff may use N95 masks stored in the lab supply cabinet.
+Further questions about respiratory hazards should be directed to Collections Management.
+
+The lab carpets should be cleaned monthly.
+Vacuuming is scheduled on-demand with the Facilities department.
+
 ## Infectious Disease Protocols
 
 To avoid the risk of transmitting airborne diseases to other staff, staff that are sick or infectious should either use sick leave, arrange for remote work with their supervisor, or wear a mask while on site.
