@@ -13,6 +13,8 @@ When working with bare electronic components, staff must take precautions to pro
 
 To prevent the risk of high-voltage discharges that could fry device components, staff should use electro-static discharge (ESD) bracelets and mats when appropriate.
 
+To prevent the risk of electrical damage during cleaning, the lab keeps a supply of disposable tech wipes.
+
 To prevent the risk of pulling a device off of a table, staff should avoid running connecting cables over the front edge of a desk.
 
 To avoid the risk of tripping hazards, staff should keep cable runs short and away from active walkways.
