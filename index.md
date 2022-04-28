@@ -44,7 +44,7 @@ The following people contributed to the NYPL Digital Archives program.
 The following people completed fellowships in the Digital Archives program.
 
 * Paris McGarry - Pratt Fellow 2021
-* Jack O'Brian - Pratt Fellow 2021
+* Jack O'Malley - Pratt Fellow 2021
 * Michelle Rothrock - Pratt Fellow 2020
 * Bernadette Patino - Pratt Fellow 2019
 * Kasey Calnan - Pratt Fellow 2018
