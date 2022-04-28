@@ -33,9 +33,22 @@ Consults on assessments of born-digital material before accessioning, transfers 
 {: .no_toc }
 Manages the Digital Archives programs, develops workflows in response to changing collecting needs, and oversees long-term management of born-digital materials.
 
-## Former Staff
-The following people contributed to this web site and the Digital Archives program.
+### Former Staff
+The following people contributed to the NYPL Digital Archives program.
+
 * Caroline Gil Rodríguez
+* Susan Malsbury
+* Don Mennerich
+
+### Fellows
+The following people completed fellowships in the Digital Archives program.
+
+* Paris McGarry - Pratt Fellow 2021
+* Jack O'Malley - Pratt Fellow 2021
+* Michelle Rothrock - Pratt Fellow 2020
+* Bernadette Patino - Pratt Fellow 2019
+* Kasey Calnan - Pratt Fellow 2018
+* Anne Boissonault - Pratt Fellow 2017
 
 ## Program History
 The Digital Archives program began in 2011. Major collections include the [Timothy Leary papers](http://archives.nypl.org/mss/18400), the [Merce Cunningham papers](http://archives.nypl.org/dan/19852), and the [Lou Reed papers](http://archives.nypl.org/mus/24078) (winner of SAA's [2019 CFW Coker Award](https://www2.archivists.org/node/23739)).
