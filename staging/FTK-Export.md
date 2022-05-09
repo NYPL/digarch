@@ -17,12 +17,14 @@ When a finding aid has been approved and the Bookmarks have been reviewed the co
 tab.  
 * Note how many finding aid components you have in the Bookmarks.  
 * Open Windows subsystem for Linux and enter the following commands to build your folders:  
-
-```$ cd /mnt/y/Staging/faComponents```
-
+* Change directory to faComponents  
+```$ cd /mnt/y/Staging/faComponents```  
+* Mount Y drive if you can't find /y/Staging  
+```sudo mount -t drvfs Y: /mnt/y```  
+* Create directories  
 ```$ mkdir -p CollectionID/CollectionID_ER_{first..last}/{metadata/submissionDocumentation,objects}```  
 * Change first to the number to begin making folders on and last should be
-the number to end on.
+the number to end on.  
 
 
 ## Export Files  

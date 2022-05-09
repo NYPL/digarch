@@ -81,9 +81,13 @@ Files that have been updated by the donor within the past 30
 * Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
 * Run [ft.sh](../software#ftsh){:target="_blank"} to create a transfer package.
 
+These instructions assume scripts are installed on your workstation and aliases are written to a bash file.
+{: .label .label-yellow}
+**See Workstation Setup to install scripts and configure Bash.**
+
 On Windows:
 
-* Start Cygwin from the desktop. A terminal like screen should appear.
+* Start Windows subsystem for Linux from the desktop. A terminal like screen should appear.
 
 ![](media/image2.png)
 

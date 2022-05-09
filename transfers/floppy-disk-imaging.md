@@ -94,6 +94,10 @@ Deprecated
 ### Create destination directories
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
+
+These instructions assume scripts are installed on your workstation and aliases are written to a bash file.
+{: .label .label-yellow}
+**See Workstation Setup to install scripts and configure Bash.**
 * Open Windows subsystem for Linux.     
  
 * Navigate to diskImage directory.  
@@ -111,15 +115,13 @@ Deprecated
 ### Package images
 
 * Open Windows subsystem for Linux.  
-* Connect to ARCHV Mac.  
-```$ ssh archv```
 * Change to the kryofluxOutput directory.  
 ```$ kryofluxoutput```  
 * Run the command to tar the stream files.  
 ```$ compress```  
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
 ```$ moveimages```  
-* Move s0 and s1 images separately.  
+* Check directory for unconventional names and move s0 and s1 images separately.  
 
 ### Problem disks
 <!-- Change to delete problem images? -->

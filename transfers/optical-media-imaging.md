@@ -13,10 +13,11 @@ parent: Transfers
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**
 
-* Open Cygwin and enter the following commands:
+These instructions assume scripts are installed on your workstation and aliases are written to a bash file.
+{: .label .label-yellow}
+**See Workstation Setup to install scripts and configure Bash.**
 
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
+* Open Windows subsystem for Linux and enter the following commands:
 * Change to diskImage directory.  
 ```$ diskimages```  
 * Create a directory for your collection if it does not exist.  
