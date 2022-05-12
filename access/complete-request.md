@@ -5,7 +5,7 @@ nav_order: 1
 parent: Access Services
 ---
 
-## Completing a Digital Item Request
+# Completing a Digital Item Request
 This page describes steps for Digital Archives staff completing digital item requests once a request has been received. 
 
 ### Item Request is received and assigned:
