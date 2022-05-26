@@ -10,8 +10,7 @@ This page describes steps for Digital Archives staff completing digital item req
 
 ### Item Request is received and assigned:
 * Once [a requester creates and submits a service now ticket](making-request.html), add a Trello card to the **Received** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
-  * Name the Trello card is using the Collection Title and Service Now Ticket number. 
-      
+  * Name the Trello card is using the Collection Title and Service Now Ticket number.     
 * Once Digital Archives staff members are assigned a request, move the request Trello card to **Assigned** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
 
 ### Locate associated media id(s) and objects(s)
@@ -25,11 +24,8 @@ This page describes steps for Digital Archives staff completing digital item req
 ### Prepare Items for Sharing 
 * Create a folder for requested items. 
   * Folder should be named with the service now ticket number of request. 
-  
 * On Digital Archives workstation navigate to the associated collection folder. 
-  
 * Navigate to the /objects folder. 
-  
 * Copy items from /objects folder to the folder you created and named with the service now ticket number.  
 
 ### Uploading requested images to Google Drive:
@@ -79,9 +75,7 @@ Once installed, you must configure Rclone which involves setting the remote loca
 
 To see all currently configured remotes (rclone term for any cloud storage locations) enter ```rclone listremotes``` into terminal. 
 
-### Completing Image Request
-* Share google drive folder with initial item requester and notify them via email that items have been shared. 
-
-* On Trello, move the request card to the **Awaiting Deletion** list.
-  
-* Delete Images from Google Drive.
+### Completing Item Request
+* Share google drive folder with initial item requester and notify them via email that items have been shared.
+* On Trello, move the request card to the **Awaiting Deletion** list and assign a deletion date.
+* On the deletion date, delete the shared folder from Google Drive.
