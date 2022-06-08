@@ -31,12 +31,12 @@ This page describes steps for Digital Archives staff completing digital item req
 ### Uploading requested images to Google Drive:
 * Once the requested item(s) have been located and prepared, upload the item folder to the Collection Share google drive folder named for the curatorial division of the requester. Instructions for uploading item folders to google drive using rclone are listed below. 
 
-  * [Use rclone]() to upload requested items to collection share folder via terminal command. 
+  * Use rclone to upload requested items to collection share folder via terminal command. 
   * An rclone command roughly follows the syntax:
   ```
   rclone sync source/directory remote-name:destination/directory
   ```
-  * For detailed instructions on configuring rclone, including setting remote locations, see our [rclone installation and configuration guide]().
+  * For detailed instructions on configuring rclone, including setting remote locations, see our [rclone installation and configuration guide](../tools/rclone.md).
 
 ### Completing Item Request
 * Share google drive folder with initial item requester and notify them via email that items have been shared.
