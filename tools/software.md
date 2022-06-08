@@ -3,7 +3,7 @@ title: Software
 layout: default
 nav_order: 3
 parent: Tools
-has_children: false
+has_children: True
 ---
 
 
