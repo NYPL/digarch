@@ -3,7 +3,7 @@ title: Software
 layout: default
 nav_order: 3
 parent: Tools
-has_children: false
+has_children: True
 ---
 
 
@@ -156,6 +156,15 @@ Replace the number below with the version you wish to install.
 ``` sudo apt-get install python3.8 ```
 ### QuickTime Player
 QuickTime is used in the lab to appraise Macintosh formatted born-digital video.  
+
+### rclone
+Rclone is used in the lab to transfer born-digital material between for Digital Archives workstations, Google Shared Drives for Divisions, and long term storage.
+#### Installation
+Windows: 
+[Download and install binary](https://rclone.org/downloads/){:target="_blank"} 
+
+Mac:  
+```brew install rclone``` 
 ### rsync
 Rsync is used in the lab to transfer born-digital material when bagit.py is unable to complete a transfer. Rsync is used when transferring from a computer backup or a drive with a large number of system files.  
 #### Installation
