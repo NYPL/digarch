@@ -9,7 +9,7 @@ parent: Access Services
 This page describes steps for Digital Archives staff completing digital item requests once a request has been received. 
 
 ### Item Request is received and assigned:
-* Once [a requester creates and submits a service now ticket](making-request.html), add a Trello card to the **Received** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
+* Once a requester [creates and submits a service now ticket](making-request.html), add a Trello card to the **Received** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
   * Name the Trello card is using the Collection Title and Service Now Ticket number.     
 * Once Digital Archives staff members are assigned a request, move the request Trello card to **Assigned** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
 
@@ -36,7 +36,7 @@ This page describes steps for Digital Archives staff completing digital item req
   ```
   rclone sync source/directory remote-name:destination/directory
   ```
-  * For detailed instructions on configuring rclone, including setting remote locations, see our [rclone installation and configuration guide](../tools/rclone.md).
+  * For detailed instructions on configuring rclone, including setting remote locations, see our [rclone installation and configuration guide](../tools/rclone.md). [Rclone quick start installation](../tools/software.html#rclone) instructions can also be found in our Software section. 
 
 ### Completing Item Request
 * Share google drive folder with initial item requester and notify them via email that items have been shared.
