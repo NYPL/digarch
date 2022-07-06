@@ -13,7 +13,9 @@ Any Digital Preservation Staff may perform this process.
 
 * Receive an email to digitalarchives@nypl.org stating that electronic records exist in the collection. 
 * Retrieve media from 202 with the media cart and place it on the incoming shelf in 205.
-* Create or add to the collection Trello card. Use the New template for collections with multiple pieces of media. Use the Single template if there is only one piece of media.
+* Create or add to the collection Trello card. 
+    * Use the New template for collections with multiple pieces of media. 
+    * Use the Single template if there is only one piece of media.
 * Add the shelf number label to the collection card based on the location of the media.   
 * Delete checklist items that don't apply to the collection.  
     * Delete Create item records... checklist item when an archivist has created item records for the media before sending it to Digital Preservation.
@@ -42,6 +44,7 @@ Any Digital Preservation Staff may perform this process
 
 * Move the collection card to the list that represents the current status of the checklist items.  
     * When working on the Inventory checklist items move the card to the Inventory list.  
+* Add yourself to a collection card for a collection you are working on.  
 * Add a checklist item for each type and number of media in the Transfer checklist when more than one staff member is working on transferring a collection.  
     - [ ] 10 optical discs  
     - [ ] 1 hard drive  
