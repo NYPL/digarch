@@ -68,19 +68,38 @@ Or
   * /objects
 
 ## Transfer files from media object
-
-Files that have been updated by the donor within the past 30
+  Files that have been updated by the donor within the past 30
  days should be quarantined for 30 days to ensure that
  all virus definitions are up to date.
 
-* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
-* Run [ft.sh](../software#ftsh){:target="_blank"} to create a transfer package.
+* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
+
+* Use [rsync](../software#rsync){:target="_blank"} to create a transfer package.
+
+### Rsync
+  Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
+
+
 
 On Windows:
 
 * Start Cygwin from the desktop. A terminal like screen should appear.
 
 ![](media/image2.png)
+
+On Mac:
+
+* Open Terminal.
+
+On all operating systems:
+
+* Enter ```rsync -arP targetpath destinationpath```
+* A trailing slash on the destination path copies contents of a folder not the folder itself.
+* The selected options represented in the command are ```--archive --recursive --progress --partial```.
+* Exclude files using ```--exclude=.DS_Store``` or ```--exclude-from 'exclude-list.txt'```
+
+Deprecated
+{: .label .label-red }
 
 On Mac:
 
@@ -92,10 +111,6 @@ Or
 * Enter ```/usr/local/bin/ft.sh``` and hit return if the alias is not set.
 * Drag the destination directory from the media object to the window and hit return as prompted.
 * Enter the MediaID for the file transfer and hit return.
-
-
-Deprecated
-{: .label .label-red }
 
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
