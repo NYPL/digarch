@@ -83,9 +83,7 @@ Or
 
 On Windows:
 
-* Start Cygwin from the desktop. A terminal like screen should appear.
-
-![](media/image2.png)
+* Start WSL. A terminal like screen should appear.
 
 On Mac:
 
@@ -94,6 +92,8 @@ On Mac:
 On all operating systems:
 
 * Enter ```rsync -arP targetpath destinationpath```
+  * Note: If using WSL first navigate to the host directory and select relevent drive for paths. An example path to the Ultrabay write blocker is:
+  ```/tmp/docker-desktop-root/mnt/host/d# ```
 * A trailing slash on the destination path copies contents of a folder not the folder itself.
 * The selected options represented in the command are ```--archive --recursive --progress --partial```.
 * Exclude files using ```--exclude=.DS_Store``` or ```--exclude-from 'exclude-list.txt'```
