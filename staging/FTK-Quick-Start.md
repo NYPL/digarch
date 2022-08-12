@@ -114,23 +114,18 @@ proposal - you are ready to begin bookmarking.**
 -   Wait until
     you are finished processing to number your ER components.
 
+**Follow these instructions if you want Digital Archives staff to create a JSON export of bookmarks for ASpace import.**
+
+* Create Bookmarks with Series titles. These bookmarks have no files.
+* Create ER bookmarks with files under Series bookmarks.
+* Enter the unit id, unit title, and date range of the files in the Bookmark Name field.  
+* Bookmark Name: ER[space]number: Title, dates.  
+  ```ER 5: Future of Public Television, 1992```
+
 ## Wrap Up
 
 * Please let Digital Archives staff known when you are done processing a
 collection.
-
--   Determine the size and number of files in each bookmarked ER
-    component.  
-    * Pull out and expand the File List in the
-    Bookmarks tab to see the full size or 
-    scroll right.  
-
--   Determine the size of the entire collection.  
-    * Return to the explore
-     screen and select the 'Bookmarked' filter.  
-
--   Check your work by ensuring that the collection size matches
-    the collective ER components' sizes.  
 
 Deprecated
 {: .label .label-red }
@@ -149,14 +144,16 @@ Deprecated
 
 -   Determine which media objects are to be deaccessioned.
 
+Deprecated
+{: .label .label-red }  
+  
 -   Complete the following fields in the collection
     tracking bar at the top of the media log in CMS:
 
     -   Click on the calendar icon next to the 'Ecomponents created'
         field to add the date you finished creating your bookmarks.
 
-Deprecated
-{: .label .label-red }
+
 
 * Add the final Finding aid extent. If you have to convert your
         extent to Kilobytes, use 

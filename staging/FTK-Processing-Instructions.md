@@ -286,10 +286,25 @@ numbers, social security numbers, credit card numbers, etc.).
 
 Bookmarks are used to group together files into an intellectual
 component to be entered into Aspace. It is in a bookmark that the unit
-identifier, unit title, physical extent, and date coverage will all be
+identifier, unit title, and date coverage will all be
 recorded.
 
+#### Naming Conventions
+
+There are currently two ways to enter ER components in ASpace. You can manually enter ERs in ASpace or Digital Archives staff can create a JSON export of the bookmarks. You must use the following conventions for JSON to be created correctly.
+
+* Create Bookmarks with Series titles. These bookmarks have no files.
+* Create ER bookmarks with files under Series bookmarks.
+
 #### Creating Bookmarks
+
+-   Create empty bookmarks to mimic the hierarchical structure of the finding aid.  
+    * Right-click a top level bookmark in the Bookmarks tab and select 'Create empty bookmark'.  
+    * Drag and drop bookmarks to place them in the hierarchy.  
+
+-   Wait until
+    you are finished processing to number your ER components.
+
 * Highlight the files to be included in a bookmark from the File List then
 right-click.  
 * Select Create a New Bookmark.  
@@ -309,24 +324,11 @@ will bring up the Create a New Bookmark pop up.
 ![](dapi/media/image24.png)
 
 #### Finalizing Bookmarks
-* Enter the unit id, unit title, and date range of the files in the Bookmark name field. 
+* Enter the unit id, unit title, and date range of the files in the Bookmark Name field.  
+* Bookmark Name: ER[space]number: Title, dates.  
+  ```ER 5: Future of Public Television, 1992```
 
 ![](dapi/media/image27.png)
-
-* Enter the physical description in the Bookmark Comment field.  
-* Note the Total and Total LSize located at the bottom of the
-File List.
-
-![](dapi/media/image22.png)
-
-* Use the following format:
-    * LogicalSize Bytes\|KiloBytes\|Megabytes\|Gigabytes (NumberOfFiles
-computer files)  
-
-```288.5 Kilobytes (8 computer files)```  
-
-**NOTE: Check whether or not filters are active, as this will
-modify these counts.**
 
 ### Entering Your Collection in ArchivesSpace
 
