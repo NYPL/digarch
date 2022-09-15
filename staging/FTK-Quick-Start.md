@@ -10,6 +10,9 @@ parent: Processing
 {: .no_toc }
 &nbsp;
 {: .no_toc .text*delta }
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJWXlVF6S3ZAhj6MQjn96gXtX9wXB9rJB1IZTu8cU5-QhpMCoTF9yoVlOa4i1WY29MPioMcuy_9Kl-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Electronic Records Processing Quick Start
 
 ### Prepare to Process
