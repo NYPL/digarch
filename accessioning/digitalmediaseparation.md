@@ -76,8 +76,11 @@ on the media's plastic hub using a using a medium point Sharpie pen. House CDs o
 |Digital Preservation staff can label commercial software with a simple collection name.
 ```Crouch``` for Stanley Crouch papers.|
 
+### Floppy disk
 ![](/digitalmediaseparation/media/image3.jpg)  
 
+### Optical media
+![](/digitalmediaseparation/media/image4.jpg)  
 ## 4. Create a media log record.  
 
  Enter the following
