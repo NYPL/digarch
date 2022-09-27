@@ -40,8 +40,7 @@ Digital media separation procedures are detailed in this document. The workflows
 Create an identification number for a digital media object using
 4 elements:
 
-* A letter (M for manuscript is used for most collections processed by
-AU, L for NYPL internal institutional archives)  
+* A letter (M is used for collections.)  
 ```M```  
 
 * The collection number from CMS  
