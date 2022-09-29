@@ -27,7 +27,7 @@ This page describes
 ## Overview
 These are the basic steps for working with Electronic records that Archival Processing and Digital Archives will work on together.
 * You are assigned a collection with Electronic records.
-* Survey Electronic records and include in them in the project proposal.
+* Survey Electronic records and include them in the project proposal.
 * Confirm whether you will use FTK to process the collection.
 * Sign up to use a FRED workstation on the Digital Archives Lab Calendar.
 * Label files.
@@ -65,11 +65,39 @@ Send email to digitalarchives@nypl.org when
 * Click the FTK icon to open FTK and begin your session. 
 * Select your collection from the bar on the left hand side of the screen. 
 **Information in the media log can assist with processing.**
-* Open CMS and navigate
-to the collection's media log when appropriate.  
+* Open CMS and navigate to the collection's media log when appropriate.  
 
 ### Appraisal
 Spend some time evaluating the electronic records before you begin bookmarking. You'll be using the same strategies you use for paper records for the most part but FTK has appraisal tools you should use as well.
 
 ### Icons
-<!-- slide 9 -->
+Icons representing files indicate the type of file you are viewing.
+* Folders  
+  ![a computer icon of a yellow file folder](FTK-Introduction/media/ftkfolders.png)
+* Slack Space  
+  ![computer icon of a white piece of paper with a yellow border on the bottom and red arrow pointing left](FTK-Introduction/media/ftkslackspace.png)
+* Deleted Files  
+  ![computer icon of a white piece of paper with a red X over it](FTK-Introduction/media/ftkdeleted.png)
+* File systems  
+  ![ a computer icon of a file hierarchy tree with lines between squares representing files](FTK-Introduction/media/ftkfilesystem.png)
+* Unknown formats  
+  ![a computer icon of a white piece of paper with a blue question mark over it](FTK-Introduction/media/ftkuknown.png)
+
+### Icons to Watch Out for
+In the normal course of events you shouldn’t see the following formats when you view files in FTK. Digital Archives staff apply profiles to FTK to keep from displaying Slack Space and Deleted files. If you see them please let us know before you proceed. We either need to review our work or identify the problem with the transfer. Unrecognized files systems and home video DVDs should be removed from FTK before you view files. DVDs are treated as AMI and not arranged as electronic records. Unrecognized file systems are most likely bad disks but might be in a format that requires emulation.
+
+![a red octagonal stop sign](FTK-Introduction/media/stopsign.png)
+
+
+#### Stop and discuss with Digital Archives staff if you see…
+
+* Slack Space  
+  ![computer icon of a white piece of paper with a yellow border on the bottom and red arrow pointing left](FTK-Introduction/media/ftkslackspace.png)
+* Deleted Files  
+  ![computer icon of a white piece of paper with a red X over it](FTK-Introduction/media/ftkdeleted.png)
+* Unrecognized file systems  
+  ![a computer icon of a file hierarchy tree with lines between squares representing files followed by the word unrecognized](FTK-Introduction/media/unrecognized%20FTK.PNG)
+* DVDs
+    * VIDEO_TS
+* Seeing the above formats means something has gone awry
+<!-- slide 12 -->
