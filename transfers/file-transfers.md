@@ -27,10 +27,8 @@ The file transfer workflows are detailed in this document. The workflows may var
 **These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
 
 * Run [makesips script](../software#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-  
-On Windows:
 
-* Start WSL. A terminal like screen should appear.
+<!--Windows instructions should go here-->
 
 On Mac:
 
@@ -111,10 +109,8 @@ On Mac:
 * Open Terminal.
 
 * Enter ```rsync -arP sourcepath destinationpath```
-  * Note: If using WSL first navigate to the host directory and select relevent drive for paths. An example path to the Ultrabay write blocker is:
-  ```/tmp/docker-desktop-root/mnt/host/d# ```
 
-* A trailing slash on the destination path copies contents of a folder not the folder itself.
+* A trailing slash on the source path copies contents of a folder not the folder itself.
 
 * The selected options represented in the command are ```--archive --recursive --progress --partial```
 
