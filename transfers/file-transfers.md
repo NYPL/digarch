@@ -30,9 +30,7 @@ The file transfer workflows are detailed in this document. The workflows may var
   
 On Windows:
 
-* Start Cygwin from the desktop. A terminal like screen should appear.
-
-![](media/image2.png)
+* Start WSL. A terminal like screen should appear.
 
 On Mac:
 
@@ -79,28 +77,52 @@ Or
 ### Rsync
   Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
-
-
 On Windows:
 
-* Start WSL. A terminal like screen should appear.
+* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar. 
+  
+<!--screenshot of cygwin icon --> 
+
+* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```. 
+
+* In order to transfer via rsync you will need a source path and the destination path. Common locations on FRED are: 
+  * d - Sata Drive Bay
+  * f - Storage for FTK
+  * h - Open FTK cases
+  * i - Codemeter access key
+  * y - DigArchDiskStation
+
+* To access local disks in via cygwin you will need to start paths with ```/cygdrive```.
+
+* To locate the source path open File Explorer on the desktop and navigate to *This PC*. 
+  
+* Identify the appropriate disk for attached media.
+
+<!--Screenshot of This PC goes here-->  
+
+* Your destination path will be the collection folders you made earlier in filetransfers: ```/cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+* An example rsync command to may look like: 
+
+```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 On Mac:
 
 * Open Terminal.
 
-On all operating systems:
-
-* Enter ```rsync -arP targetpath destinationpath```
+* Enter ```rsync -arP sourcepath destinationpath```
   * Note: If using WSL first navigate to the host directory and select relevent drive for paths. An example path to the Ultrabay write blocker is:
   ```/tmp/docker-desktop-root/mnt/host/d# ```
-* A trailing slash on the destination path copies contents of a folder not the folder itself.
-* The selected options represented in the command are ```--archive --recursive --progress --partial```.
-* Exclude files using ```--exclude=.DS_Store``` or ```--exclude-from 'exclude-list.txt'```
 
+* A trailing slash on the destination path copies contents of a folder not the folder itself.
+
+* The selected options represented in the command are ```--archive --recursive --progress --partial```
+
+* Exclude files using ```--exclude=.DS_Store``` or ```--exclude-from 'exclude-list.txt'``
+
+### FT.sh 
 Deprecated
 {: .label .label-red }
-
 On Mac:
 
 * Open Terminal.
@@ -114,6 +136,5 @@ Or
 
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
-
-### FT.sh
+  
 <script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>
