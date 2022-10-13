@@ -76,7 +76,33 @@ Or
   Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
 On Windows:
+Rsync transfers can be completed using the WSL or Cygwin terminals. 
 
+Via WSL:
+* Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or seleting the Ubuntu icon on the Windows task bar.
+<!--screenshot of ubuntu icon goes here goes here --> 
+
+Note: If you search for WSL you may come across the WSL app with a penguin icon, this is an older version of WSL and NOT the version currently used by Digital Archives
+<!--screenshot of penguin goes here --> 
+
+* On opening the WSL terminal naviagate to the mount point directory by entering ```cd /mnt ```
+* Any mounted disks, such as those you are transferring between, should be acceessible from the mount point directory. other locations.  
+  * d - Sata Drive Bay
+  * f - Storage for FTK 
+  * h - Open FTK cases
+  * i - Codemeter access key
+  * y - DigArchDiskStation
+
+* If you do not see the Y:\ drive in /mnt then it must be re-mounted by: 
+  * Moving to the top level directory by entering ```cd /```
+  * Entering the command ```sudo mount +drvfs Y: /mnt/y ```
+
+* In order to transfer via rsync you will need a source path and the destination path.
+* To locate the source path open File Explorer on the desktop, navigate to *This PC* and identify the appropriate disk for attached media.
+
+* To run file transfer enter ```rsync -arP sourcepath destinationpath```
+
+Via Cygwin:
 * Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar. 
   
 <!--screenshot of cygwin icon --> 
@@ -92,9 +118,7 @@ On Windows:
 
 * To access local disks in via cygwin you will need to start paths with ```/cygdrive```.
 
-* To locate the source path open File Explorer on the desktop and navigate to *This PC*. 
-  
-* Identify the appropriate disk for attached media.
+* To locate the source path open File Explorer on the desktop, navigate to *This PC* and identify the appropriate disk for attached media.
 
 <!--Screenshot of This PC goes here-->  
 
