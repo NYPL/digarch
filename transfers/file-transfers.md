@@ -32,6 +32,30 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 <!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
 On Windows:
+Via WSL:
+* Open WSL terminal
+
+* Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers ```
+
+* ``mkdir`` command can be used to create directories. This works when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
+  
+* Change to fileTransfers directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
+
+* Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+
+Via Cygwin: 
+* Open File Explorer
+
+* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
+
+* Use mkdir to create collection folders:
+* ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```
 
 On Mac:
 
@@ -55,8 +79,7 @@ On Mac:
 
 Or
 
-* ``mkdir`` command can be used to create directories. This works when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
-* Change to fileTransfers directory.  
+* Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
 * Enter ```mkdir``` command.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
@@ -101,9 +124,9 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * i - Codemeter access key
   * y - DigArchDiskStation
 
-* If you do not see the Y:\ drive in /mnt then it must be re-mounted by:
-  * Moving to the top level directory by entering ```cd /```
-  * Entering the command ```sudo mount +drvfs Y: /mnt/y ```
+* If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd /```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y ```
 
 * In order to transfer via rsync you will need a source path and the destination path.
 
