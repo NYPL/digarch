@@ -30,17 +30,24 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 <!--Windows instructions should go here-->
 
+<!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
+On Windows:
+
 On Mac:
 
 * Open Terminal.
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
-* Change to fileTransfers directory.  
-```$ filetransfers```
+
+* Connect to [DigArchDiskStation]()  
+
+* Change into fileTransfers directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
+
 * Create a directory for your collection if it does not exist.  
 ```$ mkdir M1111```  
+
 * Change into your collection directory.  
 ```$ cd M1111```  
+
 * Run the program to build structured directories. The program will ask you for your collection name and the first and last number of items of the directories you’d like to build.  
 ```$ makesips```  
 
@@ -50,7 +57,7 @@ Or
 
 * ``mkdir`` command can be used to create directories. This works when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
 * Change to fileTransfers directory.  
-```$ filetransfers```
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
 * Enter ```mkdir``` command.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
@@ -76,7 +83,7 @@ Or
   Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
 On Windows:
-Rsync transfers can be completed using the WSL or Cygwin terminals. 
+Rsync transfers can be completed using the WSL or Cygwin terminals.
 
 Via WSL:
 * Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or seleting the Ubuntu icon on the Windows task bar.
@@ -85,19 +92,21 @@ Via WSL:
 Note: If you search for WSL you may come across the WSL app with a penguin icon, this is an older version of WSL and NOT the version currently used by Digital Archives
 <!--screenshot of penguin goes here --> 
 
-* On opening the WSL terminal naviagate to the mount point directory by entering ```cd /mnt ```
-* Any mounted disks, such as those you are transferring between, should be acceessible from the mount point directory. other locations.  
+* On opening the WSL terminal navigate to the mount point directory by entering ```cd /mnt ```
+
+* Any mounted drives, such as those you are transferring between, should be accessible from the mount point directory. Drives you'll see in /mnt include:
   * d - Sata Drive Bay
   * f - Storage for FTK 
   * h - Open FTK cases
   * i - Codemeter access key
   * y - DigArchDiskStation
 
-* If you do not see the Y:\ drive in /mnt then it must be re-mounted by: 
+* If you do not see the Y:\ drive in /mnt then it must be re-mounted by:
   * Moving to the top level directory by entering ```cd /```
   * Entering the command ```sudo mount +drvfs Y: /mnt/y ```
 
 * In order to transfer via rsync you will need a source path and the destination path.
+
 * To locate the source path open File Explorer on the desktop, navigate to *This PC* and identify the appropriate disk for attached media.
 
 * To run file transfer enter ```rsync -arP sourcepath destinationpath```
@@ -124,13 +133,15 @@ Via Cygwin:
 
 * Your destination path will be the collection folders you made earlier in filetransfers: ```/cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
-* An example rsync command to may look like: 
+* An example rsync command may look like: 
 
 ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 On Mac:
-
+<!--Need to consider write blocker, link to documentation on tableu write blocker use with macs-->
 * Open Terminal.
+
+* In order to transfer via rsync you will need a source path and the destination path.
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
