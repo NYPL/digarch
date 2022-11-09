@@ -26,18 +26,18 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 **These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
 
-* Run [makesips script](../software#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 <!--Windows instructions should go here-->
 
 <!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
-On Windows:
+On Windows:  
 Via WSL:
 * Open WSL terminal
 
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers ```
 
-* ``mkdir`` command can be used to create directories. This works when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
+* Use ``mkdir`` command to create directories when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
   
 * Change to fileTransfers directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
@@ -61,7 +61,7 @@ On Mac:
 
 * Open Terminal.
 
-* Connect to [DigArchDiskStation]()  
+* Connect to DigArchDiskStation  
 
 * Change into fileTransfers directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
@@ -126,21 +126,22 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
 
 * If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
   * Changing to the top level directory by entering ```cd /```
-  * Entering the command ```sudo mount drvfs Y: /mnt/y ```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y ```  
 
 * In order to transfer via rsync you will need a source path and the destination path.
 
 * To locate the source path open File Explorer on the desktop, navigate to *This PC* and identify the appropriate disk for attached media.
 
-* To run file transfer enter ```rsync -arP sourcepath destinationpath```
+* Run file transfer by entering ```rsync -arP sourcepath destinationpath```
 
-Via Cygwin:
-* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar. 
-  
-<!--screenshot of cygwin icon --> 
+Via Cygwin:  
 
-* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```. 
+* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.  
 
+<!--screenshot of cygwin icon -->  
+
+* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.  
+* 
 * In order to transfer via rsync you will need a source path and the destination path. Common locations on FRED are: 
   * d - Sata Drive Bay
   * f - Storage for FTK
