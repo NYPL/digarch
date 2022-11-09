@@ -29,8 +29,7 @@ The file transfer workflows are detailed in this document. The workflows may var
 <!--Windows instructions should go here-->
 
 <!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
-On Windows:  
-Via WSL:
+On Windows via WSL:
 
 * Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or selecting the Ubuntu icon on the Windows task bar.
 
@@ -62,7 +61,7 @@ or
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
 
-Via Cygwin:
+On Windows via Cygwin:
 
 * Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
 
@@ -98,8 +97,6 @@ On Mac:
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
-![](media/image8.png)
-
 Or
 
 * Change to fileTransfers directory.
@@ -130,7 +127,31 @@ all virus definitions are up to date.
 
 Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
+On Windows via WSL:
 
+* Open WSL terminal
+
+Note: rsync will require a source path (the path to the disk of associated media carrier) and destination path (path to the fileTransfers directory in DigArchDiskStation ). Both paths should meet requirements for the terminal being used.
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+On Windows via Cygwin:
+
+* Open Cygwin Terminal
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+On Mac:
+
+* Open Terminal.
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 ### FT.sh
 
