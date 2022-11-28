@@ -63,7 +63,7 @@ Send email to digitalarchives@nypl.org when
 
 * [Reserve your FTK session](../using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 * Click the FTK icon to open FTK and begin your session. 
-* Select your collection from the bar on the left hand side of the screen. 
+* Select your collection from the bar on the left hand side of the screen.  
 **Information in the media log can assist with processing.**
 * Open CMS and navigate to the collection's media log when appropriate.  
 
@@ -100,4 +100,32 @@ In the normal course of events you shouldn’t see the following formats when yo
 * DVDs
     * VIDEO_TS
 * Seeing the above formats means something has gone awry
-<!-- slide 12 -->
+### Unviewable Formats
+You should also stop and talk to us before proceeding if you see unviewable files that you think are in scope. There are many files that FTK designates as unknown. For many of these files you are still able to view the complete contents of the file in natural or filtered view. Those files can be arranged as usual. If you encounter files where you cannot see the complete contents in any view but think the files are in scope please discuss these files with digital archives staff. In the case of image files with no view in FTK like Canon RAW we can stage these images so you can view them with software outside of FTK. Another common example is Quark files. You can sometimes see limited text for Quark files in filtered view but you can’t view any images. Since we can only partially review these files we need to be aware of them if they are being arranged in packages for access.
+
+#### Stop and discuss with Digital Archives staff if you see…
+* Unknown formats with no Natural view and a limited Filtered view that are in scope  
+  ![a computer icon of a white piece of paper with a blue question mark over it](FTK-Introduction/media/ftkuknown.png)
+* Files that you would like to view outside of FTK  
+* Files that you cannot completely review  
+  ## Out of Scope Formats
+There are some file types that either can’t be exported from FTK or don’t provide useful information. These file types should not be bookmarked. Sometimes the presence of many temp or system files can be confusing for researchers, making it difficult to find files with content among the many temp files. Unless you have received specific instructions from Digital Archives staff to the contrary, don’t bookmark folders, Slack Space, deleted files, file systems, .DS_Stores, Resource Forks, Alternate Data Streams, temp files, desktop DB or Icons.
+### Don't Bookmark
+* Folders  
+  ![a computer icon of a yellow file folder](FTK-Introduction/media/ftkfolders.png)
+* Slack Space  
+  ![computer icon of a white piece of paper with a yellow border on the bottom and red arrow pointing left](FTK-Introduction/media/ftkslackspace.png)
+* Deleted Files  
+  ![computer icon of a white piece of paper with a red X over it](FTK-Introduction/media/ftkdeleted.png)
+* File systems  
+  ![ a computer icon of a file hierarchy tree with lines between squares representing files](FTK-Introduction/media/ftkfilesystem.png)
+* .DS_STORE
+* Resource Forks  
+  ![ a computer icon of a white piece of paper with a blue question mark over it and the letters rsrc to the right of the paper](FTK-Introduction/media/resourceforkftk.png)
+* Alternate Data Streams  
+  ![ text 'Alternate Data Stream' as it appears in FTK](FTK-Introduction/media/altdatastream.png)
+* temp files (~ or . in front)
+* desktop DB
+* Icon
+
+<!-- slide 15 -->
