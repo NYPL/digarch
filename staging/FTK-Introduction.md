@@ -143,7 +143,9 @@ This section describes how to
 * Bookmark with filters on
 * Don’t include the Actual Files filter if you want to bookmarks files in Zip container
 
+<!-- slide 17 -->
 ### Importing a filter
 This video demonstrates how to import a filter from the FTKsettings folder on the FREDs.
 
-<!-- slide 17 -->
+https://user-images.githubusercontent.com/34036628/205160392-6c51f433-b038-4303-9576-6b464ce22494.mov
+
