@@ -128,4 +128,22 @@ There are some file types that either can’t be exported from FTK or don’t pr
 * desktop DB
 * Icon
 
-<!-- slide 15 -->
+## Filters
+Filters refine the File List to only display files within certain defined parameters. The result is similar to search filters but you only have to define the filters not a search. FTK comes with many default filters you can apply to the File List. Digital Archives staff have also created some filters to hide system files.
+
+### Using Filters
+This section describes how to
+* Use filters to hide file types you shouldn’t bookmark
+* Toggle filters to see what’s hidden
+* Create compound filters
+* View filter definitions
+* Import filters
+
+### Tips
+* Bookmark with filters on
+* Don’t include the Actual Files filter if you want to bookmarks files in Zip container
+
+### Importing a filter
+This video demonstrates how to import a filter from the FTKsettings folder on the FREDs.
+
+<!-- slide 17 -->
