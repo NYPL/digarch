@@ -169,7 +169,6 @@ The imported filter now appears in the Filters list.
 ### Filters and Zips
 This video shows how the Actual Files filter deals with zips and files within zips. It demonstrates filters that will show files in zips that are available to import if you don’t see them in your collection. It displays what the File List looks like when a filter is active and how to toggle filters on and off.
 <!-- video too big -->
-<div class="embed-container">
   <iframe
       width="700"
       height="480"
@@ -177,4 +176,3 @@ This video shows how the Actual Files filter deals with zips and files within zi
       frameborder="0"
       allowfullscreen="true">
   </iframe>
-</div>
