@@ -166,3 +166,7 @@ A dialog box should say “imported successfully”. Click OK.
 ![Filter Manager window with new imported filter displayed on left side](FTK-Introduction/media/importedfilter.png)
 The imported filter now appears in the Filters list.
 <!-- slide 24 -->
+### Filters and Zips
+This video shows how the Actual Files filter deals with zips and files within zips. It demonstrates filters that will show files in zips that are available to import if you don’t see them in your collection. It displays what the File List looks like when a filter is active and how to toggle filters on and off.
+
+https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn
