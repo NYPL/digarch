@@ -168,6 +168,11 @@ The imported filter now appears in the Filters list.
 <!-- slide 24 -->
 ### Filters and Zips
 This video shows how the Actual Files filter deals with zips and files within zips. It demonstrates filters that will show files in zips that are available to import if you don’t see them in your collection. It displays what the File List looks like when a filter is active and how to toggle filters on and off.
-<!-- video too big -->
-  <iframe src="https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8-MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn"
-     width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- video too big error-->
+  https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8-MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn
+  
+<!-- slide 37 -->
+### Compound Filters
+This video shows how to use compound filters in FTK. compound filters are an option when available saved filters don't work and you don't want to create definitions from scratch. It displays the difference between applying different operations to the Include and Exclude box. It demonstrates how the File List looks when filters are active and how to toggle filters on and off.
+
+<!-- video too big error-->
