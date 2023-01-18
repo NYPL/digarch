@@ -26,36 +26,82 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 **These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
 
-* Run [makesips script](../software#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-  
-On Windows:
+<!--Windows instructions should go here-->
 
-* Start Cygwin from the desktop. A terminal like screen should appear.
+<!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
+On Windows via WSL:
 
-![](media/image2.png)
+* Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or selecting the Ubuntu icon on the Windows task bar.
+
+Note: If you search for WSL you may come across the WSL app with a penguin icon, this is an older version of WSL and NOT the version currently used by Digital Archives
+
+* On opening the WSL terminal navigate to the mount point directory by entering ```cd /mnt```
+
+* Any mounted drives, such as those you are transferring between, should be accessible from the mount point directory. Drives you'll see in /mnt include:
+  * d - Sata Drive Bay
+  * f - Storage for FTK
+  * h - Open FTK cases
+  * i - Codemeter access key
+  * y - DigArchDiskStation
+
+* If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd /```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+
+* Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+or
+
+* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
+
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+
+On Windows via Cygwin:
+
+* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
+
+* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.
+
+* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+or
+
+* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
+
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```
 
 On Mac:
 
 * Open Terminal.
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
-* Change to fileTransfers directory.  
-```$ filetransfers```
+
+* Navigate to DigArchDiskStation  
+
+* Change into fileTransfers directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
+
 * Create a directory for your collection if it does not exist.  
 ```$ mkdir M1111```  
+
 * Change into your collection directory.  
 ```$ cd M1111```  
-* Run the program to build structured directories. The program will ask you for your collection name and the first and last number of items of the directories you’d like to build.  
-```$ makesips```  
 
-![](media/image8.png)
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
-* ``mkdir`` command can be used to create directories. This works when media aren't consecutively numbered. 0001 to 0009 require a different line from 0010 on.
-* Change to fileTransfers directory.  
-```$ filetransfers```
-* Enter ```mkdir``` command.  
+* Change to fileTransfers directory.
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
+  * Enter ```mkdir``` command.  
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
@@ -70,18 +116,47 @@ Or
 ## Transfer files from media object
 
 Files that have been updated by the donor within the past 30
- days should be quarantined for 30 days to ensure that
- all virus definitions are up to date.
+days should be quarantined for 30 days to ensure that
+all virus definitions are up to date.
 
-* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
-* Run [ft.sh](../software#ftsh){:target="_blank"} to create a transfer package.
+* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
 
-On Windows:
+* Use [rsync](../software#rsync){:target="_blank"} to create a transfer package.
 
-* Start Cygwin from the desktop. A terminal like screen should appear.
+### Rsync
 
-![](media/image2.png)
+Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
+On Windows via WSL:
+
+* Open WSL terminal
+
+Note: rsync will require a source path (the path to the disk of associated media carrier) and destination path (path to the fileTransfers directory in DigArchDiskStation ). Both paths should meet requirements for the terminal being used.
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+On Windows via Cygwin:
+
+* Open Cygwin Terminal
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+On Mac:
+
+* Open Terminal.
+
+* Enter ```rsync -arP sourcepath destinationpath```
+
+* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+
+### FT.sh
+
+Deprecated
+{: .label .label-red }
 On Mac:
 
 * Open Terminal.
@@ -93,12 +168,7 @@ Or
 * Drag the destination directory from the media object to the window and hit return as prompted.
 * Enter the MediaID for the file transfer and hit return.
 
-
-Deprecated
-{: .label .label-red }
-
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
-
-### FT.sh
+  
 <script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>
