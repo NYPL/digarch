@@ -165,14 +165,87 @@ A dialog box should say “imported successfully”. Click OK.
 
 ![Filter Manager window with new imported filter displayed on left side](FTK-Introduction/media/importedfilter.png)
 The imported filter now appears in the Filters list.
-<!-- slide 24 -->
+
 ### Filters and Zips
 This video shows how the Actual Files filter deals with zips and files within zips. It demonstrates filters that will show files in zips that are available to import if you don’t see them in your collection. It displays what the File List looks like when a filter is active and how to toggle filters on and off.
-<!-- video too big error-->
-  https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8-MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn
-  
-<!-- slide 37 -->
+
+[Filters and Zips video](https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8-MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn){:target="_blank"}
+
+FTK can display files within Zip containers. But using Actual Files filter hides files in Zips.
+![FTK File List with Zip and contents displayed](FTK-Introduction/media/zipfilelist.png)
+Click Filter Manger.
+
+![Filter Manager window with reduce system files filter highlighted](FTK-Introduction/media/reducesystemfiles.png)
+Check default and imported filters for Actual Files. Select a filter.
+
+![Filter Manager window with reduce system files filter highlighted and cursor over Define button](FTK-Introduction/media/reducesystemfilesdefine.png)
+Click Define.
+
+![Filter Definition window](FTK-Introduction/media/filterdefinition.png)
+Note Operators: Matches, Criteria: Actual Files. This filter only displays actual files.
+
+![File List with Actual Files filter on](FTK-Introduction/media/filelistactualfiles.png)
+File List displays yellow when a filter is on. Note Zip is displayed not .doc files within.
+
+![File List with Actual Files filter toggled off](FTK-Introduction/media/filelistfilteroff.png)
+Click funnel in upper left corner to toggle filter off.
+
+![FTK File List with Zip and contents displayed](FTK-Introduction/media/zipfilelist.png)
+With the filter off File List displays .doc files within Zip container.  
+Click Filter Manger.
+
+![Filter Manager with "include zip extracted" filters displayed](FTK-Introduction/media/filtermanagerzipextracted.png)
+Select a filter with “include zip extracted”. See import filter for more filters.
+
+![Filter Definition window displaying "include zip extracted" filter](FTK-Introduction/media/filtermanagerincludezip.png)
+Note Actual Files does not appear in filter Rules Criteria.
+
+![File List with "include zip extracted" filter on](FTK-Introduction/media/filelistincludezip.png)
+Files within Zip container (.doc files) appear while filter is on. Yellow File List shows filter is on.
+
 ### Compound Filters
 This video shows how to use compound filters in FTK. compound filters are an option when available saved filters don't work and you don't want to create definitions from scratch. It displays the difference between applying different operations to the Include and Exclude box. It demonstrates how the File List looks when filters are active and how to toggle filters on and off.
 
-<!-- video too big error-->
+[Compound Filters video](https://drive.google.com/file/d/11bVINkx6spY1pBOKfaSG0JJbWPjgUa8Y/view?usp=share_link){:target="_blank"}
+
+![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
+Click Filter Manager
+
+![Filter Manager window with filter higlighted and cursor over right arrows "include" button](FTK-Introduction/media/filtermanagerinclude.png)
+Select a filter from the Filters list. Click on the right arrow button next to Include box.
+
+![Filter Manager window with filter displayed in Include box and cursor over Define button](FTK-Introduction/media/filtermanagerincluded.png)
+The selected filter is applied to Include. Select Define to view filter Rules.
+
+![Filter Definition window](FTK-Introduction/media/filterdefinitionis.png)
+Note Operators Is.
+
+![Filter Definition window displaying no resource fork filter](FTK-Introduction/media/filterdefnorsrcfrk.png)
+Check Filter Definition for filter no resource fork. Note Operator Does Not Start with. Click Close.
+
+![Filter Manager window displaying no resource fork filter in Include box](FTK-Introduction/media/includenorsrcfrk.png)
+Click right arrow button next to Include box to apply no resource fork filter to Include.
+
+![File List with folders multi filter applied and folders displayed](FTK-Introduction/media/foldersincluded.png)
+Note that folders are displayed when the compound filter is on.
+
+![File List with compound filter toggled off](FTK-Introduction/media/compoundfilteroff.png)
+Click funnel icon on upper left to toggle filter off.
+
+![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
+Click Filter Manager
+
+![Filter Manager window with folders filter highlighted in Include box and cursor over left arrow button next to Include box](FTK-Introduction/media/filtermanagerleftarrow.png)
+Select Folders filter. Click left arrow button next to Include box.
+
+![Filter Manager window with folders filter highlighted and cursor over right arrows button next to Exclude box](FTK-Introduction/media/foldersexclude.png)
+Select Folders filter. Click right arrow button next to Exclude box.
+
+![Filter Manager window with folders filter in Exclude box](FTK-Introduction/media/foldersexcluded.png)
+Folders filter is now applied to Exclude.
+
+![File List with folders filter applied to Exclude](FTK-Introduction/media/Filelistfoldersexcluded.png)
+Note Folders are now hidden with filter applied.
+
+![File list with compound filter toggled off](FTK-Introduction/media/foldersexcludeoff.png)
+Click funnel icon in upper left corner to toggle filter off. Folders are now displayed.
