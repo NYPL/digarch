@@ -7,11 +7,12 @@ parent: Processing
 ---
 
 # FTK Introduction
-{: .no_toc }
-&nbsp;
-{: .no_toc .text*delta }
+
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJWXlVF6S3ZAhj6MQjn96gXtX9wXB9rJB1IZTu8cU5-QhpMCoTF9yoVlOa4i1WY29MPioMcuy_9Kl-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+1. TOC
+{:toc}
 
 # Working with Electronic records
 
@@ -208,6 +209,7 @@ This video shows how to use compound filters in FTK. compound filters are an opt
 
 [Compound Filters video](https://drive.google.com/file/d/11bVINkx6spY1pBOKfaSG0JJbWPjgUa8Y/view?usp=share_link){:target="_blank"}
 
+#### Include
 ![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
 Click Filter Manager
 
@@ -232,6 +234,7 @@ Note that folders are displayed when the compound filter is on.
 ![File List with compound filter toggled off](FTK-Introduction/media/compoundfilteroff.png)
 Click funnel icon on upper left to toggle filter off.
 
+#### Exclude
 ![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
 Click Filter Manager
 
@@ -249,3 +252,132 @@ Note Folders are now hidden with filter applied.
 
 ![File list with compound filter toggled off](FTK-Introduction/media/foldersexcludeoff.png)
 Click funnel icon in upper left corner to toggle filter off. Folders are now displayed.
+
+## Bookmarking
+
+### Creating a bookmark
+This video displays how to create a bookmark from the Explore tab in FTK. It uses the naming convention that should be used for ERs.
+
+[Creating a bookmark video](https://drive.google.com/file/d/10BX1o5gLxuRnLFSqpCWYEyYqHLQupjH-/view?usp=share_link){:target="_blank"}
+
+![File List with range of files highlighted](FTK-Introduction/media/filelisthighlight.png)
+Highlight a range of files by selecting the first file, holding down shift, and selecting the last file.
+
+![File List with Right click menu item Create Bookmark selected](FTK-Introduction/media/createbookmark.png)
+Right Click. Select Create Bookmark.
+
+![Create New Bookmark window](FTK-Introduction/media/typebookmarkname.png)
+Type Bookmark name in top left box. ER[space]number: Name, dates
+
+![Create New Bookmark window with Shared bookmark highlighted](FTK-Introduction/media/sharedparentbookmark.png)
+Select Shared under Select Parent Bookmark. The bookmark will appear under Shared.
+
+![Bookmarks tab with bookmarks and File List displayed](FTK-Introduction/media/bookmarkstab.png)
+Select Bookmarks tab. The bookmark appears under Shared, the selected parent bookmark.
+
+### Creating bookmark hierarchy
+This video shows how to create a bookmark hierarchy using empty bookmarks to mirror your arrangement. You will need to create series or heading level bookmarks to use the ASpace import feature. The video also show you how to create a bookmark with files. It also demonstrates what happens when you delete a higher level bookmark. Everything below is deleted too!
+
+[Creating bookmark hierarchy video](https://drive.google.com/file/d/10kCKq8isX9qJqYXbsJeVx09HeEtOfIq1/view?usp=share_link){:target="_blank"}
+
+#### Create empty bookmark
+![Bookmarks tab with parent bookmark Shared highlighted](FTK-Introduction/media/bookmarkstabparent.png)
+From Bookmarks tab, select parent bookmark, Shared.
+
+![Bookmark tab with Right Click menu open and Create Empty Bookmark item highlighted](FTK-Introduction/media/createemptybookmark.png)
+Right click. Select Create Empty Bookmark.
+
+![New Empty Bookmark window with Test papers typed in Name field](FTK-Introduction/media/newemptybookmark.png)
+Type bookmark name in Name box. Click OK.
+
+![Bookmark tab with Right Click menu open and Create Empty Bookmark item highlighted](FTK-Introduction/media/createchildbookmark.png)
+Select bookmark you just created, Test papers. Right click. Select Create Empty Bookmark.
+
+![New Empty Bookmark window with Series 1: Test typed in Name field](FTK-Introduction/media/seriesbookmark.png)
+Type bookmark name in Name box. Click OK.
+
+#### Create bookmark with files
+![Explore tab](FTK-Introduction/media/exploretab.png)
+Click Explore tab. Now create a bookmark with files.
+
+![File List with range of files highlighted](FTK-Introduction/media/filelisthighlighted.png)
+Highlight a range of files by selecting the first file, holding down shift, and selecting the last file.
+
+![File List with Right click menu item Create Bookmark selected](FTK-Introduction/media/createbookmarkmenu.png)
+Right Click. Select Create Bookmark.
+
+![Create New Bookmark window with ER 1: Test, 2000 - 2002 typed in Bookmark Name field](FTK-Introduction/media/createbookmark-er.png)
+Type bookmark name in Bookmark Name box. Select parent bookmark, Series 1: Test. Click OK.
+
+#### Delete bookmark
+![Bookmarks tab with Series 1 bookmark highlighted and Right Click menu item Delete Bookmark selected](FTK-Introduction/media/deletebookmark.png)
+To delete a bookmark, select bookmark from Bookmarks tab. Right Click. Select Delete Bookmark.
+
+![Bookmarks tab with Series 1 and ER bookmarks deleted](FTK-Introduction/media/noseries1.png)
+The bookmark and all bookmarks below are deleted.
+
+### Moving bookmarks and adding files
+This video show you how to move bookmarks in a hierarchy. It also demonstrates how to create bookmarks and how to add files to an existing bookmark.
+
+[Moving bookmarks video](https://drive.google.com/file/d/11Pa9h6YkXFldyZ2SNgxJ9WhcbV8uXpl4/view?usp=share_link){:target="_blank"}
+
+#### Moving bookmarks
+![Bookmarks tab with bookmark ER 1 selected above bookmark Series 1](FTK-Introduction/media/movebookmark.png)
+From Bookmarks tab, Select Bookmark, hold, and drag to move.
+
+![Bookmarks tab with bookmark Series 1 above bookmark ER 1](FTK-Introduction/media/seriesmoved.png)
+Note bookmark now appears below based on the direction it was moved.
+
+#### Adding files to existing bookmark
+![Explore tab with range of files selected](FTK-Introduction/media/addfiles.png)
+Click Explore tab. To add files to a bookmark, select a range of files.
+
+![File List with Right Click menu item Add to Bookmark highlighted](FTK-Introduction/media/addtobookmark.png)
+Right click. Select add to bookmark.
+
+![Add Files to Bookmark window](FTK-Introduction/media/addfileswindow.png)
+Select bookmark to add files to under Select Existing Bookmark at bottom of window. Click OK.
+
+![Bookmarks tab with added files displayed in File List](FTK-Introduction/media/filesadded.png)
+Click Bookmarks tab. Note files added to bookmark in File List.
+
+### Bookmark contents
+When you have finished bookmarking, bookmarks should usually contain one level of files and no folders within it. Each bookmark with files in it should be a numbered ER. Series and Collection level bookmarks should not contain files.
+
+* Numbered ERs should contain 1 level of files only and no folders
+![Bookmarks tab with files displayed in File List](FTK-Introduction/media/filesadded.png)
+
+### Exceptions
+Here are exceptions to the guidelines above. 
+
+#### Disk Images
+Although I have said that file systems should not be bookmarked, We may ask you to bookmark file systems if we need to create disk image packages for access. We should check-in and have a conversation about arrangement before you create bookmarks to represent DI packages.
+
+* Do bookmark file systems if digital archives staff say to create DI packages
+
+#### Folders
+It’s also possible that we will encounter cases where folder structure needs to be retained for access in specific software. This is also a case where we will need to have a conversation before you create bookmarks with folders. Digital Archives staff will need to know the folder structure you need. Creating the right folder structure requires manipulating options in FTK. The correct folder structure may not be possible to achieve with FTK in many cases. Ideally, when a specific folder structure is needed it will be created from a transfer outside of FTK. This is much easier. When you find you need to retain recursive folders this work should usually done at an archivist workstation.
+
+* Retaining a folder structure to view files in specific software 
+  * (AV projects, website backends)
+* Discuss folder structure with Digital Archives staff 
+* Make sure DA staff are aware folders will be retained before export
+* Retaining folder structure across a collection
+  * Arrange files at archivist workstation if you need recursive folders
+  * More that 1 ER folder containing files per ER
+
+#### Folder Export options
+The options available for folder export in FTk to export the entire path down to the media container (data folder of MediaID) or retaining a bookmarked folder. Even if a folder within the bookmarked folder isn’t bookmarked it will be exported along with the bookmarked folder.
+
+* Original path
+  * All folders including data or MediaID
+* Bookmarked folder and all folders within
+
+#### Options for arrangements with folders
+When you want to retain folders in your arrangement you have 3 options. This arrangement is easiest outside of FTK so even if the collection is loaded in FTK you may want to discuss this option with Digital Archives staff. 
+You can arrange the contents of each folder as a separate ER. This is the easiest to do in FTK because it conforms to FTK’s defaults.
+You can discuss exporting folders in FTK with Digital Archives staff. Remember you can only choose to retain an entire file path from the MediaID or you can choose to retain a folder and everything in it. You can’t exclude any content from folders with these options.
+
+* Arrange folders outside of FTK
+* Arrange the contents of each folder as an ER (ER 1, ER 2)
+* Discuss exporting folders in FTK with Digital Archives staff
