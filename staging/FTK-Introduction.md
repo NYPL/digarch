@@ -147,8 +147,17 @@ This section describes how to
 ### Importing a filter
 This video demonstrates how to import a filter from the FTKsettings folder on the FREDs.
 
-https://user-images.githubusercontent.com/34036628/205160392-6c51f433-b038-4303-9576-6b464ce22494.mov
+<!-- https://user-images.githubusercontent.com/34036628/205160392-6c51f433-b038-4303-9576-6b464ce22494.mov -->
 
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/feKuPof1ljs"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 ![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
 Click Filter Manager
 
@@ -170,7 +179,15 @@ The imported filter now appears in the Filters list.
 ### Filters and Zips
 This video shows how the Actual Files filter deals with zips and files within zips. It demonstrates filters that will show files in zips that are available to import if you don’t see them in your collection. It displays what the File List looks like when a filter is active and how to toggle filters on and off.
 
-[Filters and Zips video](https://photos.google.com/share/AF1QipMe0i8RKiXa6S6d24oEmIAue5mi1W0waDEwUa9xZn-8-MNPScb_uC_iMJBZc3KF6w/photo/AF1QipNDUeanIjOb81s0OF2jYjKLHBk2QeAkrSe8l4Wm?key=bTlGQkVoaFFpbGlna2dvYjN0NzZkbkxPNVhoaTRn){:target="_blank"}
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/rAtmTcIiRuM"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 FTK can display files within Zip containers. But using Actual Files filter hides files in Zips.
 ![FTK File List with Zip and contents displayed](FTK-Introduction/media/zipfilelist.png)
@@ -207,7 +224,16 @@ Files within Zip container (.doc files) appear while filter is on. Yellow File L
 ### Compound Filters
 This video shows how to use compound filters in FTK. compound filters are an option when available saved filters don't work and you don't want to create definitions from scratch. It displays the difference between applying different operations to the Include and Exclude box. It demonstrates how the File List looks when filters are active and how to toggle filters on and off.
 
-[Compound Filters video](https://drive.google.com/file/d/11bVINkx6spY1pBOKfaSG0JJbWPjgUa8Y/view?usp=share_link){:target="_blank"}
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/VSDt2P0fJOo"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
+
 
 #### Include
 ![FTK file list with Filter Manager button highlighted](FTK-Introduction/media/filelist.png)
@@ -258,7 +284,15 @@ Click funnel icon in upper left corner to toggle filter off. Folders are now dis
 ### Creating a bookmark
 This video displays how to create a bookmark from the Explore tab in FTK. It uses the naming convention that should be used for ERs.
 
-[Creating a bookmark video](https://drive.google.com/file/d/10BX1o5gLxuRnLFSqpCWYEyYqHLQupjH-/view?usp=share_link){:target="_blank"}
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/X-rWMNFufaE"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 ![File List with range of files highlighted](FTK-Introduction/media/filelisthighlight.png)
 Highlight a range of files by selecting the first file, holding down shift, and selecting the last file.
@@ -278,7 +312,15 @@ Select Bookmarks tab. The bookmark appears under Shared, the selected parent boo
 ### Creating bookmark hierarchy
 This video shows how to create a bookmark hierarchy using empty bookmarks to mirror your arrangement. You will need to create series or heading level bookmarks to use the ASpace import feature. The video also show you how to create a bookmark with files. It also demonstrates what happens when you delete a higher level bookmark. Everything below is deleted too!
 
-[Creating bookmark hierarchy video](https://drive.google.com/file/d/10kCKq8isX9qJqYXbsJeVx09HeEtOfIq1/view?usp=share_link){:target="_blank"}
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/UcservTIbP4"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 #### Create empty bookmark
 ![Bookmarks tab with parent bookmark Shared highlighted](FTK-Introduction/media/bookmarkstabparent.png)
@@ -319,7 +361,15 @@ The bookmark and all bookmarks below are deleted.
 ### Moving bookmarks and adding files
 This video show you how to move bookmarks in a hierarchy. It also demonstrates how to create bookmarks and how to add files to an existing bookmark.
 
-[Moving bookmarks video](https://drive.google.com/file/d/11Pa9h6YkXFldyZ2SNgxJ9WhcbV8uXpl4/view?usp=share_link){:target="_blank"}
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/ajCRLVpJrEA"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 #### Moving bookmarks
 ![Bookmarks tab with bookmark ER 1 selected above bookmark Series 1](FTK-Introduction/media/movebookmark.png)
