@@ -6,7 +6,7 @@ has_children: false
 parent: Processing
 ---
 
-# Exporting Extents from FTK Finding Aid Components From FTK
+# Exporting Extents from FTK
 
 {: .no_toc }
 &nbsp;
