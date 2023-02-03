@@ -16,6 +16,18 @@ parent: Processing
 
 # Working with Electronic records
 
+## Processing Electronic Records with Forensic Toolkit Video Training
+
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/cd5QpJYfeHY"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
+
 ## Objectives
 This page describes
 * Workflow steps
@@ -87,8 +99,7 @@ Icons representing files indicate the type of file you are viewing.
 ### Icons to Watch Out for
 In the normal course of events you shouldn’t see the following formats when you view files in FTK. Digital Archives staff apply profiles to FTK to keep from displaying Slack Space and Deleted files. If you see them please let us know before you proceed. We either need to review our work or identify the problem with the transfer. Unrecognized files systems and home video DVDs should be removed from FTK before you view files. DVDs are treated as AMI and not arranged as electronic records. Unrecognized file systems are most likely bad disks but might be in a format that requires emulation.
 
-![a red octagonal stop sign](FTK-Introduction/media/stopsign.png)
-
+<img src="FTK-Introduction/media/stopsign.png" alt="a red octagonal stop sign" width="50%" height="50%" align="middle"/>
 
 #### Stop and discuss with Digital Archives staff if you see…
 
