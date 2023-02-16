@@ -28,11 +28,11 @@ FTK does not generate reports in the the JSON file format, however it does gener
   * Navigate to Bookmarks tab.
   * Navigate to the "File" menu
   * Select Report
-  * Check "Bookmarks" in the "Report Options" dialog box. (Bookmarks is the only option that needs to be checked.
+  * Select the checkbox for "Bookmarks" in the "Report Options" dialog box. (Bookmarks is the only option that needs to be checked.
   * Click on the "Bookmarks" option to open the bookmarks hierarchy. Make sure that "Shared" and all subsequent bookmarks are actually checked by expanding the Bookmarks hierarchy.
   * Select "OK" after verifying that all bookmarks have been checked.
   * Select the report destination folder you created earlier by selecting the elipses "..." and navigating to the destinaton folder or entering the destination path.
-  * Check "XML" in the "Report Output" dialog box
+  * Select the checkbox for "XML" in the "Report Output" dialog box
   * Select "OK" in the "Report Output" dialog box.
   * After export is complete, return to the collection report destination folder to verify report export took place. The destination folder.
     * The report destination directory will now contain a folder called "Report_Files" and two files: "Report.fo" and "Report.xml".
