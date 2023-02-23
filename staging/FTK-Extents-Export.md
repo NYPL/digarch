@@ -38,7 +38,7 @@ FTK does not generate reports in the the JSON file format, however it does gener
     * The report destination directory will now contain a folder called "Report_Files" and two files: "Report.fo" and "Report.xml".
 
 ## Transform XML Report to JSON using report_ftk_extents.py
-The report_ftk_extents.py script transforms an XML report output from FTK into JSON for import into ASpace. The script takes two arguments: ```-f / --file``` for the path to the xml report being transformed and ```-o / --output``` for the path to the destination directory for the JSON file. For more information see [the section on report_ftk_extents.py in the Software section of Digital Archives documention]().  
+The report_ftk_extents.py script transforms an XML report output from FTK into JSON for import into ASpace. The script takes two arguments: ```-f / --file``` for the path to the xml report being transformed and ```-o / --output``` for the path to the destination directory for the JSON file. For more information see [the section on report_ftk_extents.py in the Software section of Digital Archives documention](https://nypl.github.io/digarch/tools/software.html#report-ftk-extents-script).  
 
 * Open WSL on Fred 2.  
 * Run report_ftk_extents.py script using the following the following syntax:
