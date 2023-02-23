@@ -246,7 +246,7 @@ This script is used in the lab to copy JPEGS of media from the photographs direc
 This script is used in the lab to repackage Finding Aid Component packages.  
 [FACTools](https://github.com/NYPL/digarch_scripts/blob/main/Mac/qctools.sh){:target="_blank"} 
 ### report ftk extents script
-This script transforms XML reports exported from FTK after Proecessing Archivists have completed bookmarking into JSON files for import into Aspace. The script takes two arguments. 
+This script transforms XML reports exported from FTK after Processing Archivists have completed bookmarking into JSON files for import into ASpace. The script takes two arguments.
 * ```-f``` or ```--file```: this argument accepts the path to the XML report to be transformed. 
 * ```-o``` or ```--output```: this arguments accepts the path to the destination directory for the transformed.
 
