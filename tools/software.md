@@ -248,7 +248,7 @@ This script is used in the lab to repackage Finding Aid Component packages.
 ### report ftk extents script
 This script transforms XML reports exported from FTK after Processing Archivists have completed bookmarking into JSON files for import into ASpace. The script takes two arguments.
 * ```-f``` or ```--file```: this argument accepts the path to the XML report to be transformed. 
-* ```-o``` or ```--output```: this arguments accepts the path to the destination directory for the transformed.
+* ```-o``` or ```--output```: this arguments accepts the path to the destination directory for the transformed JSON.
 
 Run the script following the syntax: ```python3 path/to/report_ftk_extents.py -f /path/to/xml/report -o /path/to/json/destination/directory```
 
