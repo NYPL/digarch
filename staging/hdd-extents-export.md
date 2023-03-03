@@ -11,9 +11,9 @@ parent: Processing
 &nbsp;
 {: .no_toc .text*delta }
 
-When Processing Archivists have completed processing a collection at the their workstations and have returned a hard drive with completed bookmarks to Digital Archives, Digital Archives staff prepare extents for import to ArchivesSpace using the report_hdd_extents script. This page describes instructions for preparing and exporting extents JSON files from a hard drive. See the [report_hdd_extents section of our Software documentation page]() for installation instructions.
+When Processing Archivists have completed processing a collection at the their workstations and have returned a hard drive with completed finding aid components to Digital Archives, Digital Archives staff prepare extents for import to ArchivesSpace using the report_hdd_extents script. This page describes instructions for preparing and exporting extents JSON files from a hard drive. See the [report_hdd_extents section of our Software documentation page]() for installation instructions.
 
-## Review Bookmarks
+## Review Finding Aid Components
 
 ## Run report_hdd_extents.py
 
