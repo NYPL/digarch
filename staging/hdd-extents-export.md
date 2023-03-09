@@ -15,7 +15,22 @@ When Processing Archivists have completed processing a collection at the their w
 
 ## Review Finding Aid Components
 
+* Review the finding aid components returned by Processing Archivist(s) for system files or other formats not retained by Digital Archives. 
+<!-- Who marks what hasn't been included?  * Note which media carriers did not have any -->
+
 ## Run report_hdd_extents.py
+
+* Prepare a destination directory
+  * Navigate to the FTKsettings directory in the Storage (F:) drive on FRED 2.
+  * Open the /ASpace directory
+  * Create a destination directory for the extents report using the naming convention 'CollectionIDreport'.
+    * As an example the extents report destination directory for the Morris Dickstein Collection would be named M18867report
+
+* Extract extents using report_hdd_extents.py
+  * Open WSL on FRED 2
+  * Navigate to the destination directory previously created.
+  * Run [report_hdd_extents.py]() script using the following the following syntax:
+```python3 path/to/report_ftk_extents.py -d /path/to/collection/er/directory```
 
 ## Deliver extents JSON to Archival Processing Unit
 
