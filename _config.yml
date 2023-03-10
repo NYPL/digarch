@@ -14,5 +14,5 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 #color_scheme: "dark"
 
-ga_tracking: UA-196626519-1
+ga_tracking: G-4GBB05KF5M
 ga_tracking_anonymize_ip: true
