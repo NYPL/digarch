@@ -252,6 +252,14 @@ This script transforms XML reports exported from FTK after Processing Archivists
 
 Run the script following the syntax: ```python3 path/to/report_ftk_extents.py -f /path/to/xml/report -o /path/to/json/destination/directory```
 
+### report HDD extents script
+This script collects the extents of finding aid components created by a Processing Archivist when processing work is done at a workstation with a hard drive. The script then produces an extents JSON file for import into ASpace. 
+
+The script takes one argument: ```-d``` or ```--dir``` for the finding aid components directory on a hard drive.  
+
+Run the script following the syntax: 
+```python3 path/to/report_ftk_extents.py -d /path/to/collection/er/directory```
+
 ### iterative scripts  
 Scripts are created per collection using a directory listing as input in a while loop. This allows previous move scripts to run per collection rather than one MediaID.  
 ### CMS metadata import  
