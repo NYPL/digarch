@@ -248,9 +248,17 @@ This script is used in the lab to repackage Finding Aid Component packages.
 ### report ftk extents script
 This script transforms XML reports exported from FTK after Processing Archivists have completed bookmarking into JSON files for import into ASpace. The script takes two arguments.
 * ```-f``` or ```--file```: this argument accepts the path to the XML report to be transformed. 
-* ```-o``` or ```--output```: this arguments accepts the path to the destination directory for the transformed.
+* ```-o``` or ```--output```: this arguments accepts the path to the destination directory for the transformed JSON.
 
 Run the script following the syntax: ```python3 path/to/report_ftk_extents.py -f /path/to/xml/report -o /path/to/json/destination/directory```
+
+### report HDD extents script
+This script collects the extents of finding aid components created by a Processing Archivist when processing work is done at a workstation with a hard drive. The script then produces an extents JSON file for import into ASpace. 
+
+The script takes one argument: ```-d``` or ```--dir``` for the finding aid components directory on a hard drive.  
+
+Run the script following the syntax: 
+```python3 path/to/report_ftk_extents.py -d /path/to/collection/er/directory```
 
 ### iterative scripts  
 Scripts are created per collection using a directory listing as input in a while loop. This allows previous move scripts to run per collection rather than one MediaID.  
