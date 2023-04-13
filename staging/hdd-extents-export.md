@@ -11,12 +11,11 @@ parent: Processing
 &nbsp;
 {: .no_toc .text*delta }
 
-When Processing Archivists have completed processing a collection at the their workstations and have returned a hard drive with completed finding aid components to Digital Archives, Digital Archives staff prepare extents for import to ArchivesSpace using the report_hdd_extents script. This page describes instructions for preparing and exporting extents JSON files from a hard drive. See the [report_hdd_extents section of our Software documentation page]() for installation instructions.
+When Processing Archivists have completed processing a collection at the their workstations and have returned a hard drive with completed finding aid components to Digital Archives, Digital Archives staff prepare extents for import to ArchivesSpace using the report_hdd_extents script. This page describes instructions for preparing and exporting extents JSON files from a hard drive. See the [report_hdd_extents section of our Software documentation page](https://nypl.github.io/digarch/tools/software.html#report-hdd-extents-script) for installation instructions.
 
 ## Review Finding Aid Components
 
-* Review the finding aid components returned by Processing Archivist(s) for system files or other formats not retained by Digital Archives. 
-<!-- Who marks what hasn't been included?  * Note which media carriers did not have any -->
+* Review the finding aid components returned by Processing Archivist(s) for system files or other formats not retained by Digital Archives.
 
 ## Run report_hdd_extents.py
 
@@ -29,7 +28,7 @@ When Processing Archivists have completed processing a collection at the their w
 * Extract extents using report_hdd_extents.py
   * Open WSL on FRED 2
   * Navigate to the destination directory previously created.
-  * Run [report_hdd_extents.py]() script using the following the following syntax:
+  * Run [report_hdd_extents.py](https://nypl.github.io/digarch/tools/software.html#report-hdd-extents-script) script using the following the following syntax:
 ```python3 path/to/report_ftk_extents.py -d /path/to/collection/er/directory```
 
 ## Deliver extents JSON to Archival Processing Unit
