@@ -19,10 +19,10 @@ Archivists processing electronic records without using FTK or ePADD will receive
 
 * Attach the external hard drive or thumb drive to your workstation.  
 
-* Open CMS and navigate
-to the collection's media log.  
+*Will need to add new language around SPEC updates*
+~~* Open CMS and navigato the collection's media log.~~ 
 
-**Information in the media log will assist with processing. You will need to update fields at various points during processing.**
+~~**Information in the media log will assist with processing.~~ ~~You will need to update fields at various points during processing.**~~ 
 
 ## Arranging and Describing Files from a Workstation
 
@@ -31,7 +31,8 @@ process in which an archivist works with a physical collection. By using
 their workstation the archivist will be able to appraise records as they are contained
 on their original media, create a set of intellectual components
 (arrangement), summarize the logical extents (size) and date ranges of
-the components, and enter them into CMS and ArchivesSpace.
+the components, and enter them into ~~CMS and~~ ArchivesSpace.
+*Could just be entering into ArchivesSpace or does language around summarizing the extents actually just need to be deprecated since Digital Archives staff would be running the hdd_extents script?*
 
 ### Navigating the Drive
 
@@ -43,17 +44,21 @@ the components, and enter them into CMS and ArchivesSpace.
 			* \objects 
         
 * Note the metadata folder may contain metadata created during the transfer of the files.  
-* Note a file directory listing of the files in .csv format, if present.
+~~* Note a file directory listing of the files in .csv format, if present.~~
+*Are we still generating file directory listing csvs??*
 * Open a .csv file in Microsoft Excel.  
 * Navigate to the objects folder to view the files to be arranged.  
-* Navigate to the data folder in the objects folder to view the files to be arranged in a Bagit transfer.  
+* Navigate to the data folder in the objects folder to view the files to be arranged ~~in a Bagit transfer~~.
+*Potentially shift language towards something like "Note the objects folder is in a bag structure, for more on bag structures see our [bagit.py] page.*  
 * Note manifest.txt files contain a directory listing.  
 
 ### Processing  
 
 * Appraise the files.  
 * Ascertain the arrangement of the files.  
-* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
+* ~~Note~~ file naming conventions, how the files relate to each other, and  possible duplicates.
+*is this "note" adding the files to the csv?*
+
 * Sort the .csv file by size, checksum, date, file , or path.  
 
 ### Arrangement  
@@ -68,4 +73,5 @@ the components, and enter them into CMS and ArchivesSpace.
 * Note the file count and byte extent, when you are done processing.  
 
 ### Entering your collection in ArchivesSpace
-[ArchivesSpace Instructions](FTK-Processing-Instructions#entering-your-collection-in-archivesspace){:target="_blank"}
+~~[ArchivesSpace Instructions](FTK-Processing-Instructions#entering-your-collection-in-archivesspace){:target="_blank"}~~
+*Will we include directions on importing extents report to ASpace or should this link to the Processing Manual?*
