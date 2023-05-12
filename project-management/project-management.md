@@ -6,7 +6,7 @@ has_children: true
 ---
 
 ## Introduction
-Digital Preservation uses the Trello [Project Queue]() to track collections' progress through our workflows. Digital Preservation may also contribute to Archives Unit [Processing ]() Trello board when electronic records are found in a collection.  
+Digital Preservation uses the Trello [Project Queue](https://trello.com/b/OjH0w4HO/digarch-project-queue){:target="_blank"} to track collections' progress through our workflows. Digital Preservation may also contribute to Archives Unit [Processing ](https://trello.com/b/qt21W2Xw/processing){:target="_blank"} Trello board when electronic records are found in a collection.  
 
 ## Begin Tracking a Collection
 Any Digital Preservation Staff may perform this process.
@@ -16,11 +16,11 @@ Any Digital Preservation Staff may perform this process.
 * Create or add to the collection Trello card. 
     * Use the New template for collections with multiple pieces of media. 
     * Use the Single template if there is only one piece of media.
-* Add the shelf number label to the collection card based on the location of the media.   
+* Add the shelf number label or custom field to the collection card based on the location of the media.   
 * Delete checklist items that don't apply to the collection.  
     * Delete Create item records... checklist item when an archivist has created item records for the media before sending it to Digital Preservation.
 * Add link to corresponding AU Trello card if it exists.
-* Add the Electric Records label to the Archives Unit [Processing ]() Trello collection card if it is not yet added to the card. 
+* Add the Electric Records label to the Archives Unit [Processing ](https://trello.com/b/qt21W2Xw/processing){:target="_blank"} Trello collection card if it is not yet added to the card. 
 * Respond to the email that the media has been moved.
 
 ## Update CMS Project Management
@@ -44,6 +44,9 @@ Any Digital Preservation Staff may perform this process
 
 * Move the collection card to the list that represents the current status of the checklist items.  
     * When working on the Inventory checklist items move the card to the Inventory list.  
+    * Note, checking Export FTK reports item moves the card to Post-processing list automatically.  
+    * Note, checking Transfer FA components... item moves the card to Storage list automatically.  
+    *  Note, checking Add 2 year retention date... item moves the card to Storage list automatically.  
 * Add yourself to a collection card for a collection you are working on.  
 * Add a checklist item for each type and number of media in the Transfer checklist when more than one staff member is working on transferring a collection.  
     - [ ] 10 optical discs  
@@ -51,7 +54,7 @@ Any Digital Preservation Staff may perform this process
 * Contact archivist to advise on transfer as needed.
 * Add a comment to the AU Trello card recommending FTK or workstation processing once all media has been transferred and digital preservation staff have reviewed the material.  
 * Add comments to describe deaccessions or transfer issues.  
-* Add a two year due date to the card once archivist description is complete.  
+* Add a 2 year due date to the Retain FTK Case custom field once archivist description is complete.  
 
 ## Checking collection status
 * Type the collection number `M29915` to search for a collection in Trello.  
