@@ -33,13 +33,18 @@ Draft
 ## Arrangement in FTK
 * Wait for confirmation that your collection is loaded in FTK before reserving time on the Digital Archives Lab calendar.  
 * Schedule time on the Digital Archives Lab calendar at least 24 hours in advance.  
+* Contact Digital Archives when you are done arranging in FTK.  
+* After you are done arranging in FTK, Digital Archives will conduct an ER level review.  
+* After Digital Archives ER review, they will send you a JSON file to import extents in ASpace.
 
 ## Arrangement at an Archivist's Workstation
-* You will receive a hard drive with electronic records if you are arranging at your workstation.   
+* You will receive a hard drive with electronic records if you are arranging at your workstation.  
+* Contact Digital Archives when you are done creating and arranging ER folders.  
+* After you are done arranging ER folders, Digital Archives will conduct an ER level review.  
+* After Digital Archives ER review, they will send you a JSON file to import extents in ASpace.  
 
 ## Wrap up
-* Contact Digital Archives when your finding aid is approved.  
-* After approval Digital Archives will conduct an ER level review.  
+* Contact Digital Archives when your finding aid is approved.   
 * Digital Archives will contact you for clarification or revisions.                                                   
 
 
