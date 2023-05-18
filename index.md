@@ -7,7 +7,7 @@ has_children: false
 
 # About NYPL Digital Archives
 
-The Digital Archives program facilitates the management of all born-digital portions of archival acquisitions by the 11 curatorial units of the NYPL Research Libraries. The program is part of the Digital Preservation unit of the Digital Research Division. It also works closely with Archives Unit within the Preservation and Collections Processing division.
+The Digital Archives program facilitates the management of all born-digital portions of archival acquisitions by the 11 curatorial units of the NYPL Research Libraries. The program is part of the Digital Preservation unit. It works closely with Archives Unit within the Preservation and Collections Processing division.
 
 ## Services
 
