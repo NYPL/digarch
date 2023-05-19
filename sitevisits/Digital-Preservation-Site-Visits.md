@@ -5,7 +5,7 @@ nav_order: 2
 parent: Site Visits
 ---
 # Digital Preservation Site Visits
-Digital Preservation staff participate in site visits when contacted by Preservation and Collections Processing. This page focuses on procedures for Digital Preservation staff while on site visits. Curators and Archives Unit staff can refer to [Acquiring Born-Digital Material](acquiring-born-digital){:target="_blank"} for site visit procedures. [Site Visits](site-visits){:target="_blank"} gives a general overview of the role of Digital Preservation staff in site visits.
+Digital Preservation staff participate in site visits when contacted by Collection Management. This page focuses on procedures for Digital Preservation staff while on site visits. Curators and Archives Unit staff can refer to [Acquiring Born-Digital Material](acquiring-born-digital){:target="_blank"} for site visit procedures. [Site Visits](https://nypl.github.io/digarch/sitevisits/Site-Visits.html){:target="_blank"} gives a general overview of the role of Digital Preservation staff in site visits.
 
 ## Equipment
 The kind of equipment used on site visits will depend on your communication with donors, curators, and Archives Unit staff. Early site visits with living donors/creators may only involve interviews and photographs. Transferring material during a site visit will require the most equipment. See [Using Lab Equipment](../using/using-lab-equipment){:target="_blank"} for more detailed information on where to find equipment in the lab.

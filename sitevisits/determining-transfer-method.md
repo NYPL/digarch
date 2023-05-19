@@ -30,14 +30,11 @@ Method of transfer will depend on:
 ### Site Visit File Transfers
 Once evaluated, born-digital material can be scheduled for transfer at a subsequent site visit. Born-digital material might be transferred during a site visit rather than shipped through the registrar if files on the donor's active computer are in the collection scope. Site visit transfer is an option when it is not feasible for the donor to transfer active files to an external hard drive. 
 
-| :warning: The following sections are under construction: Organizations, Records management, Organizations with IT         |  
+warning
+{: .label .label-yellow}
 
+|The following sections are under construction: Organizations, Records management, Organizations with IT|
 
-
-```
-under construction
-
-```
 <!-- The following section is meant to acknowledge that Digital Preservation staff's current interaction with donors is geared towards individuals rather than organizations. Procedures should be evaluated to leverage resources those organizations may have when arranging transfer. -->
 ### Organizations
 
