@@ -58,7 +58,10 @@ Below are locations of other useful items in the lab.
 The shelving along the wall with the entry door holds born-digital media.
 * The left shelf contains media yet to be imaged or transferred.
 * The middle shelf contains media in the process of being imaged or transferred.
-* The right shelf contains media that has been transferred and is ready for final disposition.
+* The right shelf contains media that has been transferred and is ready for final disposition.  
+* The shelves have location numbers like `02.05` and barcodes.  
+* Select the shelf number from the Location custom field when tracking collections in Trello.  
+* Scan shelf barcodes when tracking collections in SPEC.  
 
 ## Cabinet by Entry Door
 * The cabinet by the door to 205 contains media that is either on hold, unable to be processed due to format, or deaccessioned. 
