@@ -20,8 +20,8 @@ Archivists processing electronic records without using FTK or ePADD will receive
 * Attach the external hard drive or thumb drive to your workstation.  
 
 <!--*Will need to add new language around SPEC updates*-->
-* Open SPEC and navigate to the object inventory of the associated collection for infor mation on the digital carriers being processed.
-	
+* Open SPEC and navigate to the object inventory of the associated collection for information on the digital carriers being processed.
+
 * Note you may also need to update fields in individual SPEC object records at various points during processing.  
 
 ## Arranging and Describing Files from a Workstation
@@ -32,7 +32,6 @@ their workstation the archivist will be able to appraise records as they are con
 on their original media, create a set of intellectual components
 (arrangement), summarize the logical extents (size) and date ranges of
 the components, and enter them into ArchivesSpace.
-
 
 ### Navigating the Drive
 
@@ -52,12 +51,11 @@ the components, and enter them into ArchivesSpace.
 ### Processing  
 
 * Appraise the files.  
-* Ascertain the arrangement of the files.  
+* Ascertain the arrangement of the files.
 * Note file naming conventions, how the files relate to each other, and  possible duplicates.
 
-* Sort the .csv file by size, checksum, date, file , or path.  
-
 ### Arrangement  
+
 * Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
 * Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
 * Name the folder /M12345_FAcomponents, for example.  
