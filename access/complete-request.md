@@ -9,9 +9,9 @@ parent: Access Services
 This page describes steps for Digital Archives staff completing digital item requests once a request has been received. 
 
 ### Item Request is received and assigned:
-* Once a requester [creates and submits a service now ticket](making-request.html), add a Trello card to the **Received** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
+* Once a requester [creates and submits a service now ticket](https://nypl.github.io/digarch/using/making-request.html){:target="_blank"}, add a Trello card to the **Received** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests){:target="_blank"}. 
   * Name the Trello card is using the Collection Title and Service Now Ticket number.     
-* Once Digital Archives staff members are assigned a request, move the request Trello card to **Assigned** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests). 
+* Once Digital Archives staff members are assigned a request, move the request Trello card to **Assigned** list on the [Digital Item Requests Tracker](https://trello.com/b/BvWkrdpE/digital-item-requests){:target="_blank"}. 
 
 ### Locate associated media id(s) and objects(s)
 * Using information like collection name, class-mark, and description from the request (and moving between SPEC and CMS); identify the collection number (the id beginning with M*) associated with the requested item(s). 
