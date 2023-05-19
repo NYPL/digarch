@@ -11,7 +11,7 @@ Digital Preservation uses the Trello [Project Queue](https://trello.com/b/OjH0w4
 ## Begin Tracking a Collection
 Any Digital Preservation Staff may perform this process.
 
-* Receive an email to digitalarchives@nypl.org stating that electronic records exist in the collection. 
+* Receive an email to [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) stating that electronic records exist in the collection. 
 * Retrieve media from 202 with the media cart and place it on the incoming shelf in 205.
 * Create or add to the collection Trello card. 
     * Use the New template for collections with multiple pieces of media. 
