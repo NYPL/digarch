@@ -19,10 +19,10 @@ Archivists processing electronic records without using FTK or ePADD will receive
 
 * Attach the external hard drive or thumb drive to your workstation.  
 
-* Open CMS and navigate
-to the collection's media log.  
+<!--*Will need to add new language around SPEC updates*-->
+* Open SPEC and navigate to the object inventory of the associated collection for information on the digital carriers being processed.
 
-**Information in the media log will assist with processing. You will need to update fields at various points during processing.**
+* Note you may also need to update fields in individual SPEC object records at various points during processing.  
 
 ## Arranging and Describing Files from a Workstation
 
@@ -31,7 +31,7 @@ process in which an archivist works with a physical collection. By using
 their workstation the archivist will be able to appraise records as they are contained
 on their original media, create a set of intellectual components
 (arrangement), summarize the logical extents (size) and date ranges of
-the components, and enter them into CMS and ArchivesSpace.
+the components, and enter them into ArchivesSpace.
 
 ### Navigating the Drive
 
@@ -44,19 +44,18 @@ the components, and enter them into CMS and ArchivesSpace.
         
 * Note the metadata folder may contain metadata created during the transfer of the files.  
 * Note a file directory listing of the files in .csv format, if present.
-* Open a .csv file in Microsoft Excel.  
 * Navigate to the objects folder to view the files to be arranged.  
-* Navigate to the data folder in the objects folder to view the files to be arranged in a Bagit transfer.  
-* Note manifest.txt files contain a directory listing.  
+* Navigate to the data folder in the objects folder to view the files to be arranged.
+<!--* Note manifest.txt files contain a directory listing. --> 
 
 ### Processing  
 
 * Appraise the files.  
-* Ascertain the arrangement of the files.  
-* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
-* Sort the .csv file by size, checksum, date, file , or path.  
+* Ascertain the arrangement of the files.
+* Note file naming conventions, how the files relate to each other, and  possible duplicates.
 
 ### Arrangement  
+
 * Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
 * Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
 * Name the folder /M12345_FAcomponents, for example.  
@@ -68,4 +67,6 @@ the components, and enter them into CMS and ArchivesSpace.
 * Note the file count and byte extent, when you are done processing.  
 
 ### Entering your collection in ArchivesSpace
-[ArchivesSpace Instructions](FTK-Processing-Instructions#entering-your-collection-in-archivesspace){:target="_blank"}
+After arrangement is complete Processing Archivists notify Digital Archives and deliver the external hard drive containing FA Components to Digital Archives for review.  Digital Archives staff then create a JSON file containing extents for import into ASpace. For detailed instruction on importing the extents JSON to ASpace review the [Importing FTK ERs in ArchiveSpace](https://docs.google.com/document/d/1BVMaDOzdcPFIht5yN5V16zmsnjMTwG_3e73HPTdVzSg/edit) guide.
+
+* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.
