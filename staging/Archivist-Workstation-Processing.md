@@ -69,4 +69,4 @@ the components, and enter them into ArchivesSpace.
 ### Entering your collection in ArchivesSpace
 After arrangement is complete Processing Archivists notify Digital Archives and deliver the external hard drive containing FA Components to Digital Archives for review.  Digital Archives staff then create a JSON file containing extents for import into ASpace. For detailed instruction on importing the extents JSON to ASpace review the [Importing FTK ERs in ArchiveSpace](https://docs.google.com/document/d/1BVMaDOzdcPFIht5yN5V16zmsnjMTwG_3e73HPTdVzSg/edit) guide.
 
-* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact Digital Archives staff when deciding whether manual creation or JSON import is pertinent to your processing.
+* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.
