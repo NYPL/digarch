@@ -55,7 +55,7 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 * Select “Multiple” from the drop-down below the "Enter name ..." text field when you have determined the correct sector format.  
 * Select “KryoFlux stream image” and, while holding down the control key, select the correct sector format from the dropdown.  
 * Select ‘ok’ to close the popup.  
-* Click the start button to begin the imaging process. 
+* Click the start button to begin the imaging process.  
   The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
 
 ### Tracking
