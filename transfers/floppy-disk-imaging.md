@@ -108,18 +108,24 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 
 ### Completing the imaging process
 
-* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection. Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
+* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
+* Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
+
+### Using Digital Archives scripts
+Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
 
 ### Create destination directories
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
-* Open Cygwin and enter the following commands:   
 
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
+On Mac:
 
-* Change to diskImage directory.  
-```$ diskimages```  
+* Open Terminal.
+
+* Navigate to DigArchDiskStation.  
+
+* Change into diskImages directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
 
 * Create a directory for your collection if it does not exist.  
 ```$ mkdir M1111```  
@@ -127,19 +133,75 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 * Change into your collection directory.  
 ```$ cd M1111```  
 
-* Run the program to build structured directories. The program will ask you for your collection name and the first and last number of items of the directories you’d like to build.  
-```$ makesips```  
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+
+On Windows via WSL:
+
+* Open WSL.
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd ../```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+* Change into diskImages directory.  
+```$ cd /mnt/y/Staging/ingest/diskImages```
+
+* Create a directory for your collection if it does not exist.  
+```$ mkdir M1111```  
+
+* Change into your collection directory.  
+```$ cd M1111```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /mnt/y/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+#### Directory structure
+
+* /M2319-0021
+  * /metadata
+    * 
+  * /objects
 
 ### Package images
 
-* Open Cygwin and enter the following commands:
-* Connect to ARCHV Mac.  
-```$ ssh archv```
+On Mac:
+
+* Open Terminal.
+
+* Navigate to DigArchDiskStation.
+
 * Change to the kryofluxOutput directory.  
-```$ kryofluxoutput```  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/kryofluxoutput```  
 * Run the command to tar the stream files.  
 ```$ compress```  
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
 ```$ moveimages```  
 * Move s0 and s1 images separately.  
 
+On Windows via WSL:
+
+* Open WSL.
+* Navigate to DigArchDiskStation.
+* Change to the kryofluxOutput directory.  
+```$ cd /mnt/y/Staging/ingest/kryofluxoutput```  
+* Run the command to tar the stream files.  
+```$ compress```  
+* Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
+```$ moveimages```  
+* Move s0 and s1 images separately.  
