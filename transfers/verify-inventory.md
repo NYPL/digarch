@@ -4,6 +4,12 @@ layout: default
 nav_order: 1
 parent: Transfers
 ---
+**Before a media object can be imaged it first must be recorded SPEC.**
+
+Deprecated
+{: .label .label-red }
+
+|The following section is out of date. It needs to be revised with SPEC instructions.|
 
 ## Using Filemaker Collection Management System
 * Log in to CMS using your credentials.

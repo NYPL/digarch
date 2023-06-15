@@ -7,25 +7,77 @@ parent: Transfers
 
 ## Iomega Disks
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be imaged it first must be recorded SPEC.**
 
 This section covers imaging with FTK Imager. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.  
 
-### Build destination directories
+### Using Digital Archives scripts
+Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
+
+### Create destination directories
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
 
-* Open Cygwin and enter the following commands:
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
-* Change to diskImage directory.  
-```$ diskimages```  
+On Mac:
+
+* Open Terminal.
+
+* Navigate to DigArchDiskStation.  
+
+* Change into diskImages directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
+
 * Create a directory for your collection if it does not exist.  
 ```$ mkdir M1111```  
+
 * Change into your collection directory.  
 ```$ cd M1111```  
-* Run the program to build structured directories. The program will ask you for your collection name and the first and last number of items of the directories you’d like to build.  
-```$ makesips```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+
+On Windows via WSL:
+
+* Open WSL.
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd ../```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+* Change into diskImages directory.  
+```$ cd /mnt/y/Staging/ingest/diskImages```
+
+* Create a directory for your collection if it does not exist.  
+```$ mkdir M1111```  
+
+* Change into your collection directory.  
+```$ cd M1111```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /mnt/y/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+#### Directory structure
+
+* /M2319-0021
+  * /metadata
+    * 
+  * /objects
+
 
 <!-- ![](media/media/image29.png){width="6.069444444444445in"
 height="2.3472222222222223in"} -->
@@ -33,7 +85,7 @@ height="2.3472222222222223in"} -->
 ### Image disks
 
 * Connect the Iomega drive to the FRED's Tableau Ultrabay. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Check in with Digital Preservation staff if the media object is not listed in CMS.*
+
 * Start FTK Imager from the FRED's launch bar and select
 Create New Image from the application's file menu.
 
@@ -88,23 +140,10 @@ height="3.84375in"} -->
 <!-- ![](media/media/image19.png){width="4.950121391076116in"
 height="4.55in"} -->
 
-* Enter the following information about the image in CMS under
-Image Metadata:
+### Completing the imaging process
 
-interface: Tableau UltraBay
-
-imaging software: FTK Imager [version number]
-
-image successful:Yes \| No
-
-image filename: M11111-3332
-
-image format: E01
-
-imaged by: select your name from the dropdown
-
-* Select the current date under Progress for the Imaging done and
-metadata extracted fields.
+* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
+* Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
 
 ### Metadata
 Deprecated

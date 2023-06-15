@@ -21,7 +21,7 @@ The workflows vary based on media types and file types encountered but the gener
 2. Acquiring basic metadata about the media and files.  
 3. Preparing the files for later archival processing.
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS.**
+**Before a media object can be imaged it first must be recorded SPEC.**
 
 ### File Transfers
 
