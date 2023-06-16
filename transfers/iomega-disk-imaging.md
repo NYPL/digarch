@@ -140,6 +140,54 @@ height="3.84375in"} -->
 <!-- ![](media/media/image19.png){width="4.950121391076116in"
 height="4.55in"} -->
 
+### Tracking
+* Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
+* Find the spreadsheet for the collection that you will be working with.  
+* Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
+* Name the spreadsheet the collection ID of the collection that you will be working with.  
+* Check the media ID for the disk you are working with (for example, ACQ_11111_4444).  
+* Media IDs follow the naming convention ACQ_acqID_specObjectID.  
+* Enter acqID in the ref_acq_id field.  
+* Enter specObjectID in the object_id field.  
+
+| ref_acq_id | object_id |  
+| -- | -- |  
+| 11111 | 4444 |  
+
+* Enter item in the type field.  
+* Enter digital carrier in the format_1 field.  
+* Enter Zip disk in the format_2 field.  
+* Enter Zip disk size in the format_3 field.  (for example, 100 MB)
+
+| type | format_1 | format_2 | format_3 |  
+| ------- | -------- |-------- | -------- |   
+| item | digital carrier | Zip disk | 100 MB |  
+
+* Enter failed in the notes.transfer field if imaging fails.  
+
+| notes.transfer |  
+| -- |  
+| failed |  
+
+* Enter the filesystem format in the notes.transfer field if that format isn't recognized by FTK.  
+* Amiga, ProDOS, CPM are formats not recognized in FTK. (Unrecognized formats less likely for Zip)  
+
+| notes.transfer |  
+| -- |  
+| Amiga |  
+
+* Enter a note in the notes.transfer field if there were problems with the transfer.  
+
+| notes.transfer |  
+| -- |  
+| Imaging repeatedly stopped at 75%. |  
+
+* Enter Y in the removed field if the disk is removed from the collection.  
+
+| removed |  
+| -- |  
+| Y | 
+
 ### Completing the imaging process
 
 * Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
