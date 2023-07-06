@@ -21,41 +21,225 @@ Digital Archives utilizes several software throughout our workflows. This page a
 
 Programs are defined as any non-internally developed out-of-the-box software used in Digital Archives workflows.
 
-### 7-zip 
-### apple3rtr 
-### AWS 
-### Bagger 
-### Bagit.py 
-### BitCurator
-### Brunnhilde with disktype 
-### clamscan
-### CiderPress
-### dBpoweramp 
-### dd 
-### Disk Utility 
-### DiskPart 
-### disktype 
-### DosBox 
-### DROID 
-### Emailchemy 
-### ePADD 
-### FACTools 
-### Filemaker Pro 17 
-### Forensic Toolkit 
-### FTK Imager 
-### gtar 
-### HFS Explorer 
-### Iromlab 
-### IsoBuster 
-### Java 
-### MediaInfo 
-### miniVmac 
-### openssl 
-### Oracle VM VirtualBox 
-### pip 
-### Python3 
-### QuickTime Player 
-### QuickView Plus 
+### 7-zip:
+
+7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK. 
+
+#### Installing 7-zip:
+
+[Download 7-zip](https://www.7-zip.org/){:target="_blank"}
+
+#### Configuring: 
+#### Using:
+
+### apple3rtr:
+
+Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.
+
+#### Installing: 
+For detailed installation instructions vist the (apple3rtr github repo)[https://github.com/datajerk/apple3rtr].
+
+#### Configuring: 
+#### Using:
+
+### AWS:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Bagger: 
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Bagit.py:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### BitCurator:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Brunnhilde with disktype:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### clamscan:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### CiderPress:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### dBpoweramp:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### dd:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Disk Utility:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### DiskPart:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### disktype:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### DosBox:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### DROID:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Emailchemy:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### ePADD:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### FACTools:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Filemaker Pro 17:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Forensic Toolkit:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### FTK Imager:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### gtar:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### HFS Explorer:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Iromlab:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### IsoBuster:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Java:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### MediaInfo:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### miniVmac:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### openssl:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Oracle VM VirtualBox:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### pip:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Python3:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### QuickTime Player:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### QuickView Plus:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
 ### rclone:
 
 [*Rclone*](https://rclone.org/) is a command line tool for managing files on cloud storage, and is one tool used by Digital Archives for moving files between Digital Archives workstations, Google Shared Drives for Divisions, and long term storage. This page lists instructions for installing and configuring rclone.
@@ -109,25 +293,55 @@ To see all currently configured remotes (rclone term for any cloud storage locat
 
 #### Using rclone:
 
-For detailed installation instruction tailored to your operating system see the [rclone documentation](https://rclone.org/install/).
 
-For MacOS:
-Use Homebrew to install rclone via the terminal by entering:
-```
-brew install rclone
-``` 
+### rsync:
 
-For Windows:
-[Download and run Windows installation file.](https://rclone.org/downloads/)
+#### Installing: 
+#### Configuring: 
+#### Using:
 
-### rsync 
-### Sha1deep 
-### Sheepshaver 
-### Siegfried 
-### tree 
-### VLC 
-### Windows Subsystem for Linux (WSL)
-### WinUAE
+### Sha1deep:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+
+### Sheepshaver:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Siegfried:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### tree:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### VLC:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### Windows Subsystem for Linux (WSL):
+
+#### Installing: 
+#### Configuring: 
+#### Using:
+
+### WinUAE:
+
+#### Installing: 
+#### Configuring: 
+#### Using:
 
 ## Working Scripts:
 
