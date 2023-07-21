@@ -1,0 +1,13 @@
+name,desc,inst
+7-zip,7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK.,[Download 7-zip](https://www.7-zip.org/){:target='_blank'}
+apple3rtr,Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.,For detailed installation instructions visit the [apple3rtr github repo](https://github.com/datajerk/apple3rtr).
+AWS,'Amazon Web Services (AWS) is a cloud computing platform offered by Amazon. AWS S3 features are used to store copies of born-digital material both before and after the collection has been processed by archivists.'
+Bagger, Bagger is an applciation created by the U.S. Library of Congress to produce files packages following the Bagit specification. It has been used in the Digital Archives lab for transferring born-digital material
+Bagit.py, Bagit.py is a command line tool used produce files packages following the Bagit specification, Check python version by entering ```python --version``` or ```python3 --version``` into terminal. Then install using pip by entering ```pip install bagit``` or ```pip3 install bagit```
+Bitcurator, BitCurator is a Linux distribution with a suite of open source digital forensics and data analysis tools used in the lab as both a virtual machine and as bootable OS alongside Windows. BitCurator is used for transfer and metadata extraction especially for formats unrecognized in Windows and Mac environments., Download software [BitCurator VM](https://github.com/BitCurator/bitcurator-distro/wiki/Releases) or install with Live CD. The [Virtualbox Extension Pack](https://www.virtualbox.org/wiki/Downloads) must be installed on the host for shared folder support, USB 2.0/3.0 support and support for some NVMe SSDs. Once you’ve installed VirtualBox, use the link below the main download on VirtualBox download site to install the Extension Pack on your host.
+CiderPress, CiderPress is a Windows utility for managing Apple II disk images. It has been used in the Digital Archives Lab for viewing Apple file formats., 
+rclone,'For detailed installation instruction tailored to your operating system see the [rclone documentation](https://rclone.org/install/). <br><br> For MacOS: Use Homebrew to install rclone via the terminal by entering ```brew install rclone``` <br><br> For Windows:[Download and run Windows installation file.](https://rclone.org/downloads/)'
+
+
+
+
