@@ -21,7 +21,26 @@ Digital Archives utilizes several software throughout our workflows. This page a
 
 Programs are defined as any non-internally developed out-of-the-box software used in Digital Archives workflows.
 
-### 7-zip:
+{% for tool in site.data.program %}
+
+### {{tool.name}}:
+{{tool.desc}}
+
+#### Installing {{tool.name}}:
+{{tool.inst}}
+
+{% comment %}
+#### Configuring {{tool.name}}:
+{{tool.conf}}
+
+#### Using {{tool.name}}:
+{{tool.use}}
+{% endcomment %}
+
+{% endfor %}
+
+{% comment %}
+### 7-zip
 
 7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK. 
 
@@ -37,7 +56,7 @@ Programs are defined as any non-internally developed out-of-the-box software use
 Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.
 
 #### Installing: 
-For detailed installation instructions vist the (apple3rtr github repo)[https://github.com/datajerk/apple3rtr].
+For detailed installation instructions visit the (apple3rtr github repo)[https://github.com/datajerk/apple3rtr].
 
 #### Configuring: 
 #### Using:
@@ -256,6 +275,7 @@ brew install rclone
 
 For Windows:
 [Download and run Windows installation file.](https://rclone.org/downloads/)
+
 #### Configuring rclone:
 
 Once installed, you must configure Rclone which involves setting the remote locations you will be accessing. Detailed configuration instruction can be found in the [rclone configuration docs](https://rclone.org/docs/) separated by cloud storage systems. This section details configuration instructions for MacOS users accessing Google Drive. 
@@ -362,4 +382,5 @@ Deprecated and Legacy Scripts are any scripts which may have been previously use
 ### ft.sh 
 ### metadata.sh 
 ### movemetadata script 
-### movephotograph script
+### movephotograph script 
+{% endcomment %}
