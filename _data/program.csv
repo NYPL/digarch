@@ -13,9 +13,33 @@ diskpart, diskpart is Windows command line utility for disk partitioning. diskpa
 disktype, disktype is a command line tool used by Digital Archives staff for extracting filesystem metadata liek sector format for floppy disks, For Mac OS:<br> In terminal use homebrew to install by entering ```brew install disktype```,, In terminal navigate to the directory containing floppy disk image(s) and enter ```disktype a/disk/image```.
 DosBox, DosBox is an open-source emulator for teh MS-DOS operating system. DosBox has been used by Digital Archives staff to view DOS executables and word processing files.
 DROID, DROID is file format identification tool developed by the UK National Archives.  
+Emailchemy, Emailchemy has been used in the Digital Archives lab for migrating email fomats.
+ePADD, ePADD is an open-source program developed by Stanford University's Special Collections and University Archives. The software ha been used for appraisal and arrangement of email.
+Filemaker Pro 17, Filemaker is used by Preservation and Collection Services (PCP) as a collection management system. born-digital media is inventoried in Filemaker and PCP tracks projects through Filemaker., Installing Filemaker requires license keys. Make sure you have the proper keys and permissions before installing.
+Forensic Toolkit, Forensic Toolkit is a computer forensics software used in the Digital Archives Lab to appraise and arrange born-digital material. 
+FTK Imager, FTK Imager is a disk imaging program associated with Forensic Toolkit. The software has been used in the Digital Archives lab to image and extract files from digital carriers.
+gtar, Gtar is a command line program used on Digital Archives MacOS workstations to compress Kryoflux stream files., For MacOS: Install via Homebrew by entering ```brew install gnu-tar``` in terminal.
+HFS Explorer, HFS Explorer is a program usd to view HFS formatted disks on Windows operating systems, 
 Iromlab, Iromlab is software for automated imaging of optical media using [Nimbie](#tools/nimbie) disc robots, 
+IsoBuster, IsoBuster is data recovery software that has been used in the Digital Archives lab to image and extract files from optical media.
+Java, Java is a software package which has baeen a dependency for some Digital Archives tools like DROID and Bagger,,, Check for the version of Java installed with commands ```which java``` or ```java -version``` in terminal on Mac or WSL on Windows.
+MediaInfo, MediaInfo is an open-source program for extractign technical information from media files. The program has been used in the Digital Archives Lab to extract metadata from born-digital video,
+Mediaconch,
+miniVmac,
+openssl,
+Oracle VM VirtualBox,
+pip,
+Python3,
+QuickTime Player,
+QuickView Plus,
 rclone,'For detailed installation instruction tailored to your operating system see the [rclone documentation](https://rclone.org/install/). <br><br> For MacOS: Use Homebrew to install rclone via the terminal by entering ```brew install rclone``` <br><br> For Windows:[Download and run Windows installation file.](https://rclone.org/downloads/)'
-
+Sha1deep,
+Sheepshaver,
+Siegfried,
+tree,
+VLC,
+WSL, 
+WinUAE,
 
 
 
