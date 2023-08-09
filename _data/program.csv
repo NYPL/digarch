@@ -1,45 +1,41 @@
 name,desc,inst,conf,use
-7-zip,7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK.,[Download 7-zip](https://www.7-zip.org/){:target='_blank'}
-apple3rtr,Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.,For detailed installation instructions visit the [apple3rtr github repo](https://github.com/datajerk/apple3rtr).
-AWS,'Amazon Web Services (AWS) is a cloud computing platform offered by Amazon. AWS S3 features are used to store copies of born-digital material both before and after the collection has been processed by archivists.'
-Bagger, Bagger is an applciation created by the U.S. Library of Congress to produce files packages following the Bagit specification. It has been used in the Digital Archives lab for transferring born-digital material
-Bagit.py, Bagit.py is a command line tool used produce files packages following the Bagit specification, Check python version by entering ```python --version``` or ```python3 --version``` into terminal. Then install using pip by entering ```pip install bagit``` or ```pip3 install bagit```
-Bitcurator, BitCurator is a Linux distribution with a suite of open source digital forensics and data analysis tools used in the lab as both a virtual machine and as bootable OS alongside Windows. BitCurator is used for transfer and metadata extraction especially for formats unrecognized in Windows and Mac environments., Download software [BitCurator VM](https://github.com/BitCurator/bitcurator-distro/wiki/Releases) or install with Live CD. The [Virtualbox Extension Pack](https://www.virtualbox.org/wiki/Downloads) must be installed on the host for shared folder support, USB 2.0/3.0 support and support for some NVMe SSDs. Once you’ve installed VirtualBox, use the link below the main download on VirtualBox download site to install the Extension Pack on your host.
+7-zip,7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK.,[Download 7-zip](https://www.7-zip.org/){:target='_blank'}.,
+apple3rtr,Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.,For detailed installation instructions visit the [apple3rtr github repo](https://github.com/datajerk/apple3rtr).,
+AWS, Amazon Web Services (AWS) is a cloud computing platform offered by Amazon. AWS S3 features are used to store copies of born-digital material both before and after the collection has been processed by archivists.,
+Bagger, Bagger is an applciation created by the U.S. Library of Congress to produce files packages following the Bagit specification. It has been used in the Digital Archives lab for transferring born-digital material.,
+Bagit.py, Bagit.py is a command line tool used produce files packages following the Bagit specification, Check python version by entering ```python --version``` or ```python3 --version``` into terminal. Then install using pip by entering ```pip install bagit``` or ```pip3 install bagit```. Use the link below the main download on the VirtualBox download site to install the Extension Pack on your host.,
 CiderPress, CiderPress is a Windows utility for managing Apple II disk images. It has been used in the Digital Archives Lab for viewing Apple file formats., 
-dbpoweramp, dbpoweramp is a program used in conjunction with [Iromlab](#Iromlab) for transferring born-digital material from optical media,
-dd, dd is a command line utility used in the Digital Archives Lab to create disk images of optical media. In most cases transfers are made of optical media instead of disk images.
-Disk Utility, Disk Utility is a MacOS utility for disk volume management. Disk Utility used by Digital Archives staff for mounting/unmounting remvable media.,,,enter ```list disk``` or ```list volume``` to confirm media is mounted
-diskpart, diskpart is Windows command line utility for disk partitioning. diskpart is used by Digital Archives staff for confimring removable media are properly mounted. 
-disktype, disktype is a command line tool used by Digital Archives staff for extracting filesystem metadata liek sector format for floppy disks, For Mac OS:<br> In terminal use homebrew to install by entering ```brew install disktype```,, In terminal navigate to the directory containing floppy disk image(s) and enter ```disktype a/disk/image```.
-DosBox, DosBox is an open-source emulator for teh MS-DOS operating system. DosBox has been used by Digital Archives staff to view DOS executables and word processing files.
-DROID, DROID is file format identification tool developed by the UK National Archives.  
-Emailchemy, Emailchemy has been used in the Digital Archives lab for migrating email fomats.
-ePADD, ePADD is an open-source program developed by Stanford University's Special Collections and University Archives. The software ha been used for appraisal and arrangement of email.
-Filemaker Pro 17, Filemaker is used by Preservation and Collection Services (PCP) as a collection management system. born-digital media is inventoried in Filemaker and PCP tracks projects through Filemaker., Installing Filemaker requires license keys. Make sure you have the proper keys and permissions before installing.
-Forensic Toolkit, Forensic Toolkit is a computer forensics software used in the Digital Archives Lab to appraise and arrange born-digital material. 
-FTK Imager, FTK Imager is a disk imaging program associated with Forensic Toolkit. The software has been used in the Digital Archives lab to image and extract files from digital carriers.
-gtar, Gtar is a command line program used on Digital Archives MacOS workstations to compress Kryoflux stream files., For MacOS: Install via Homebrew by entering ```brew install gnu-tar``` in terminal.
-HFS Explorer, HFS Explorer is a program usd to view HFS formatted disks on Windows operating systems, 
-Iromlab, Iromlab is software for automated imaging of optical media using [Nimbie](#tools/nimbie) disc robots, 
-IsoBuster, IsoBuster is data recovery software that has been used in the Digital Archives lab to image and extract files from optical media.
-Java, Java is a software package which has baeen a dependency for some Digital Archives tools like DROID and Bagger,,, Check for the version of Java installed with commands ```which java``` or ```java -version``` in terminal on Mac or WSL on Windows.
-MediaInfo, MediaInfo is an open-source program for extractign technical information from media files. The program has been used in the Digital Archives Lab to extract metadata from born-digital video,
-Mediaconch,
-miniVmac,
-openssl,
-Oracle VM VirtualBox,
-pip,
-Python3,
-QuickTime Player,
-QuickView Plus,
-rclone,'For detailed installation instruction tailored to your operating system see the [rclone documentation](https://rclone.org/install/). <br><br> For MacOS: Use Homebrew to install rclone via the terminal by entering ```brew install rclone``` <br><br> For Windows:[Download and run Windows installation file.](https://rclone.org/downloads/)'
-Sha1deep,
-Sheepshaver,
-Siegfried,
-tree,
-VLC,
-WSL, 
-WinUAE,
-
-
-
+dbpoweramp, dbpoweramp is a program used in conjunction with [Iromlab](#Iromlab) for transferring born-digital material from optical media.,
+dd, dd is a command line utility used in the Digital Archives Lab to create disk images of optical media. In most cases transfers are made of optical media instead of disk images.,
+Disk Utility, Disk Utility is a MacOS utility for disk volume management. Disk Utility used by Digital Archives staff for mounting/unmounting remvable media.,,,enter ```list disk``` or ```list volume``` to confirm media is mounted.,
+diskpart, diskpart is Windows command line utility for disk partitioning. diskpart is used by Digital Archives staff for confimring removable media are properly mounted., 
+disktype, disktype is a command line tool used by Digital Archives staff for extracting filesystem metadata liek sector format for floppy disks, For Mac OS:<br> In terminal use homebrew to install by entering ```brew install disktype```,, In terminal navigate to the directory containing floppy disk image(s) and enter ```disktype a/disk/image```.,
+DosBox, DosBox is an open-source emulator for teh MS-DOS operating system. DosBox has been used by Digital Archives staff to view DOS executables and word processing files.,
+DROID, DROID is file format identification tool developed by the UK National Archives.,  
+Emailchemy, Emailchemy has been used in the Digital Archives lab for migrating email fomats.,
+ePADD, ePADD is an open-source program developed by Stanford University's Special Collections and University Archives. The software ha been used for appraisal and arrangement of email.,
+Filemaker Pro 17, Filemaker is used by Preservation and Collection Services (PCP) as a collection management system. born-digital media is inventoried in Filemaker and PCP tracks projects through Filemaker., Installing Filemaker requires license keys. Make sure you have the proper keys and permissions before installing.,
+Forensic Toolkit, Forensic Toolkit is a computer forensics software used in the Digital Archives Lab to appraise and arrange born-digital material., 
+FTK Imager, FTK Imager is a disk imaging program associated with Forensic Toolkit. The software has been used in the Digital Archives lab to image and extract files from digital carriers.,
+gtar, Gtar is a command line program used on Digital Archives MacOS workstations to compress Kryoflux stream files., For MacOS: Install via Homebrew by entering ```brew install gnu-tar``` in terminal.,
+HFS Explorer, HFS Explorer is a program usd to view HFS formatted disks on Windows operating systems., 
+Iromlab, Iromlab is software for automated imaging of optical media using [Nimbie](#tools/nimbie) disc robots., 
+IsoBuster, IsoBuster is data recovery software that has been used in the Digital Archives lab to image and extract files from optical media.,
+Java, Java is a software package which has baeen a dependency for some Digital Archives tools like DROID and Bagger,,, Check for the version of Java installed with commands ```which java``` or ```java -version``` in terminal on Mac or WSL on Windows.,
+MediaInfo, MediaInfo is an open-source program for extractign technical information from media files. The program has been used in the Digital Archives Lab to extract metadata from born-digital video.,
+Mediaconch, MediaConch is an open source software project developed by MediaArea and utilizing MediaInfo. It is used by Digital Archives staff to develop programatic policies for checking born-digital audiovisual material against preservation standards.,
+Mini Vmac, Mini vMac is an emulator for running early Macintosh software.,  
+openssl, OpenSSL is a software library used to ssh., 
+Oracle VM VirtualBox, Virtualbox is open soure virtualization software. It has been used by Digital Archives staff to  run teh BitCurator environment as a virtual machine., Download and install the [current VirtualBox release and Extension Pack](https://www.virtualbox.org/wiki/Downloads)., 
+pip, Pip is package management software used for installing and upgrading Python modules,,,Pip should be installed with python3. Call pip by entering ```pip``` or ```pip3``` in terminal or command line.,
+Python3, Python3 is the latest version of the Python programming language, For Windows: Check for python versions by entering ```python --version``` on command line. Installers are avilable at python.org.<br> For MacOS: Check for python versions by entering ```python --version``` in terminal. Install your selected version of python with homebrew by entering ```brew install python@version.number```.,
+QuickTime Player, QuickTime is used in teh Digital Archives Lab to appraise Mcintosh formatted born-digital video.,
+QuickView Plus, QuickView Plus has been used in the Digital Archives Lab to view a range of legacy formats like word processing and photo formats.,
+rclone,'For detailed installation instruction tailored to your operating system see the [rclone documentation](https://rclone.org/install/). <br><br> For MacOS: Use Homebrew to install rclone via the terminal by entering ```brew install rclone``` <br><br> For Windows:[Download and run Windows installation file.](https://rclone.org/downloads/)'.,
+Sha1deep, Sha1deep is a command line program for computing and comparing SHA-256 cryptographic hashes. Sha1deep is sued by Digital Archives Staff to identify duplicate material across digital media in a collection by comparing checksums, For MacOS: Install via Homebrew by entering ```brew install m5deep```,
+Sheepshaver, Sheepshaver is an Apple Macintosh emulator. It has been used in teh Digital Archives Lab to view legacy Mac files.,
+Siegfried, Siegfried is a command line file format identification tool. Siegfried is used in the Digital Archives Lab to identify and validate file formats. Siegfried output also includes checksums., For Windows: Download [the latest Siegfried binary](https://github.com/richardlehane/siegfried/releases/download/v1.10.1/siegfried_1-10-1_win64.zip).<br> For MacOS: Install via homebrew by entering ```brew install richardlehane/digipres/siegfried``` into terminal,Current installations of siegfried use the config file to store preferred command options. Enter ```sf -setconf -csv -hash sha1 -z``` in terminal to set the preferred command options., For identifying a file format enter ```sf /path/to/file``` in terminal. Enter sf -help for a complete list of sf commands.    
+tree, tree is command line program for recursive directory listing and has been used in the Digital Archives Lab to identify contents of media including number of folders and files, For MacOS: Install via homebrew by entering ```brew install tree``` into terminal.,
+VLC, VLC is an open source media player used by Digital Archives staff to view and appraise born-digital audio and video., Download [the latest release of VLC Media Player](https://www.videolan.org/vlc/)., 
+WSL, Windows Subsystem for Linux (WSL) is a Windows feature  used to run Linux environments on Windows operating systems, 
+WinUAE, WinUAE is an Amiga emulator and has been used in the Digital Archives Lab to view Amiga files.,
