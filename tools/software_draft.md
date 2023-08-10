@@ -41,13 +41,14 @@ Programs are defined as any non-internally developed out-of-the-box software use
 
 Working Scripts are defined as scripts written internally and maintained by Digital Archives staff for use in our workflows.
 
-### CMS metadata import 
-### iterative scripts 
-### kryofluxmove.sh 
-### makesips script 
-### moveimages script 
-### report ftk extents script 
-### report HDD extents script
+{% for tool in site.data.working %}
+### {{tool.name}}:
+{{tool.desc}}
+
+#### Using {{tool.name}}:
+{{tool.use}}
+
+{% endfor %}
 
 ## Deprecated and Legacy Scripts:
 

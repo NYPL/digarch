@@ -1,0 +1,5 @@
+name,desc,inst,conf,use
+kryofluxmove.sh,This bash script is used by Digital Archives staff to move floppy disk images transferred using kryoflux to folders with legacy CMS media IDs of the associated digital carrier.,
+SIPdir.sh,This bash script is used by Digital Archives staff to reate consecutive numbers of submission information packages for material transferred from digital carriers.,
+report_ftk_extents.py,This python script transforms XML reports exported from FTK after Processing Archivists have completed bookmarking into JSON files for import into ASpace. 
+report_HDD_extents.py,This python script collects the extents of finding aid components created by a Processing Archivist when processing work is done at a workstation with a hard drive. The script then produces an extents JSON file for import into ASpace.
