@@ -44,9 +44,9 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * i - Codemeter access key
   * y - DigArchDiskStation
 
-* If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
   * Changing to the top level directory by entering ```cd /```
-  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+  * Entering the command ```sudo mount -t drvfs Y: /mnt/y```
 
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
