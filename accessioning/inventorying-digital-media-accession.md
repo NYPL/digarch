@@ -5,7 +5,7 @@ nav_order: 1
 parent: Accessioning
 ---
 
-# Digital Media Separation (Inventory)
+# Digital Media Separation (Accessioning)
 {: .no_toc }
 
 ## Table of contents
@@ -21,6 +21,11 @@ When digital media is encountered during accessioning of archival collections se
 |When commercial software is present do not enter it in CMS or label it. Send commercial software as is to Digital Preservation.|
 
 Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
+
+Deprecated
+{: .label .label-red }
+
+|The following section is out of date. It needs to be revised with SPEC instructions. **Fill out a digital media separation form** and **Shelve the media** are up to date.|
 
 1. Open the collection record in CMS.  
 2. Determine the identification number.  
@@ -119,15 +124,14 @@ An example of a completed record for separation:
 
 
 ## 5. Fill out a digital media separation form.  
-Deprecated
-{: .label .label-red }
+
 * Fill out a
 [media separation form](https://docs.google.com/document/d/1Tn9j4q3WO5BhhMdXY0Ed09XoRFP_jUJyP96IYCJmkgs/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
 
-* Enter the object's identification number and collection. Circle the
-format on the form. Enter the correct
-format after the word Other if the format is not listed. Print the form on BLUE
-paper (for visibility) and place it in the object's previous container.  
+* Enter the object's identification number and collection.  
+  * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
+* Circle the format on the form.  
+* Enter the correct format after the word Other if the format is not listed.  
 
 ![Digital Separation Sheet](/digitalmediaseparation/media/image2.jpg)
 

@@ -11,7 +11,7 @@ This document describes how to use the [Nimbie Disc Auto-Loader]({% link tools/n
 
 This applies for the vast majority of CD's, DVD's. and BluRays with born-digital contents.  
 
-**Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be transferred it first must be recorded SPEC.**
 
 Before beginning to work with the Nimbie, confirm that you have all of the collection's optical media by comparing discs to the media log in CMS.
 Using the Nimbie Robot consists of three steps.
