@@ -3,15 +3,19 @@ title: Software (Draft)
 layout: default
 nav_order: 5
 parent: Tools
-has_children: False
+has_children: True
 ---
-
-# Software
+## Table of contents
+{: .no_toc .text-delta }
 {: .no_toc }
 
+# Software
 Digital Archives utilizes several software throughout our workflows. This page acts as a departmental glossary for these software and includes installation, detailed use instructions and links to official documentation whenever possible. Shorter contextual instructions for these software can be found on the associated pages, consider this page our definitive guides.
 
-## Table of contents
+* Navigate to [Programs](/tools/programs.html) for a glossary of out of teh box tools used by Digital Archives staff.
+* Navigate to [Working Scripts](/tools/working-scripts.html) for information on any scripts written by Digital Archives staff specific to our workflows.
+
+<!-- ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -19,7 +23,7 @@ Digital Archives utilizes several software throughout our workflows. This page a
 
 ## Programs:
 
-Programs are defined as any non-internally developed out-of-the-box software used in Digital Archives workflows.
+Programs are defined as any non-internally developed out-of-the-box software used in Digital Archives workflows. Many programs used by Digital Archives staff can be installed via Homebrew or by downloading installation files from the associated website. Programs requiring more intensive installation and configuration instructions have been given dedicated pages.
 
 {% for tool in site.data.program %}
 
@@ -35,27 +39,4 @@ Programs are defined as any non-internally developed out-of-the-box software use
 #### Using {{tool.name}}:
 {{tool.use}}
 
-{% endfor %}
-
-## Working Scripts:
-
-Working Scripts are defined as scripts written internally and maintained by Digital Archives staff for use in our workflows.
-
-{% for tool in site.data.working %}
-### {{tool.name}}:
-{{tool.desc}}
-
-#### Using {{tool.name}}:
-{{tool.use}}
-
-{% endfor %}
-
-## Deprecated and Legacy Scripts:
-
-Deprecated and Legacy Scripts are any scripts which may have been previously used in workflows but are no longer in use, were planned but not completed or replaced by a Working Script.
-
-### ft.sh 
-### metadata.sh 
-### movemetadata script 
-### movephotograph script 
-
+{% endfor %} -->

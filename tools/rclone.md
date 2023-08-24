@@ -1,12 +1,13 @@
 ---
 title: Rclone
 layout: default
-nav_order: 1
-parent: Software
+nav_order: 8
+parent: Software (Draft)
 grand_parent: Tools
+has_children: False
 ---
 
-# Using Rclone:
+# Rclone:
 [*Rclone*](https://rclone.org/) is a command line tool for managing files on cloud storage, and is one tool used by Digital Archives for moving files between Digital Archives workstations, Google Shared Drives for Divisions, and long term storage. This page lists instructions for installing and configuring rclone. 
 
 ## Installing Rclone:
