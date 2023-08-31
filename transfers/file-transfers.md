@@ -20,7 +20,7 @@ Born digital collection material can be acquired through file transfer or forens
 
 The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types.  
 
-**Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be transferred it first must be recorded SPEC.**
 
 ## Prepare destination folders for files
 
@@ -60,25 +60,6 @@ or
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
-
-On Windows via Cygwin:
-
-* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
-
-* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.
-
-* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
-
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-
-or
-
-* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
-
-  * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```
 
 On Mac:
 
@@ -137,13 +118,6 @@ Note: rsync will require a source path (the path to the disk of associated media
 
 * An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
-On Windows via Cygwin:
-
-* Open Cygwin Terminal
-
-* Enter ```rsync -arP sourcepath destinationpath```
-
-* An example rsync command may look like: ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 On Mac:
 

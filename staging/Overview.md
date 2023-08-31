@@ -48,8 +48,6 @@ Send email to [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) when
 * [Reserve your FTK session](../using/using-lab-equipment#reserving-a-workstation-session) at least 24 hours in advance.
 * Click the FTK icon to open FTK and begin your session. 
 * Select your collection from the bar on the left hand side of the screen.  
-**Information in the media log can assist with processing.**
-* Open CMS and navigate to the collection's media log when appropriate.  
 
 ## Appraisal
 Spend some time evaluating the electronic records before you begin bookmarking. You'll be using the same strategies you use for paper records for the most part but FTK has appraisal tools you should use as well.
