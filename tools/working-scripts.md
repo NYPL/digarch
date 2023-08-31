@@ -2,7 +2,7 @@
 title: Working Scripts
 layout: default
 nav_order: 7
-parent: Software (Draft)
+parent: Software
 grand_parent: Tools
 has_children: False
 ---

@@ -2,7 +2,7 @@
 title: Rclone
 layout: default
 nav_order: 8
-parent: Software (Draft)
+parent: Software
 grand_parent: Tools
 has_children: False
 ---
