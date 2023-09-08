@@ -39,9 +39,9 @@ Once installed, you must configure Rclone which involves setting the remote loca
   
 - rclone will provide a list of scopes of access ranging from full access to all files to read-only access to file metadata. For our purposes enter the number corresponding to full access to all files. 
   
-- Rclone asks for a root folder id, this is optional and you can enter to select enter to choose default.
+- Rclone asks for a root folder id, this is optional and you can select enter to choose default.
   
-- Rclone asks for service account credentials, this is optional and you can enter to select enter to choose default.
+- Rclone asks for service account credentials, this is optional and you can select enter to choose default.
   
 - Rclone asks you to edit advanced configuration, select “n” for No. Follow up prompt asks if you would like to use auto configuration, enter “y” for Yes. 
   
