@@ -1,5 +1,5 @@
 name,desc,inst,conf,use,docs
-7-zip,7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK.,[Download 7-zip](https://www.7-zip.org/){:target='_blank'}.,
+7-zip,7-zip is used in the lab to compress evidence and cases generated in Forensic Toolkit. It is also occasionally used to unpack collection material that is not supported by FTK.,[Download 7-zip](https://www.7-zip.org/),
 apple3rtr,Apple /// Ready-to-Run (apple3rtr) is a software bundle used for MAME Apple emulation. It has been used by Digital Archives staff to view Apple II files.,For detailed installation instructions visit the [apple3rtr github repo](https://github.com/datajerk/apple3rtr).,,,https://github.com/datajerk/apple3rtr
 AWS, Amazon Web Services (AWS) is a cloud computing platform offered by Amazon. AWS S3 features are used to store copies of born-digital material both before and after the collection has been processed by archivists.,,,,https://docs.aws.amazon.com/
 Bagger, Bagger is an applciation created by the U.S. Library of Congress to produce files packages following the Bagit specification. It has been used in the Digital Archives lab for transferring born-digital material.,,,,https://github.com/LibraryOfCongress/bagger
