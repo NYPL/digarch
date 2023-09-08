@@ -14,7 +14,6 @@ DosBox, DosBox is an open-source emulator for the MS-DOS operating system. DosBo
 DROID, DROID is file format identification tool developed by the UK National Archives.,,,,https://cdn.nationalarchives.gov.uk/documents/information-management/droid-user-guide.pdf
 Emailchemy, Emailchemy has been used in the Digital Archives lab for migrating email fomats.,,,,https://www.weirdkid.com/products/emailchemy/doc/Emailchemy_User_Manual.pdf
 ePADD, ePADD is an open-source program developed by Stanford University's Special Collections and University Archives. The software ha been used for appraisal and arrangement of email.,,,,https://github.com/ePADD/epadd/releases
-Filemaker Pro 17, Filemaker is used by Preservation and Collection Services (PCP) as a collection management system. born-digital media is inventoried in Filemaker and PCP tracks projects through Filemaker., Installing Filemaker requires license keys. Make sure you have the proper keys and permissions before installing.,
 Forensic Toolkit, Forensic Toolkit is a computer forensics software used in the Digital Archives Lab to appraise and arrange born-digital material.
 FTK Imager, FTK Imager is a disk imaging program associated with Forensic Toolkit. The software has been used in the Digital Archives lab to image and extract files from digital carriers.,
 gtar, Gtar is a command line program used on Digital Archives MacOS workstations to compress Kryoflux stream files., For MacOS: Install via Homebrew by entering ```brew install gnu-tar``` in terminal.,,,https://www.gnu.org/software/tar/manual/tar.html
