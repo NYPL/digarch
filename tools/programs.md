@@ -17,7 +17,7 @@ Programs are defined as any non-internally developed out-of-the-box software use
 {{tool.desc}}
 
 {% if tool.docs %}
-[See Official Documentation]({{tool.docs}})
+[{{tool.name}} Official Documentation]({{tool.docs}})
 {% endif %}
 
 {% if tool.inst%}
