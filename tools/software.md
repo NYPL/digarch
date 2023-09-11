@@ -7,7 +7,7 @@ has_children: True
 ---
 ## Table of contents
 {: .no_toc .text-delta }
-{: .no_toc }
+
 
 # Software
 Digital Archives utilizes several software throughout our workflows. This page acts as a departmental glossary for these software and includes installation, detailed use instructions and links to official documentation whenever possible. Shorter contextual instructions for these software can be found on the associated workflow pages, consider this page our definitive guides.
