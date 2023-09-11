@@ -54,3 +54,13 @@ Once installed, you must configure Rclone which involves setting the remote loca
 - Rclone then asks if the configuration you’ve been doing is okay. Enter y for Yes and configuration is complete!
 
 To see all currently configured remotes (rclone term for any cloud storage locations) enter ```rclone listremotes``` into terminal. 
+
+## Using Rclone with Google Drive:
+When using rclone with google drive accessing files in "My Drive" and Shared Drives" differs from accessing any files in "Shared with me". To access the "Shared with me" subdirectory:
+
+* Create an rclone remote location for the drive the collection has been shared with. 
+
+* Use the following syntax for accessing anything in the the “Shared With Me” subdirectory:
+
+```rclone copyto remote:shared/with/me/remote/directory —name-of-drive-shared-with-me /path/to/destination```
+

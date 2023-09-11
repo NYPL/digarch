@@ -23,7 +23,7 @@ Before beginning a file transfer confirmation with Donors and Collections Manage
 * Acquire link to cloud storage location from donor. Have google drive location shared with Digital Archives staff by donor. 
 
 # File transfer with Rclone: 
-Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires cnfiguring storage locations as saved remote locations. For detailed installation and configuration instructions visit our dedicated [rclone](/tools/rclone.html) page.
+Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires cnfiguring storage locations as saved remote locations. For detailed installation and configuration instructions visit our dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
 
 * Open Terminal. 
 
