@@ -27,9 +27,11 @@ Born-digital material held in cloud storage is first transferred with rclone to 
 
 * Connect RAID to Lab Workstation or Login to Lab Workstation
 * Open Terminal 
-* Create temporary working folder on RAID or on Lab Workstation by enter ```mkdir path/to/working/folder```
+* Create temporary working folder on RAID or on Lab Workstation by entering ```mkdir path/to/working/folder```
     * Note: Folder should be named following file transfer naming convention, ```ACQ_four-digit-acquisition-id_six-digit-spec-id```. Acquisiton, Collection and SPEC ID information can be found in teh associated [SPEC](link to SPEC listing in ) records. 
 * Navigate into temporary work folder by entering ```cd path/to/working/folder```
+* Create an empty folder named "payload" in temporary working folder by entering ```mkdir ACQ_four-digit-acquisition-id_six-digit-spec-id/payload```.
+
 
 # File transfer with Rclone: 
 Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires configuring storage locations as saved remote locations. For detailed rclone installation and configuration instructions visit our dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
@@ -42,7 +44,7 @@ Rclone is a command line program for managing files on cloud storage. Using rclo
     * Note: --exclude ".*" will exclude any files with name beginning with ".", this is to exclude hidden system files.
     * Note: -P  flag is included to visually track progress.
 
-* Transfer the materials payload by enter ```rclone copyto remote:path/to/source path/to/working/folder --exclude ".*" --log-level INFO --log-file=path/to/working/folder/rclone.log -P```
+* Transfer the materials payload by entering ```rclone copyto remote:path/to/source path/to/working/folder --exclude ".*" --log-level INFO --log-file=path/to/working/folder/rclone.log -P```
     * Note: --exclude ".*" will exclude any files with name beginning with ".", this is to exclude hidden system files.
     * Note: --log-level is included to save a log file of process, --log-file= should be followed by a path to a .log file in the working folder
     * Note: -P  flag is included to visually track progress.
