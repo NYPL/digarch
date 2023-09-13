@@ -48,6 +48,8 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * Changing to the top level directory by entering ```cd /```
   * Entering the command ```sudo mount drvfs Y: /mnt/y```
 
+[![asciicast](https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.svg)](https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov)
+
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
@@ -60,6 +62,8 @@ or
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+
+[![asciicast](https://asciinema.org/a/gsk3WS17cR6Hc0VRtwaGep2sj.svg)](https://asciinema.org/a/gsk3WS17cR6Hc0VRtwaGep2sj)
 
 On Windows via Cygwin:
 
