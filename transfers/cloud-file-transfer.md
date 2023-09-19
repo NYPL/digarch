@@ -28,29 +28,33 @@ Born-digital material held in cloud storage is first transferred with rclone to 
 * Connect RAID to Lab Workstation or Login to Lab Workstation
 * Open Terminal 
 * Create temporary working folder on RAID or on Lab Workstation by entering ```mkdir path/to/working/folder```
-    * Note: Folder should be named following file transfer naming convention, ```ACQ_four-digit-acquisition-id_six-digit-spec-id```. Acquisiton, Collection and SPEC ID information can be found in teh associated [SPEC](link to SPEC listing in ) records. 
+    * Note: Folder should be named following file transfer naming convention, ```ACQ_four-digit-acquisition-id_six-digit-spec-id```. Acquisiton, Collection and SPEC ID information can be found in the associated [SPEC](link to SPEC listing in ) records. 
 * Navigate into temporary work folder by entering ```cd path/to/working/folder```
-* Create an empty folder named "payload" in temporary working folder by entering ```mkdir ACQ_four-digit-acquisition-id_six-digit-spec-id/payload```.
 
 
 # File transfer with Rclone: 
-Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires configuring storage locations as saved remote locations. For detailed rclone installation and configuration instructions visit our dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
+Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires configuring storage locations as saved remote locations. For detailed rclone installation and configuration instructions visit the dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
 
 * Confirm working folder created in the [Workstation Preparation]()section is the current working directory in terminal. 
 
-* Transfer md5 checksum manifest for materials by entering ```rclone md5sum remote:path/to/source path/to/working/folder/md5-manifest.txt --exclude ".*" -P```
-    * Note: "md5-manifest.txt" is included to save checksums to a text file. 
-    * Note: remote is the code for a pre-configured remote location
-    * Note: --exclude ".*" will exclude any files with name beginning with ".", this is to exclude hidden system files.
-    * Note: -P  flag is included to visually track progress.
+* Confirm you have access to the intended folder
+```rclone ls remote:path/to/source```
+    * For Google Shared Folders, try ```remote: --drive-root-folder-id ###``` where ### is the string at the end of the Google Drive Folder URL.
+For example, `1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd` from `https://drive.google.com/drive/folders/1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd`
 
-* Transfer the materials payload by entering ```rclone copyto remote:path/to/source path/to/working/folder --exclude ".*" --log-level INFO --log-file=path/to/working/folder/rclone.log -P```
-    * Note: --exclude ".*" will exclude any files with name beginning with ".", this is to exclude hidden system files.
-    * Note: --log-level is included to save a log file of process, --log-file= should be followed by a path to a .log file in the working folder
-    * Note: -P  flag is included to visually track progress.
+* Transfer md5 checksum manifest for materials by entering
+```rclone md5sum --exclude ".*" -P remote:path/to/source --output-file rclone-md5.txt```
+    * `--exclude ".*"` excludes any files with a name beginning with ".", this is to exclude hidden system files
+    * `-P` visually tracks progress
+    * `--output-file rclone-md5.txt` saves checksums to a text file.
+
+* Transfer the materials payload by entering
+```rclone copyto --exclude ".*" -P --log-level INFO --log-file=path/to/working/folder/rclone.log remote:path/to/source payload```
+    * `--log-level INFO --log-file=rclone.log` saves the logs to defined file path
+    * `payload` is a directory that will be created by `rclone` to hold the files
 
 # Create Cloud File Transfer Package with package_cloud.py:
-After born-digital material, transfer log, and checksum manifest have been transferred to a temporary working folder Digital Archives Staff repackage the files to meet file transfer specifications using [package_cloud.py](link to listing in software tools page). Digital Archives specifications for file transfers described below:
+After born-digital material, transfer log, and checksum manifest have been transferred to a temporary working folder, Digital Archives Staff repackage the files to meet file transfer specifications using [package_cloud.py](link to listing in software tools page). Digital Archives specifications for file transfers described below:
 
 /ACQ_four-digit-acquisition-id
 └── /ACQ_four-digit-acquisition-id_six-digit-spec-id
@@ -62,7 +66,7 @@ After born-digital material, transfer log, and checksum manifest have been trans
     ├── metadata
     └── objects
 
-The packager_cloud.py script requires five inputs for repackaging: 
+The package_cloud.py script requires five inputs for repackaging: 
 * Payload files: 
 * Md5 hashes
 * Rclone log
