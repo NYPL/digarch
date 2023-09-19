@@ -28,14 +28,14 @@ Born-digital material held in cloud storage is first transferred with rclone to 
 * Connect RAID to Lab Workstation or Login to Lab Workstation
 * Open Terminal 
 * Create temporary working folder on RAID or on Lab Workstation by entering ```mkdir path/to/working/folder```
-    * Note: Folder should be named following file transfer naming convention, ```ACQ_four-digit-acquisition-id_six-digit-spec-id```. Acquisiton, Collection and SPEC ID information can be found in the associated [SPEC](link to SPEC listing in ) records. 
+    * Note: Folder should be named following file transfer naming convention, ```ACQ_four-digit-acquisition-id_six-digit-spec-id```. Acquisiton, Collection and SPEC ID information can be found in the associated SPEC records.
 * Navigate into temporary work folder by entering ```cd path/to/working/folder```
 
 
 # File transfer with Rclone: 
 Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires configuring storage locations as saved remote locations. For detailed rclone installation and configuration instructions visit the dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
 
-* Confirm working folder created in the [Workstation Preparation]()section is the current working directory in terminal. 
+* Confirm working folder created in the Workstation Preparation section is the current working directory in terminal.
 
 * Confirm you have access to the intended folder
 ```rclone ls remote:path/to/source```
@@ -54,7 +54,7 @@ For example, `1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd` from `https://drive.google.com/
     * `payload` is a directory that will be created by `rclone` to hold the files
 
 # Create Cloud File Transfer Package with package_cloud.py:
-After born-digital material, transfer log, and checksum manifest have been transferred to a temporary working folder, Digital Archives Staff repackage the files to meet file transfer specifications using [package_cloud.py](link to listing in software tools page). Digital Archives specifications for file transfers described below:
+After born-digital material, transfer log, and checksum manifest have been transferred to a temporary working folder, Digital Archives Staff repackage the files to meet file transfer specifications using package_cloud.py. Digital Archives specifications for file transfers described below:
 
 /ACQ_four-digit-acquisition-id
 └── /ACQ_four-digit-acquisition-id_six-digit-spec-id
@@ -66,9 +66,12 @@ After born-digital material, transfer log, and checksum manifest have been trans
     ├── metadata
     └── objects
 
-The package_cloud.py script requires five inputs for repackaging: 
-* Payload files: 
-* Md5 hashes
-* Rclone log
-* Output directory
-* Package name
+The package_cloud.py script requires five inputs for repackaging:
+* ```--payload```: The path to the payload folder created in the working directory, contains the actual born_digital material.
+* ```md5```: The path to the rclone md5 text file generated during transfer.
+* ```log```: The path to the rclone log generated during transfer.
+* ```dest```: The path to the destination directory for package
+* ```id```: The media id for the transferred material.
+
+An example run of package_cloud.py:
+```python3 package_cloud.py --payload /path/to/working/payload --log /path/to/working/rclone.log --md5 /path/to/working/rclone-md5.txt --dest /DigArchDiskStation/Staging/ingest/filetransfers --id ACQ_0000_000111```
