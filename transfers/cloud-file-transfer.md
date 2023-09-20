@@ -17,12 +17,12 @@ parent: Transfers
 # Introduction
 Born-digital collection material can be acquired through file transfer from cloud based storage locations. This page describes Digital Archives workflow for preparing for a cloud based file transfer, creating a destination package using ft_packager.py and transferring material using rclone. The instructions detailed on this page are specific to transfers from google drive, but are adaptable to other cloud storage contexts.  
 
-# Before File Transfer:
+# Before File Transfer
 Before beginning a file transfer confirmation with Donors and Collections Management about what material is being acquired is essential. Transfer from cloud storage will often require the sharing of permissions or access to the storage location for the duration of the transfer, this should be communicated with the Donor. Digital Archives does not acquire or retain system files, hidden files, deleted files or files containing personally identifiable information. See our [Acquiring Born Digital Material](/sitevisits/acquiring-born-digital.html) page for more information.
 
 * Acquire link to cloud storage location from donor. Have google drive location shared with Digital Archives staff by donor.
 
-# Workstation Preparation: 
+# Workstation Preparation 
 Born-digital material held in cloud storage is first transferred with rclone to a temporary working folder on a Digital Archives Lab workstation or a RAID connected to a Digital Archives Lab workstation.
 
 * Connect RAID to Lab Workstation or Login to Lab Workstation
@@ -32,7 +32,7 @@ Born-digital material held in cloud storage is first transferred with rclone to 
 * Navigate into temporary work folder by entering ```cd path/to/working/folder```
 
 
-# File transfer with Rclone: 
+# File transfer with Rclone
 Rclone is a command line program for managing files on cloud storage. Using rclone for filetransfers requires configuring storage locations as saved remote locations. For detailed rclone installation and configuration instructions visit the dedicated [rclone](https://nypl.github.io/digarch/tools/rclone.html) page.
 
 * Confirm working folder created in the Workstation Preparation section is the current working directory in terminal.
@@ -53,9 +53,10 @@ For example, `1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd` from `https://drive.google.com/
     * `--log-level INFO --log-file=rclone.log` saves the logs to defined file path
     * `payload` is a directory that will be created by `rclone` to hold the files
 
-# Create Cloud File Transfer Package with package_cloud.py:
+# Create Cloud File Transfer Package with package_cloud.py
 After born-digital material, transfer log, and checksum manifest have been transferred to a temporary working folder, Digital Archives Staff repackage the files to meet file transfer specifications using package_cloud.py. Digital Archives specifications for file transfers described below:
 
+```
 /ACQ_four-digit-acquisition-id
 └── /ACQ_four-digit-acquisition-id_six-digit-spec-id
     ├── metadata
@@ -65,6 +66,7 @@ After born-digital material, transfer log, and checksum manifest have been trans
 └── /ACQ_1234_123456
     ├── metadata
     └── objects
+```
 
 The package_cloud.py script requires five inputs for repackaging:
 * ```--payload```: The path to the payload folder created in the working directory, contains the actual born_digital material.
