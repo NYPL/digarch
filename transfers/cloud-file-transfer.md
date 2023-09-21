@@ -43,13 +43,15 @@ Rclone is a command line program for managing files on cloud storage. Using rclo
 For example, `1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd` from `https://drive.google.com/drive/folders/1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd`
 
 * Transfer md5 checksum manifest for materials by entering
-```rclone md5sum --exclude ".*" -P remote:path/to/source --output-file rclone-md5.txt```
-    * `--exclude ".*"` excludes any files with a name beginning with ".", this is to exclude hidden system files
+```rclone md5sum --exclude ".*" --disable listR -P remote:path/to/source --output-file rclone-md5.txt```
+    * (optional) `--exclude ".*"` excludes any files with a name beginning with ".", this is to exclude hidden system files
+    * (optional) `--disable listR` disables a bug that may cause rclone to miss files while recursing through directories
     * `-P` visually tracks progress
     * `--output-file rclone-md5.txt` saves checksums to a text file.
 
 * Transfer the materials payload by entering
 ```rclone copyto --exclude ".*" -P --log-level INFO --log-file=path/to/working/folder/rclone.log remote:path/to/source payload```
+    * (optional) `--exclude ".*"`
     * `--log-level INFO --log-file=rclone.log` saves the logs to defined file path
     * `payload` is a directory that will be created by `rclone` to hold the files
 
