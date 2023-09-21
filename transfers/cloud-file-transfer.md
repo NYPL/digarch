@@ -45,7 +45,7 @@ For example, `1yOaxTcgPl5zNwYQP2_k7SOW59l4DgXgd` from `https://drive.google.com/
 * Transfer md5 checksum manifest for materials by entering
 ```rclone md5sum --exclude ".*" --disable listR -P remote:path/to/source --output-file rclone-md5.txt```
     * (optional) `--exclude ".*"` excludes any files with a name beginning with ".", this is to exclude hidden system files
-    * (optional) `--disable listR` disables a bug that may cause rclone to miss files while recursing through directories
+    * (optional) `--disable listR` disables a bug that may cause rclone to miss files while recursing through Google Drive directories
     * `-P` visually tracks progress
     * `--output-file rclone-md5.txt` saves checksums to a text file.
 
