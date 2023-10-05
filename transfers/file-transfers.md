@@ -49,7 +49,7 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * Entering the command ```sudo mount drvfs Y: /mnt/y```
 
 * Note: For a visual example of mounting a drive in WSL reference the following recording:
-<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js"></script>
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="8" data-theme="dracula"></script>
 
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
@@ -65,7 +65,7 @@ or
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
 
 * Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
-<script async id="asciicast-gsk3WS17cR6Hc0VRtwaGep2sj" src="https://asciinema.org/a/gsk3WS17cR6Hc0VRtwaGep2sj.js"></script>
+<script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="8" data-theme="dracula"></script>
 
 On Windows via Cygwin:
 
@@ -177,4 +177,4 @@ Or
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
   
-<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>
+<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js?" async></script>
