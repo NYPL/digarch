@@ -60,9 +60,9 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
 
 * Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
 <script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="8" data-theme="dracula"></script>
@@ -82,9 +82,9 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```
 
 On Mac:
 
@@ -108,9 +108,9 @@ Or
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
 
 ### Directory structure
 
