@@ -49,7 +49,7 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * Entering the command ```sudo mount drvfs Y: /mnt/y```
 
 * Note: For a visual example of mounting a drive in WSL reference the following recording:
-<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="8" data-theme="dracula"></script>
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
 
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
@@ -65,7 +65,7 @@ or
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
 
 * Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
-<script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="8" data-theme="dracula"></script>
+<script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="3.5" data-theme="dracula"></script>
 
 On Windows via Cygwin:
 
