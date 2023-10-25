@@ -16,23 +16,19 @@ parent: Accessioning
 
 # Introduction
 
-When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer. 
+When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer by Collection Management.  
 
-|When commercial software is present do not enter it in CMS or label it. Send commercial software as is to Digital Preservation.|
+|When commercial software is present do not enter it in SPEC or label it. Send commercial software as is to Digital Preservation.|
 
 Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
 
-Deprecated
-{: .label .label-red }
-
-|The following section is out of date. It needs to be revised with SPEC instructions. **Fill out a digital media separation form** and **Shelve the media** are up to date.|
-
-1. Open the collection record in CMS.  
-2. Determine the identification number.  
-3. Label media.
-4. Create a media log record.  
-5. Fill out a digital media separation form.  
-6. Create a shelving card and shelve the media.  
+* Remove digital carriers from boxes and folders.  
+* Fill out Digital Carrier Separation sheets.  
+* Place Digital Carrier Separation sheets where carriers where found.  
+* Create a SPEC object record for each carrier.  
+* Label digital carriers.  
+* House digital carriers.  
+* Inform Digital Archives of digital carriers.  
 
 ## 1. Open the collection record in CMS.
 
