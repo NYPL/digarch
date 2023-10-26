@@ -9,4 +9,4 @@ Accessioning consists of taking legal, administrative, and physical custody of d
 
 Accessioning of digital material is usually done by Collection Management.  
 
-Processing archivists may create SPEC object records for additional carriers found during processing.  
+Processing archivists create SPEC object records for additional carriers found during processing.  
