@@ -18,6 +18,8 @@ parent: Accessioning
 
 When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer by Collection Management.  
 
+When digital media is encountered during processing of archival collections it is separated from folders and prepared for transfer by processing archivists.  
+
 |When commercial software is present do not enter it in SPEC or label it. Send commercial software as is to Digital Preservation.|
 
 Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
@@ -57,13 +59,15 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 |Digital Preservation staff can label commercial software with a simple collection name.
 ```Crouch``` for Stanley Crouch papers.|
 
-### Floppy disk
+<!-- ### Floppy disk
 ![](/digitalmediaseparation/media/image3.jpg)  
 
 ### Optical media
 ![](/digitalmediaseparation/media/image4.jpg)  
 
-## 5. Fill out a digital carrier separation form.  
+## 5. Fill out a digital carrier separation form.   -->
+
+| Processing archivists remove separation sheets when arrangement is finished before shipping.|  
 
 * Fill out a
 [digital carrier separation form](https://docs.google.com/document/d/1ZWZ2xMUMPPMV1f0V6CesB-qz1IK5u765Wmr_0ESiZ6U/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
@@ -74,8 +78,7 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 * Circle the format on the form.  
 * Enter the correct format after the word Other if the format is not listed.  
 * See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types. 
-![Digital Separation Sheet](/digitalmediaseparation/media/image2.jpg)
-
+![Digital Separation Sheet](digitalmediaseparation/media/separationsheet.png)
 
 ## 6. Shelve the media.
 
