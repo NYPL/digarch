@@ -63,11 +63,11 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 ![](/digitalmediaseparation/media/image3.jpg)  
 
 ### Optical media
-![](/digitalmediaseparation/media/image4.jpg)  
+![](/digitalmediaseparation/media/image4.jpg)    -->
 
-## 5. Fill out a digital carrier separation form.   -->
+## 5. Fill out a digital carrier separation form.  
 
-| Processing archivists remove separation sheets when arrangement is finished before shipping.|  
+| Processing archivists can skip this step because processing archivists remove separation sheets when arrangement is finished before shipping.|  
 
 * Fill out a
 [digital carrier separation form](https://docs.google.com/document/d/1ZWZ2xMUMPPMV1f0V6CesB-qz1IK5u765Wmr_0ESiZ6U/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
