@@ -8,46 +8,59 @@ has_children: true
 ## Transfers
 {: .no_toc }
 
-### &nbsp;
-{: .no_toc .text-delta }
-
 1. TOC
 {:toc}
 
 Born digital collection material can be acquired through file transfer or forensic imaging.
-The workflows vary based on media types and file types encountered but the general steps are as follows:  
+The workflows vary based on media types and file types encountered but the general steps are as follows:
 
-1. Image or transfer files from the media object.  
-2. Acquiring basic metadata about the media and files.  
-3. Preparing the files for later archival processing.
+1. Verify that all carriers from the collection are present and recored in SPEC
+2. Select an appropriate transfer method for each type of carrier found
+3. [Transfer the files from the media](#choosing-a-transfer-method)
+4. Collect any additional metadata from the media
+5. Package the files
+6. [Store the packages with backups]
 
-**Before a media object can be imaged it first must be recorded SPEC.** 
 
-### File Transfers
+### Choosing a Transfer Method
 
-During the file transfer process, some or all of the files are transferred from the original media using standard file copying tools.
-Processing archivists may assist in determining which files to transfer.
-The most common method of transfer uses a Bagit script via command line.
+Processing archivists may help determine the most appropriate transfer process.
 
-* Hard drives, USB drives, and other mass storage devices are transferred using a [BagIt script](file-transfers.html).
-* CDs, DVDs and other optical media are transferred using a [Nimbie Robot](nimbie-transfers.html)  
+* If the files are only available via a cloud service:
+  * [Cloud File Transfer](cloud-file-transfer.html)
+* If the files are on mass storage devices and not all files are desired:
+  * [File Transfer](files-transfer.html) for hard drives, usb drives, and other mass storage devices
+  * [Mass Optical Transfers](nimbie-transfers.html) for optical media
+* If the files must be retained in as they were on their original media:
+  * [Floppy disk imaging](floppy-disk-imaging.html)
+  * [Optical media imaging](optical-media-imaging.html)
+  * [Iomega disk imaging](iomega-disk-imaging.html)
+* If the lab does not have the required hardware:
+  * Vendor transfers
 
-### Forensic Imaging
+If the preferred method is unsuccessful, adapting other processes may be necessary.
 
-Forensic imaging is reserved for cases where imaging facilitates viewing or accessing material.
-For instance, some legacy file formats cannot be viewed on recent operating systems.
-Imaging this material allows it to be viewed in an emulator.
-Floppy disks and Iomega disks are usually imaged.
-Forensic imaging may also be used as a fallback method when file transfers are unsuccessful.
+### Storage
 
-* [Floppy disk images](floppy-disk-imaging.html) are created using the Kryoflux Disk System.
-* [Optical media](optical-media-imaging.html) (CD-R/DVD-R) are imaged using the dd command.
-* Hard drives, and removable media such as USB thumbdrives, and [Iomega disks](iomega-disk-imaging.html) are imaged with FTK Imager.
+During transfer work, the files generated from each carrier are stored on the local RAID.
+They are organized as child folders within a parent folder for the entire acquisition.
 
-### Vendor Transfers
 
-When the lab does not have the proper drive to access a type of media the media may be sent to a vendor for transfer.  
+In Development
+{: .label .label-yellow }
 
-### Network Transfers
+Once all transfer work is complete for the acquisition:
 
-In some cases born-digital material may be transferred over a network. Accessioning procedures for these types of transfers are still in progress.
+1. Copy the entire acquisition folder to network storage.
+```rsync -arP /path/to/ACQ_ID /path/to/network/storage```
+2. Validate the results of the transfer.
+```lint_ft -d /path/to/network/storage/ACQ_ID```
+3. Notify Digital Repository staff that packages are ready.
+4. Digital Repository staff ingest packages into Preservica
+5. Digital Repository staff notify the packages have been ingested.
+
+After 6 months, if the collection is not on a processing queue:
+
+1. Confirm a good copy on network storage and in Preservica.
+2. Delete from the local RAID
+```rm /path/to/ACQ_ID```
