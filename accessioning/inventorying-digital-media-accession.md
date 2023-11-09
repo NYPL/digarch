@@ -40,11 +40,17 @@ Digital media separation procedures are detailed in this document. The workflows
 * Note the acquisition number and the SPEC object ID number.  
 * ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier id used by Digital Preservation.  
 
+In the image of a SPEC object record below the SPEC object ID is circled in top left and acq ID is circled in bottom right.  
+
+![Screenshot of SPEC object record with SPEC object ID circled in top left and acq ID circled in bottom right](digitalmediaseparation/media/SPEC_DEMO.png)
+
 |Label transcript is an optional field. If you want to transcript a label you can enter text as it appears on the label. You can enter ```[illegible]``` for words you can't decipher.|  
 
 ## Label carriers.
 
 * For floppy and zip disks, print the label with ACQ_acqID_specObjectID and affixed it to the media.
+
+<img src="digitalmediaseparation/media/acqid_floppy.jpg" width="40%" />  
 
 * For Optical media (CDs, DVDs), print the label with ACQ_acqID_specObjectID.  
 * House CDs or DVDs in a sleeve or case if they are not housed.  
