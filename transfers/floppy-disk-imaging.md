@@ -60,17 +60,17 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 
 ### Tracking
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
-* Find the spreadsheet for the collection that you will be working with.  
+* Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
-* Name the spreadsheet the collection ID of the collection that you will be working with.  
-* Check the media ID for the disk you are working with (for example, ACQ_11111_4444).  
+* Name the spreadsheet the acquisition ID of the acquisition that you will be working with.  
+* Check the media ID for the disk you are working with (for example, ACQ_1234_123456).  
 * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
 * Enter acqID in the ref_acq_id field.  
 * Enter specObjectID in the object_id field.  
 
 | ref_acq_id | object_id |  
 | -- | -- |  
-| 11111 | 4444 |  
+| 1234 | 123456 |  
 
 * Enter item in the type field.  
 * Enter digital carrier in the format_1 field.  
@@ -127,10 +127,10 @@ On Mac:
 * Change into diskImages directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
 
-* Create a directory for your collection if it does not exist.  
+* Create a directory for the acquisition if it does not exist.  
 ```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
+* Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
@@ -154,10 +154,10 @@ On Windows via WSL:
 * Change into diskImages directory.  
 ```$ cd /mnt/y/Staging/ingest/diskImages```
 
-* Create a directory for your collection if it does not exist.  
+* Create a directory for the acquisition if it does not exist.  
 ```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
+* Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
