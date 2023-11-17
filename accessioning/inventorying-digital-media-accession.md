@@ -16,125 +16,75 @@ parent: Accessioning
 
 # Introduction
 
-When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer. 
+When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer by Collection Management.  
 
-|When commercial software is present do not enter it in CMS or label it. Send commercial software as is to Digital Preservation.|
+When digital media is encountered during processing of archival collections it is separated from folders and prepared for transfer by processing archivists.  
+
+|When commercial software is present do not enter it in SPEC or label it. Send commercial software as is to Digital Preservation.|
 
 Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
 
-Deprecated
-{: .label .label-red }
+* Remove digital carriers from folders and boxes.  
+* Create a SPEC object record for each carrier.  
+* Label digital carriers.  
+* Fill out Digital Carrier Separation sheets.  
+* Place Digital Carrier Separation sheets where carriers where found.  
+* House digital carriers.  
+* Inform Digital Archives of digital carriers.  
 
-|The following section is out of date. It needs to be revised with SPEC instructions. **Fill out a digital media separation form** and **Shelve the media** are up to date.|
+## Remove digital carriers from folders.  
+* House digital carriers in boxes separate from other material.  
 
-1. Open the collection record in CMS.  
-2. Determine the identification number.  
-3. Label media.
-4. Create a media log record.  
-5. Fill out a digital media separation form.  
-6. Create a shelving card and shelve the media.  
+## Create a SPEC object record for each carrier.  
+* Create an object record in SPEC for each carrier according to Collection Management practices.  
+* Note the acquisition number and the SPEC object ID number.  
+* ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier id used by Digital Preservation.  
 
-## 1. Open the collection record in CMS.
+In the image of a SPEC object record below the SPEC object ID is circled in top left and acq ID is circled in bottom right.  
 
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen.  
+![Screenshot of SPEC object record with SPEC object ID circled in top left and acq ID circled in bottom right](digitalmediaseparation/media/SPEC_DEMO.png)
 
-## 2. Determine the identification number.
+|Label transcript is an optional field. If you want to transcript a label you can enter text as it appears on the label. You can enter ```[illegible]``` for words you can't decipher.|  
 
-|Use this process when you are not using barcodes to label media.|
+## Label carriers.
 
-Create an identification number for a digital media object using
-4 elements:
+* For floppy and zip disks, print the label with ACQ_acqID_specObjectID and affixed it to the media.
 
-* A letter (M is used for collections.)  
-```M```  
+<img src="digitalmediaseparation/media/acqid_floppy.jpg" width="40%" />  
 
-* The collection number from CMS  
-```1087```  
+* For Optical media (CDs, DVDs), print the label with ACQ_acqID_specObjectID.  
+* House CDs or DVDs in a sleeve or case if they are not housed.  
+* Rehouse CDs or DVDs that are cased together, unless the case is designed for multiple discs.  
+* Affix the label to the sleeve or case.  
 
-* A dash  
-```-```  
-
-* A sequential number of the object padded to 4 digits  
-```0001```  
-
-    * When there are no media objects in the
-collection log the sequential number will be 0001. Objects already recorded in the log will be listed in
-the right hand column. The sequential number will be the next number
-that hasn't been allocated.  For example, the
-tenth object in manuscript collection ```1087``` would be labeled:
-```M1087-0010```.  
-
-The id numbers Digital Preservation uses are only for differentiating one disk from another. Sequence is only relevant for counting a number of disks. This method of id may be deprecated.
-{: .label .label-red }
-
-## 3. Label media.
-
-* For floppy and zip disks, print the number in ink on a new
-label and affixed it to the media. Labeling media with a P-Touch is best.
-
-* For Optical media (CDs, DVDs), print the number
-on the media's plastic hub using a using a medium point Sharpie pen. House CDs or DVDs in a sleeve or case if they are not housed. Rehouse CDs or DVDs that are sleeved/cased together into individual sleeves or cases, unless the case is designed for multiple CDs or DVDs.  
-
-* Make sure no label adhesive sticks to moving parts of the media. Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.  
+|**Make sure no label adhesive sticks to moving parts of the media.**  
+Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.|  
 
 * Check in with Digital Preservation staff to discuss labeling other media types.  
 
 |Digital Preservation staff can label commercial software with a simple collection name.
 ```Crouch``` for Stanley Crouch papers.|
 
-### Floppy disk
+<!-- ### Floppy disk
 ![](/digitalmediaseparation/media/image3.jpg)  
 
 ### Optical media
-![](/digitalmediaseparation/media/image4.jpg)  
+![](/digitalmediaseparation/media/image4.jpg)    -->
 
-## 4. Create a media log record.  
+## 5. Fill out a digital carrier separation form.  
 
- Enter the following
-information in the media log page for the collection.
-
-* id
-
-    * Enter the identification number for the media.
-
-* media format
-
-    * Enter or select the appropriate media type (for example: 5.25 inch floppy disk,
-3.5 inch floppy disk, CD-R, DVD-R, zip disk, hard drive, flash drive).  
-    
-    * See [Identifying Digital Media](../sitevisits/identifying-digital-media){:target="_blank"} for media types.   
-
-* floppy density
-
-    * Select the appropriate floppy disk density from the drop down if available. Leave blank for other media types.  
-
-* manufacturer
-
-    * Enter manufacturer of the media if known. 
-
-* serial number (hd)
-
-    * Enter the serial number if the media object is a hard disk drive. Leave blank for other media types.  
-
-| Label transcript is an optional field. If you want to transcript a label you can enter text as it appears on the label. You can enter ```[illegible]``` for words you can't decipher.|  
-
-An example of a completed record for separation:
-
-![](/digitalmediaseparation/media/image1.png)
-
-
-## 5. Fill out a digital media separation form.  
+| Processing archivists can skip this step because processing archivists remove separation sheets when arrangement is finished before shipping.|  
 
 * Fill out a
-[media separation form](https://docs.google.com/document/d/1Tn9j4q3WO5BhhMdXY0Ed09XoRFP_jUJyP96IYCJmkgs/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
+[digital carrier separation form](https://docs.google.com/document/d/1ZWZ2xMUMPPMV1f0V6CesB-qz1IK5u765Wmr_0ESiZ6U/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
 
-* Enter the object's identification number and collection.  
+* Enter the object's acquisition id number and collection id.  
+* Enter the object's SPEC object id.    
   * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
 * Circle the format on the form.  
 * Enter the correct format after the word Other if the format is not listed.  
-
-![Digital Separation Sheet](/digitalmediaseparation/media/image2.jpg)
-
+* See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types. 
+![Digital Separation Sheet](digitalmediaseparation/media/separationsheet.png)
 
 ## 6. Shelve the media.
 
