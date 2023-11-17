@@ -73,7 +73,7 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 ### Optical media
 ![](/digitalmediaseparation/media/image4.jpg)    -->
 
-## 5. Fill out a digital carrier separation form.  
+## Fill out a digital carrier separation form.  
 
 | Processing archivists should skip this step. They should remove any separation sheets before arrangement is finished and the colleciton is shipped.|  
 
@@ -88,7 +88,7 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 
 ![Digital Separation Sheet](digitalmediaseparation/media/separationsheet.png)
 
-## 6. Shelve the media.
+## Shelve the media.
 
 * Place completed boxes on shelf 02 in 205. The shelf is closest to 205A.  
 * Email [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) and confirm boxes are shelved.  
