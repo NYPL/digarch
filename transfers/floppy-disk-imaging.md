@@ -128,10 +128,10 @@ On Mac:
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
 
 * Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+```$ mkdir ACQ_acqID```  
 
 * Change into your collection directory.  
-```$ cd M1111```  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -141,9 +141,9 @@ Or
 
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{1..9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{10..99}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{1,5,7,9}/{metadata,objects}```  
 
 On Windows via WSL:
 
@@ -155,10 +155,10 @@ On Windows via WSL:
 ```$ cd /mnt/y/Staging/ingest/diskImages```
 
 * Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+```$ mkdir ACQ_acqID```  
 
 * Change into your collection directory.  
-```$ cd M1111```  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -168,12 +168,12 @@ Or
 
 ```$ cd /mnt/y/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{1..9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{10..99}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID__specObjectID{1,5,7,9}/{metadata,objects}```  
 #### Directory structure
 
-* /M2319-0021
+* /ACQ_1234_123456
   * /metadata
     * 
   * /objects
