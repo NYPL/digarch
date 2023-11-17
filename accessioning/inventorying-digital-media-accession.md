@@ -84,7 +84,8 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 * Enter the object's SPEC object id.    
 * Circle the format on the form.  
 * Enter the correct format after the word Other if the format is not listed.  
-* See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types. 
+* See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types.
+
 ![Digital Separation Sheet](digitalmediaseparation/media/separationsheet.png)
 
 ## 6. Shelve the media.
