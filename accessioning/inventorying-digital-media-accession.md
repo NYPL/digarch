@@ -1,11 +1,11 @@
 ---
-title: Inventorying Digital Media (Accessioning)
+title: Inventorying Digital Carriers (Accessioning)
 layout: default
 nav_order: 1
 parent: Accessioning
 ---
 
-# Digital Media Separation (Accessioning)
+# Digital Carrier Separation (Accessioning)
 {: .no_toc }
 
 ## Table of contents
@@ -16,13 +16,7 @@ parent: Accessioning
 
 # Introduction
 
-When digital media is encountered during accessioning of archival collections separate boxes of media are prepared for transfer by Collection Management.  
-
-When digital media is encountered during processing of archival collections it is separated from folders and prepared for transfer by processing archivists.  
-
-|When commercial software is present do not enter it in SPEC or label it. Send commercial software as is to Digital Preservation.|
-
-Digital media separation procedures are detailed in this document. The workflows may vary based on media types  encountered but the general steps are as follows:  
+Digital carrier separation procedures are detailed in this document. The workflows may vary based on media types encountered but the general steps are as follows:  
 
 * Remove digital carriers from folders and boxes.  
 * Create a SPEC object record for each carrier.  
@@ -32,15 +26,23 @@ Digital media separation procedures are detailed in this document. The workflows
 * House digital carriers.  
 * Inform Digital Archives of digital carriers.  
 
+
+When digital carriers are encountered during accessioning of an acquisition, Collection Management performs the digital media separation.
+If there are 400 or more digital carriers in an acquisition, Digital Preservation staff may need to assist.
+
+When digital media is encountered during processing of archival collections, the processing archivists perform the digital media separation.
+
+|When commercial software is present, staff should send it as is to Digital Preservation without inventorying or labeling.|
+
 ## Remove digital carriers from folders.  
 * House digital carriers in boxes separate from other material.  
 
 ## Create a SPEC object record for each carrier.  
 * Create an object record in SPEC for each carrier according to Collection Management practices.  
-* Note the acquisition number and the SPEC object ID number.  
-* ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier id used by Digital Preservation.  
+* Note the acquisition number and the SPEC object ID number. Both are needed to create the ID label.
+* ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier ID used by Digital Preservation.  
 
-In the image of a SPEC object record below the SPEC object ID is circled in top left and acq ID is circled in bottom right.  
+In the image of a SPEC object record below the SPEC Object ID is circled in top left and acq ID is circled in bottom right.  
 
 ![Screenshot of SPEC object record with SPEC object ID circled in top left and acq ID circled in bottom right](digitalmediaseparation/media/SPEC_DEMO.png)
 
@@ -73,14 +75,13 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 
 ## 5. Fill out a digital carrier separation form.  
 
-| Processing archivists can skip this step because processing archivists remove separation sheets when arrangement is finished before shipping.|  
+| Processing archivists should skip this step. They should remove any separation sheets before arrangement is finished and the colleciton is shipped.|  
 
 * Fill out a
 [digital carrier separation form](https://docs.google.com/document/d/1ZWZ2xMUMPPMV1f0V6CesB-qz1IK5u765Wmr_0ESiZ6U/edit?usp=sharing){:target="_blank"} to document where in the collection a media object came from. 
 
 * Enter the object's acquisition id number and collection id.  
 * Enter the object's SPEC object id.    
-  * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
 * Circle the format on the form.  
 * Enter the correct format after the word Other if the format is not listed.  
 * See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types. 
