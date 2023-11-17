@@ -57,9 +57,9 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
 
 On Mac:
 
@@ -70,10 +70,10 @@ On Mac:
 * Change into fileTransfers directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
 
-* Create a directory for your collection if it does not exist.  
+* Create a directory for the acquisition if it does not exist.  
 ```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
+* Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
@@ -83,15 +83,14 @@ Or
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
 
 ### Directory structure
 
 * /ACQ_1234_123456
   * /metadata
-    * /submissionDocumentation
   * /objects
 
 ## Transfer files from media object
