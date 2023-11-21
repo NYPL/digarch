@@ -39,6 +39,11 @@ When digital media is encountered during processing of archival collections, the
 
 ## Create a SPEC object record for each carrier.  
 * Create an object record in SPEC for each carrier according to Collection Management practices.  
+  * Input Object type (Item)  
+  * Input Barcode
+  * Input Format
+  * Input Container
+  * Input Container Location
 * Note the acquisition number and the SPEC object ID number. Both are needed to create the ID label.
 * ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier ID used by Digital Preservation.  
 
