@@ -48,6 +48,12 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * Changing to the top level directory by entering ```cd /```
   * Entering the command ```sudo mount -t drvfs Y: /mnt/y```
 
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
+
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
+
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
@@ -57,6 +63,31 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
+
+* Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
+<script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="3.5" data-theme="dracula"></script>
+
+On Windows via Cygwin:
+
+* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
+
+* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.
+
+* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+or
+
+* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
+
+  * Enter ```mkdir``` command.  
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```
 ```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
@@ -83,9 +114,9 @@ Or
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
 
 ### Directory structure
 
@@ -145,4 +176,4 @@ Or
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
   
-<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>
+<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js?" async></script>
