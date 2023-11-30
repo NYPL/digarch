@@ -16,19 +16,19 @@ parent: Accessioning
 
 # Introduction
 
-Digital carrier separation procedures are detailed in this document. The workflows may vary based on media types encountered but the general steps are as follows:  
+Digital carrier separation procedures are detailed in this document as performed by Collection Management. The document notes where procedures differ for processing archivists. The workflows may vary based on media types encountered but the general steps are as follows:  
 
 * Remove digital carriers from folders and boxes.  
 * Create a SPEC object record for each carrier.  
 * Label digital carriers.  
 * Fill out Digital Carrier Separation sheets.  
-* Place Digital Carrier Separation sheets where carriers where found.  
+* Place Digital Carrier Separation sheets where carriers were found.  
 * House digital carriers.  
 * Inform Digital Archives of digital carriers.  
 
 
 When digital carriers are encountered during accessioning of an acquisition, Collection Management performs the digital media separation.
-If there are 400 or more digital carriers in an acquisition, Digital Preservation staff may need to assist.
+If there are 500 or more digital carriers in an acquisition, other staff may need to assist.
 
 When digital media is encountered during processing of archival collections, the processing archivists perform the digital media separation.
 
@@ -41,9 +41,20 @@ When digital media is encountered during processing of archival collections, the
 * Create an object record in SPEC for each carrier according to Collection Management practices.  
   * Input Object type (Item)  
   * Input Barcode
-  * Input Format
+  * Input Format (See [Identifying Digital Media](../sitevisits/identifying-digital-media) for media format types.)  
   * Input Container
   * Input Container Location
+
+### Duplicate SPEC object records for large batches of carriers. (Optional)  
+When you are creating a number of objects records at once you can create the first record and use Duplicate to create the number or records you need to fill out.  
+* Create the first object record.  
+* Select `...` in the upper right of the first object record.  
+* Select Duplicate.  
+* Select fields to duplicate.  
+* Input number of records to duplicate, up to 20.  
+* Select ADD DUPLICATES.  
+
+## Review IDs.  
 * Note the acquisition number and the SPEC object ID number. Both are needed to create the ID label.
 * ACQ_acqID_specObjectID ```ACQ_12345_54321``` is the carrier ID used by Digital Preservation.  
 
@@ -55,14 +66,27 @@ In the image of a SPEC object record below the SPEC Object ID is circled in top 
 
 ## Label carriers.
 
-* For floppy and zip disks, print the label with ACQ_acqID_specObjectID and affixed it to the media.
+* For all carriers, print the label with ACQ_acqID_specObjectID.
 
+### Floppy and Zip Disks
+* Affix the label to the media.  
+* Affix a barcode to the media.  
 <img src="digitalmediaseparation/media/acqid_floppy.jpg" width="40%" />  
 
-* For Optical media (CDs, DVDs), print the label with ACQ_acqID_specObjectID.  
+### Hard Drives  
+* Affix the label to the media.  
+* Affix a barcode to the media.  
+
+### Optical Media
 * House CDs or DVDs in a sleeve or case if they are not housed.  
 * Rehouse CDs or DVDs that are cased together, unless the case is designed for multiple discs.  
 * Affix the label to the sleeve or case.  
+* Affix the barcode to the sleeve or case.  
+
+### Thumb Drives  
+* For thumb drives and media too small to label, place the media in an anti-static bag.  
+* Affix the label to the bag.  
+* Affix the barcode to the bag.  
 
 |**Make sure no label adhesive sticks to moving parts of the media.**  
 Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.|  
