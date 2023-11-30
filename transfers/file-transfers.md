@@ -20,7 +20,7 @@ Born digital collection material can be acquired through file transfer or forens
 
 The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types.  
 
-**Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be transferred it first must be recorded SPEC.**
 
 ## Prepare destination folders for files
 
@@ -44,9 +44,12 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * i - Codemeter access key
   * y - DigArchDiskStation
 
-* If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
   * Changing to the top level directory by entering ```cd /```
-  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+  * Entering the command ```sudo mount -t drvfs Y: /mnt/y```
+
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
 
 * Note: For a visual example of mounting a drive in WSL reference the following recording:
 <script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
@@ -85,6 +88,9 @@ or
 ```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
 ```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
 ```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```
+```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
+```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
 
 On Mac:
 
@@ -143,13 +149,6 @@ Note: rsync will require a source path (the path to the disk of associated media
 
 * An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
-On Windows via Cygwin:
-
-* Open Cygwin Terminal
-
-* Enter ```rsync -arP sourcepath destinationpath```
-
-* An example rsync command may look like: ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 On Mac:
 
