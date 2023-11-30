@@ -11,5 +11,5 @@ Digital Archives carries several responsibilities at NYPL. Primary responsibilit
 
 <!-- Potential List of Links to Project Management Overview Pages in different sections-->
 
-## Defining a Project: 
-Digital Archives defines a project as any task or set of tasks falling outside of the bounds of daily responsiblities, requiring a specialized organizing of time and resources to meet a need. 
+## Project Definition and Preparation: 
+Digital Archives defines a project as any task or set of tasks falling outside of the bounds of daily responsiblities, requiring a specialized organizing of time and resources to meet a need. Initiating a project begins with the creation of a project brief. 
