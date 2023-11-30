@@ -88,6 +88,8 @@ In the image of a SPEC object record below the SPEC Object ID is circled in top 
 * Affix the label to the bag.  
 * Affix the barcode to the bag.  
 
+|Contact [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) if you don't know where to get anti-static bags.|  
+
 |**Make sure no label adhesive sticks to moving parts of the media.**  
 Many media types have shutters, gates, or spools that need to move freely to work. Covering a shutter or other moving part with a label can damage the disk and the drive used to read media.|  
 
