@@ -3,6 +3,7 @@ title: Digital Media Separation (Inventory)
 layout: default
 nav_order: 1.2
 parent: Accessioning
+redirectFrom: https://nypl.github.io/digarch/accessioning/digitalmediaseparation.html
 ---
 
 # Digital Media Separation (Inventory)
