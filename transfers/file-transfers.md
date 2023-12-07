@@ -86,7 +86,6 @@ Or
 ```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
 ```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
 ```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
-
 ### Directory structure
 
 * /ACQ_1234_123456
