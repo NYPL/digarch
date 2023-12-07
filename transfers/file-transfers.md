@@ -57,9 +57,7 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
   
 On Mac:
 
@@ -83,9 +81,7 @@ Or
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
 ### Directory structure
 
 * /ACQ_1234_123456
