@@ -41,9 +41,7 @@ Or
 
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
 
 On Windows via WSL:
 
@@ -68,9 +66,8 @@ Or
 
 ```$ cd /mnt/y/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1..9}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{10..99}/{metadata,objects}```  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID{1,5,7,9}/{metadata,objects}``` 
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
+
 #### Directory structure
 
 * /M2319-0021
