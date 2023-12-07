@@ -38,10 +38,10 @@ the components, and enter them into ArchivesSpace.
 * Double-click the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
     * \M12345_workingfiles
-		* \ACQ_12345_54321
-			* \metadata
-			* \objects  
-          	* \data (optional)    
+        * \ACQ_12345_54321
+            * \metadata
+            * \objects  
+                * \data (optional)    
         
 * Note the metadata folder may contain metadata created during the transfer of the files.  
 * Note a file directory listing of the files in .csv format, if present.
