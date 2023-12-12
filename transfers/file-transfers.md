@@ -24,7 +24,7 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 ## Prepare destination folders for files
 
-**These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
+**These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive ID numbers or you are only transferring one media object.**  
 
 <!--Windows instructions should go here-->
 
@@ -63,34 +63,12 @@ or
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
+
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
 
 * Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
 <script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="3.5" data-theme="dracula"></script>
 
-On Windows via Cygwin:
-
-* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
-
-* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.
-
-* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
-
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-
-or
-
-* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
-
-  * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
 
 On Mac:
 
@@ -101,11 +79,11 @@ On Mac:
 * Change into fileTransfers directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
 
-* Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
-```$ cd M1111```  
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -114,15 +92,13 @@ Or
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/objects}```  
+
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
 
 ### Directory structure
 
-* /M2319-0021
+* /ACQ_1234_123456
   * /metadata
-    * /submissionDocumentation
   * /objects
 
 ## Transfer files from media object
@@ -147,7 +123,7 @@ Note: rsync will require a source path (the path to the disk of associated media
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
-* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/acquisition-folder/carrier-folder/objects```
 
 
 On Mac:
@@ -156,7 +132,7 @@ On Mac:
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
-* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```
 
 ### FT.sh
 

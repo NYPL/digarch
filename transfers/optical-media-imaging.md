@@ -25,11 +25,11 @@ On Mac:
 * Change into diskImages directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
 
-* Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
-```$ cd M1111```  
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -39,9 +39,7 @@ Or
 
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
 
 On Windows via WSL:
 
@@ -52,11 +50,11 @@ On Windows via WSL:
 * Change into diskImages directory.  
 ```$ cd /mnt/y/Staging/ingest/diskImages```
 
-* Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
-```$ cd M1111```  
+* Change into the acquisition directory.  
+```$ cdA ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -66,15 +64,12 @@ Or
 
 ```$ cd /mnt/y/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}``` 
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
 
 #### Directory structure
 
-* /M2319-0021
+* /ACQ_1234_123456
   * /metadata
-    * 
   * /objects
 
 ### Image discs
@@ -85,11 +80,11 @@ Or
 
 On Mac:
 
-```$ dd if=/dev/sr0 of=/Volumes/DigArchDiskStation/Staging/ingest/diskImages/CollID/MediaID/objects/MediaID.iso```  
+```$ dd if=/dev/sr0 of=/Volumes/DigArchDiskStation/Staging/ingest/diskImages/ACQ_acqID/ACQ_acqID_specObjectID/objects/ACQ_acqID_specObjectID.iso```  
 
 On Windows via WSL:
 
-```$ dd if=/dev/sr0 of=/mnt/y/Staging/ingest/diskImages/CollID/MediaID/objects/MediaID.iso```
+```$ dd if=/dev/sr0 of=/mnt/y/Staging/ingest/diskImages/ACQ_acqID/ACQ_acqID_specObjectID/objects/ACQ_acqID_specObjectID.iso```
 
 * Once complete the terminal will display bytes copied and return to a blank prompt.
 * Eject the disc from the drive.
@@ -102,12 +97,12 @@ Deprecated
 ```$ ssh archv```  
 * Change to the diskImages directory and change directory to the objects folder for the media object.  
 ```$ diskimages```  
-```$cd M1111/M1111-0004/objects```  
+```$cd ACQ_acqID/ACQ_acqID_specObjectID/objects```  
 * Run disktype on the disk image to get the file system metadata.  
-```$ disktype M1111-0004.iso```  
+```$ disktype ACQ_acqID_specObjectID.iso```  
 * Copy the file system information data from the output into the media objects CMS record.
 * Get the size of the disk image using the du command if disktype outputs mb.  
-```$ du -ck M1111-0004.iso```  
+```$ du -ck ACQ_acqID_specObjectID.iso```  
 * Run the program to move metadata files to metadata directory.  
 ```$ movemetadata``` 
 
@@ -124,24 +119,24 @@ Additionally, a single file system can be extracted from optical media for ease 
 Or
 
 * Right-click on the file system and select Export Files.
-* Create a folder in the Evidence directory if you have not already done so and save the extracted files to this location. Follow the path name convention  ```Z:\FTK\Evidence\CollectionID\MediaID```
-```(EX: Z:\FTK\Evidence\M23230\M23230-0152) ```
+* Create a folder in the Evidence directory if you have not already done so and save the extracted files to this location. Follow the path name convention  ```Z:\FTK\Evidence\ACQ_acqID\ACQ_acqID_specObjectID```
+```(EX: Z:\FTK\Evidence\ACQ_1234\ACQ_1234_123456 ```
 
 **Navigate to the folder using Windows Explorer, create the folder there, then click on the folder in the navigation bar to copy the path. Paste this path into FTK Imager Save as.**
 
 ### Tracking
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
-* Find the spreadsheet for the collection that you will be working with.  
+* Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
-* Name the spreadsheet the collection ID of the collection that you will be working with.  
-* Check the media ID for the disk you are working with (for example, ACQ_11111_4444).  
+* Name the spreadsheet the acquisition ID of the acquisition that you will be working with.  
+* Check the media ID for the disk you are working with (for example, ACQ_1234_123456).  
 * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
 * Enter acqID in the ref_acq_id field.  
 * Enter specObjectID in the object_id field.  
 
 | ref_acq_id | object_id |  
 | -- | -- |  
-| 11111 | 4444 |  
+| 1234 | 123456 |  
 
 * Enter item in the type field.  
 * Enter digital carrier in the format_1 field.  

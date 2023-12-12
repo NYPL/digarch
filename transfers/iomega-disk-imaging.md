@@ -28,10 +28,10 @@ On Mac:
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
 
 * Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+```$ mkdir ACQ_acqID```  
 
 * Change into your collection directory.  
-```$ cd M1111```  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -41,9 +41,7 @@ Or
 
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
 
 On Windows via WSL:
 
@@ -54,11 +52,11 @@ On Windows via WSL:
 * Change into diskImages directory.  
 ```$ cd /mnt/y/Staging/ingest/diskImages```
 
-* Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
-```$ cd M1111```  
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
 
 * Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
@@ -68,9 +66,8 @@ Or
 
 ```$ cd /mnt/y/Staging/ingest/diskImages```  
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata,objects}```  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
+
 #### Directory structure
 
 * /M2319-0021
@@ -108,7 +105,7 @@ height="3.5879155730533685in"} -->
 <!-- ![](media/media/image20.png){width="5.008970909886264in"
 height="3.433333333333333in"} -->
 
-* Type the collection ID in the Case number field, the
+* Type the acquisition ID in the Case number field, the
 media ID in the Evidence number field, and your name in the
 Examiner field. Click next.
 
@@ -116,9 +113,9 @@ Examiner field. Click next.
 height="3.5120352143482063in"} -->
 
 * Using the browse button, select the objects folder in the
-correct collection directory (e.g.
-Staging/ingest/diskImages/M1111/M1111-0004/objects). Enter the media
-ID into the Image Filename field. Ensure that the image fragment
+correct acquisition directory (e.g.
+Staging/ingest/diskImages/ACQ_1234/ACQ_1234_123456/objects). Enter the SPEC Object ID
+into the Image Filename field. Ensure that the image fragment
 size is set to 0 and the compression field is set to 9. Click finish.
 
 <!-- ![](media/media/image14.png){width="5.094400699912511in"
@@ -142,17 +139,17 @@ height="4.55in"} -->
 
 ### Tracking
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
-* Find the spreadsheet for the collection that you will be working with.  
+* Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
-* Name the spreadsheet the collection ID of the collection that you will be working with.  
-* Check the media ID for the disk you are working with (for example, ACQ_11111_4444).  
+* Name the spreadsheet the acquisition ID of the acquisition that you will be working with.  
+* Check the media ID for the disk you are working with (for example, ACQ_1234_123456).  
 * Media IDs follow the naming convention ACQ_acqID_specObjectID.  
 * Enter acqID in the ref_acq_id field.  
 * Enter specObjectID in the object_id field.  
 
 | ref_acq_id | object_id |  
 | -- | -- |  
-| 11111 | 4444 |  
+| 1234 | 123456 |  
 
 * Enter item in the type field.  
 * Enter digital carrier in the format_1 field.  
@@ -201,9 +198,9 @@ Deprecated
 ```$ ssh archv```
 * Change to the diskImages directory and change directory to the objects folder for the media object.  
 `$ diskimages`  
-`$cd M1111/M1111-0004/objects`
+`$cd ACQ_acqID/ACQ_acqID_specObjectID/objects`
 * Run disktype on the disk image to get the file system metadata.  
-`$ disktype M1111-0004.E01`
+`$ disktype ACQ_acqID_specObjectID.E01`
 * Copy the file system information data into the media objects CMS record.
 * Run program to move metadata files to metadata directory.  
 `$ movemetadata`
