@@ -7,25 +7,74 @@ parent: Transfers
 
 ## Iomega Disks
 
-**Before a media object can be imaged it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be imaged it first must be recorded SPEC.**
 
 This section covers imaging with FTK Imager. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.  
 
-### Build destination directories
+### Using Digital Archives scripts
+Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
+
+### Create destination directories
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
 
-* Open Cygwin and enter the following commands:
-* Connect to ARCHV Mac.  
-```$ ssh archv```  
-* Change to diskImage directory.  
-```$ diskimages```  
+On Mac:
+
+* Open Terminal.
+
+* Navigate to DigArchDiskStation.  
+
+* Change into diskImages directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
+
 * Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+```$ mkdir ACQ_acqID```  
+
 * Change into your collection directory.  
-```$ cd M1111```  
-* Run the program to build structured directories. The program will ask you for your collection name and the first and last number of items of the directories you’d like to build.  
-```$ makesips```  
+```$ cd ACQ_acqID```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
+
+On Windows via WSL:
+
+* Open WSL.
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd ../```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+* Change into diskImages directory.  
+```$ cd /mnt/y/Staging/ingest/diskImages```
+
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
+
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /mnt/y/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
+
+#### Directory structure
+
+* /M2319-0021
+  * /metadata
+    * 
+  * /objects
+
 
 <!-- ![](media/media/image29.png){width="6.069444444444445in"
 height="2.3472222222222223in"} -->
@@ -33,7 +82,7 @@ height="2.3472222222222223in"} -->
 ### Image disks
 
 * Connect the Iomega drive to the FRED's Tableau Ultrabay. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.  
-* Open CMS and locate the collection that you will be working with. Navigate to the electronic records view through the collection management screen. Click on the media number that you are going to image from the “other objects” list. Check in with Digital Preservation staff if the media object is not listed in CMS.*
+
 * Start FTK Imager from the FRED's launch bar and select
 Create New Image from the application's file menu.
 
@@ -56,7 +105,7 @@ height="3.5879155730533685in"} -->
 <!-- ![](media/media/image20.png){width="5.008970909886264in"
 height="3.433333333333333in"} -->
 
-* Type the collection ID in the Case number field, the
+* Type the acquisition ID in the Case number field, the
 media ID in the Evidence number field, and your name in the
 Examiner field. Click next.
 
@@ -64,9 +113,9 @@ Examiner field. Click next.
 height="3.5120352143482063in"} -->
 
 * Using the browse button, select the objects folder in the
-correct collection directory (e.g.
-Staging/ingest/diskImages/M1111/M1111-0004/objects). Enter the media
-ID into the Image Filename field. Ensure that the image fragment
+correct acquisition directory (e.g.
+Staging/ingest/diskImages/ACQ_1234/ACQ_1234_123456/objects). Enter the SPEC Object ID
+into the Image Filename field. Ensure that the image fragment
 size is set to 0 and the compression field is set to 9. Click finish.
 
 <!-- ![](media/media/image14.png){width="5.094400699912511in"
@@ -88,23 +137,58 @@ height="3.84375in"} -->
 <!-- ![](media/media/image19.png){width="4.950121391076116in"
 height="4.55in"} -->
 
-* Enter the following information about the image in CMS under
-Image Metadata:
+### Tracking
+* Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
+* Find the spreadsheet for the acquisition that you will be working with.  
+* Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
+* Name the spreadsheet the acquisition ID of the acquisition that you will be working with.  
+* Check the media ID for the disk you are working with (for example, ACQ_1234_123456).  
+* Media IDs follow the naming convention ACQ_acqID_specObjectID.  
+* Enter acqID in the ref_acq_id field.  
+* Enter specObjectID in the object_id field.  
 
-interface: Tableau UltraBay
+| ref_acq_id | object_id |  
+| -- | -- |  
+| 1234 | 123456 |  
 
-imaging software: FTK Imager [version number]
+* Enter item in the type field.  
+* Enter digital carrier in the format_1 field.  
+* Enter Zip disk in the format_2 field.  
+* Enter Zip disk size in the format_3 field.  (for example, 100 MB)
 
-image successful:Yes \| No
+| type | format_1 | format_2 | format_3 |  
+| ------- | -------- |-------- | -------- |   
+| item | digital carrier | Zip disk | 100 MB |  
 
-image filename: M11111-3332
+* Enter failed in the notes.transfer field if imaging fails.  
 
-image format: E01
+| notes.transfer |  
+| -- |  
+| failed |  
 
-imaged by: select your name from the dropdown
+* Enter the filesystem format in the notes.transfer field if that format isn't recognized by FTK.  
+* Amiga, ProDOS, CPM are formats not recognized in FTK. (Unrecognized formats less likely for Zip)  
 
-* Select the current date under Progress for the Imaging done and
-metadata extracted fields.
+| notes.transfer |  
+| -- |  
+| Amiga |  
+
+* Enter a note in the notes.transfer field if there were problems with the transfer.  
+
+| notes.transfer |  
+| -- |  
+| Imaging repeatedly stopped at 75%. |  
+
+* Enter Y in the removed field if the disk is removed from the collection.  
+
+| removed |  
+| -- |  
+| Y | 
+
+### Completing the imaging process
+
+* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
+* Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
 
 ### Metadata
 Deprecated
@@ -114,9 +198,9 @@ Deprecated
 ```$ ssh archv```
 * Change to the diskImages directory and change directory to the objects folder for the media object.  
 `$ diskimages`  
-`$cd M1111/M1111-0004/objects`
+`$cd ACQ_acqID/ACQ_acqID_specObjectID/objects`
 * Run disktype on the disk image to get the file system metadata.  
-`$ disktype M1111-0004.E01`
+`$ disktype ACQ_acqID_specObjectID.E01`
 * Copy the file system information data into the media objects CMS record.
 * Run program to move metadata files to metadata directory.  
 `$ movemetadata`

@@ -20,11 +20,11 @@ Born digital collection material can be acquired through file transfer or forens
 
 The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types.  
 
-**Before a media object can be transferred it first must be recorded in the collection’s media log in CMS. See [Verifying inventory in Media Log](/digarch/transfers/verify-inventory.html){:target="_blank"} for instructions.**
+**Before a media object can be transferred it first must be recorded SPEC.**
 
 ## Prepare destination folders for files
 
-**These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers or you are only transferring one media object.**  
+**These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive ID numbers or you are only transferring one media object.**  
 
 <!--Windows instructions should go here-->
 
@@ -44,41 +44,31 @@ Note: If you search for WSL you may come across the WSL app with a penguin icon,
   * i - Codemeter access key
   * y - DigArchDiskStation
 
-* If you do not see the Y:\ drive in /mnt of /mnt/y appears to be empty then it must be re-mounted by:
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
   * Changing to the top level directory by entering ```cd /```
-  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+  * Entering the command ```sudo mount -t drvfs Y: /mnt/y```
+
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
+
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
 
 * Change to fileTransfers directory by entering ```cd /mnt/y/Staging/ingest/fileTransfers```
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 or
 
 * Use ``mkdir`` command to create directories when media aren't consecutively numbered:
 
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
 
-On Windows via Cygwin:
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
 
-* Start Cygwin Terminal from the desktop or by searching for Cygwin via the desktop search bar.
+* Note: For a visual example of using mkdir to make multiple directories reference the following recording: 
+<script async id="asciicast-Qa9HoimUXpvyGDYzxe63QOXhf" src="https://asciinema.org/a/Qa9HoimUXpvyGDYzxe63QOXhf.js" data-speed="3.5" data-theme="dracula"></script>
 
-* On opening the Cygwin terminal navigate to the cygdrive folder by entering ```cd /cygdrive```.
-
-* Navigate to DigArchDiskStation by entering ```cd /cygdrive/y/Staging/ingest/fileTransfers```
-
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-
-or
-
-* Use ``mkdir`` command to create directories when media aren't consecutively numbered:
-
-  * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```
 
 On Mac:
 
@@ -89,28 +79,26 @@ On Mac:
 * Change into fileTransfers directory.  
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
 
-* Create a directory for your collection if it does not exist.  
-```$ mkdir M1111```  
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
 
-* Change into your collection directory.  
-```$ cd M1111```  
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
 * Change to fileTransfers directory.
 ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
   * Enter ```mkdir``` command.  
-```mkdir -p CollID/Media-000{1..9}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-00{10..99}/{metadata/submissionDocumentation,objects}```  
-```mkdir -p CollID/Media-000{1,5,7,9}/{metadata/submissionDocumentation,objects}```  
+
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
 
 ### Directory structure
 
-* /M2319-0021
+* /ACQ_1234_123456
   * /metadata
-    * /submissionDocumentation
   * /objects
 
 ## Transfer files from media object
@@ -135,15 +123,8 @@ Note: rsync will require a source path (the path to the disk of associated media
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
-* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+* An example rsync command may look like: ```rsync -arP /mnt/g/ /mnt/y/Staging/ingest/fileTransfers/acquisition-folder/carrier-folder/objects```
 
-On Windows via Cygwin:
-
-* Open Cygwin Terminal
-
-* Enter ```rsync -arP sourcepath destinationpath```
-
-* An example rsync command may look like: ```rsync -arP /cygdrive/g /cygdrive/y/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
 
 On Mac:
 
@@ -151,7 +132,7 @@ On Mac:
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
-* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/collection-folder/media-folder/objects```
+* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```
 
 ### FT.sh
 
@@ -171,4 +152,4 @@ Or
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
   
-<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js" async></script>
+<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js?" async></script>
