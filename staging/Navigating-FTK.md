@@ -46,9 +46,9 @@ the File List.
     -   Sort by Name to identify similar file names.
 
     -   Sort by Path to see the original arrangement on the disk images
-        including which files were in which folder.
+        including which files were in a which folder.
 
-    -   Sort by Modified date to see date ranges.
+    -   Sort Modified date to see date ranges.
 
 -    Use the Category field instead of the Ext field when identifying formats if FTK does not recognize the correct extension.
 
@@ -100,10 +100,10 @@ In the normal course of events you shouldn’t see the following formats when yo
   ![a computer icon of a file hierarchy tree with lines between squares representing files followed by the word unrecognized](FTK-Introduction/media/unrecognized%20FTK.PNG)
 * DVDs
     * VIDEO_TS
-* Seeing the above formats means something has gone awry.
+* Seeing the above formats means something has gone awry
   
 ## Unviewable Formats
-You should also stop and talk to us before proceeding if you see unviewable files that you think are in scope. There are many files that FTK designates as unknown. For many of these files you are still able to view the complete contents of the file in natural or filtered view. Those files can be arranged as usual. If you encounter files where you cannot see the complete contents in any view but think the files are in scope please discuss these files with Digital Archives staff. In the case of image files with no view in FTK like Canon RAW we can stage these images so you can view them with software outside of FTK. Another common example is Quark files. You can sometimes see limited text for Quark files in filtered view but you can’t view any images. Since we can only partially review these files we need to be aware of them if they are being arranged in packages for access.
+You should also stop and talk to us before proceeding if you see unviewable files that you think are in scope. There are many files that FTK designates as unknown. For many of these files you are still able to view the complete contents of the file in natural or filtered view. Those files can be arranged as usual. If you encounter files where you cannot see the complete contents in any view but think the files are in scope please discuss these files with digital archives staff. In the case of image files with no view in FTK like Canon RAW we can stage these images so you can view them with software outside of FTK. Another common example is Quark files. You can sometimes see limited text for Quark files in filtered view but you can’t view any images. Since we can only partially review these files we need to be aware of them if they are being arranged in packages for access.
 
 ## Stop and discuss with Digital Archives staff if you see…
 * Unknown formats with no Natural view and a limited Filtered view that are in scope  
@@ -118,9 +118,9 @@ There are some file types that either can’t be exported from FTK or don’t pr
 * Folders  
   ![a computer icon of a yellow file folder](FTK-Introduction/media/ftkfolders.png)
 * Slack Space  
-  ![a computer icon of a white piece of paper with a yellow border on the bottom and red arrow pointing left](FTK-Introduction/media/ftkslackspace.png)
+  ![computer icon of a white piece of paper with a yellow border on the bottom and red arrow pointing left](FTK-Introduction/media/ftkslackspace.png)
 * Deleted Files  
-  ![a computer icon of a white piece of paper with a red X over it](FTK-Introduction/media/ftkdeleted.png)
+  ![computer icon of a white piece of paper with a red X over it](FTK-Introduction/media/ftkdeleted.png)
 * File systems  
   ![ a computer icon of a file hierarchy tree with lines between squares representing files](FTK-Introduction/media/ftkfilesystem.png)
 * .DS_STORE
@@ -137,8 +137,8 @@ There are some file types that either can’t be exported from FTK or don’t pr
 * Please check to see if
     any files have the label "Potentially Sensitive" and review to see if they contain
     sensitive material.  
-    * When Digital Archives staff uploaded the collection's files into
-    FTK, they ran a search for PII. If there were any hits, these
+    * When digital archives staff uploaded the collection's files into
+    FTK, they ran a search for Pii. If there were any hits, these
     files were labeled "Potentially Sensitive".
 
 ## The Overview Tab

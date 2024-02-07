@@ -16,18 +16,7 @@ When a finding aid has been approved and the Bookmarks have been reviewed the co
 * Open the case for the collection and navigate to the Bookmark
 tab.  
 * Note how many finding aid components you have in the Bookmarks.  
-* Open the WSL terminal  and navigate to the mount point directory by entering ```cd /mnt```
-
-* Any mounted drives should be accessible from the mount point directory. Drives you'll see in /mnt include:
-  * d - Sata Drive Bay
-  * f - Storage for FTK
-  * h - Open FTK cases
-  * i - Codemeter access key
-  * y - DigArchDiskStation
-
-* If the Y:\ drive is not visible in /mnt or /mnt/y appears to be empty then re-mount:
-  * Change to the top level directory by entering ```cd /```
-  * Enter the command ```sudo mount -t drvfs Y: /mnt/y```  
+* Windows subsystem for Linux and enter the following commands to build your folders:  
 
 ```$ cd /mnt/y/Staging/faComponents```
 

@@ -21,7 +21,7 @@ These are instructions on how to connect drives using either the Tableau Ultraki
 ### Power cables
 
 * Connect the power supply to the forensic bridge.
-  - Device cables are available in the yellow case or cabinet by the cord board. 
+  - Device cables are available in the yellow case or labeled plastic drawers on the bakers rack. 
 * Connect the device to power.
   - Connect devices with external power as usual.  
   - Connect uncased internal devices to power through the forensic bridge with a 3M drive power cable or a Molex to 3M drive power cable.  

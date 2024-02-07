@@ -17,7 +17,7 @@ Archivists processing electronic records without using FTK or ePADD will receive
 
 ## Confirming Archivist Workstation Processing 
 
-* Open SPEC and navigate to the collection's object records.  
+* Open CMS and navigate to the collection's media log.  
 * Check that all the media in the collection has been transferred as files.  
 * Consult with Digital Archives staff if there are disk images present or transfer is incomplete.
 

@@ -1,8 +1,11 @@
 ---
 title: Inventorying Digital Carriers (Accessioning)
+title: Inventorying Digital Carriers (Accessioning)
 layout: default
 nav_order: 1
 parent: Accessioning
+redirect_from:
+    - https://nypl.github.io/digarch/accessioning/digitalmediaseparation.html
 ---
 
 # Digital Carrier Separation (Accessioning)
