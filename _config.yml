@@ -16,6 +16,3 @@ heading_anchors: true
 
 ga_tracking: G-4GBB05KF5M
 ga_tracking_anonymize_ip: true
-
-plugins:
-  - jekyll-redirect-from
