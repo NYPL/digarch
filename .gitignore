@@ -4,12 +4,12 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
+_config.yml
 # Ruby
 .bundle/
 .ruby-gemset
 .ruby-version
-
+*.gem
 Gemfile.lock
 
 # Mac/Windows System Files
@@ -19,4 +19,4 @@ Icon
 
 Thumbs.db
 _config.yaml
-
+_config.yml

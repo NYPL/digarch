@@ -33,7 +33,7 @@ On Mac:
 * Change into your collection directory.  
 ```$ cd ACQ_acqID```  
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
@@ -58,7 +58,7 @@ On Windows via WSL:
 * Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
