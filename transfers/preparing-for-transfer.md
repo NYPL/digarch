@@ -1,9 +1,20 @@
 ---
-title: Verify Inventory in Media Log
+title: Preparing for Transfer
 layout: default
 nav_order: 1
 parent: Transfers
 ---
+# Preparing for Transfer <!-- (digarch issue 79) -->
+* Locating and verifying carriers against spec records
+    * Both acquisition and collection records?
+* Removing non-digital archives carriers
+    * Commercial software
+    * AMI
+* Choosing transfer methods
+    * Table of carrier types to transfer methods
+    * How to choose in edge cases, e.g. nimbie vs single
+* Setting up space to store files on RAID
+
 **Before a media object can be imaged it first must be recorded SPEC.**
 
 Deprecated

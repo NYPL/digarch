@@ -13,6 +13,11 @@ has_children: true
 
 1. TOC
 {:toc}
+# Transfers Parent Page <!-- (digarch issue 78) -->
+* A generic description of the purpose of transfers
+* What can be transferred
+  * accessioned collections (which will then be processed)  
+  * special projects (which will be discarded)
 
 Born digital collection material can be acquired through file transfer or forensic imaging.
 The workflows vary based on media types and file types encountered but the general steps are as follows:  
