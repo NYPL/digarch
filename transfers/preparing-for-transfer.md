@@ -15,6 +15,10 @@ parent: Transfers
     * How to choose in edge cases, e.g. nimbie vs single
 * Setting up space to store files on RAID
 
+## Carriers
+* Carriers are located on shelving by the entrance door
+* Carriers to be transferred are likely on `02.**` shelves
+* 
 **Before a media object can be imaged it first must be recorded SPEC.**
 
 Deprecated
