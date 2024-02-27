@@ -133,7 +133,7 @@ On Mac:
 * Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
@@ -158,7 +158,7 @@ On Windows via WSL:
 * Change into the acquisition directory.  
 ```$ cd ACQ_acqID```  
 
-* Run [makesips script](https://nypl.github.io/digarch/tools/software.html#makesips-script){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
 
 Or
 
@@ -187,7 +187,7 @@ On Mac:
 * Run the command to tar the stream files.  
 ```$ compress```  
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
-```$ moveimages```  
+```$ movekflux```  
 * Move s0 and s1 images separately.  
 
 On Windows via WSL:
@@ -199,5 +199,5 @@ On Windows via WSL:
 * Run the command to tar the stream files.  
 ```$ compress```  
 * Run the program to move files from kryofluxOutput to the appropriate subdirectory in diskImages.  
-```$ moveimages```  
+```$ movekflux```  
 * Move s0 and s1 images separately.  
