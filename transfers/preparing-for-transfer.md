@@ -5,6 +5,7 @@ nav_order: 1
 parent: Transfers
 ---
 # Preparing for Transfer <!-- (digarch issue 79) -->
+This page outlines the steps to take before transferring media objects.
 * Locating and verifying carriers against spec records
     * Both acquisition and collection records?
 * Removing non-digital archives carriers
@@ -21,30 +22,47 @@ parent: Transfers
 * 
 **Before a media object can be imaged it first must be recorded SPEC.**
 
-Deprecated
-{: .label .label-red }
+## Verifying SPEC records
+An acquisition record should exist in SPEC and SPEC object records should exist   
+for each carrier being transferred.  
 
-|The following section is out of date. It needs to be revised with SPEC instructions.|
+### Verifying acquisition record exists in SPEC
+* Use the Filemaker Pro desktop app or or [web app](https://fm.nypl.org/fmi/webd/CollectionInfo) to access SPEC
+* Log in with your credentials  
+* Navigate to the bottom left of the screen  
+* Select Find/propose an acquisition under Acquisitions heading  
+* Enter acquisition number in the ID field or name in the Acquisition field  
+* Select search  
 
-## Using Filemaker Collection Management System
-* Log in to CMS using your credentials.
-* Open CMS and locate the collection that you will be working with.
-    * Select search/edit under collection info.
-    * Type the collection name or number in the labeled field and select search.
-    * Select the collection if more than one listing appears.
-* Navigate to the electronic records view through the collection management screen.
-* Click on the media number that you are going to work with from the “other objects” list.  
-**Check in with Digital Preservation staff if the media object is not listed in the CMS.**
+**Contact Collection Management if you cannot find the acquisition**
 
-## Finding Commercial Software  
-* Send commercial software as is to Digital Preservation without entering it in the media log or labeling it.
+### Verifying object records exist in SPEC
+* Select the acquisition from the list  
+* Note if there are any associated collections  
+* Navigate to the left side of the screen  
+* Note the number of items listed for Digital media under Extent Summary   
+* Select format summary next to Extent Summary, the right most button
+* Select digital media, mouseover text reads go to object records  
+* Confirm the number of carriers Digital Archives has match the object records  
+* Confirm the number of items listed for Digital media matches the object records  
+* Report a mismatch of digital media summary and object records to Systems and Operations  
+
+**Contact Collection Management if the number of carriers and records don't match**
+
+### Verifying additional carriers from Archival Processing
+When archivists survey a collection they may find additional carriers in boxes.  
+Archivists should create object records for any carriers they find and notify  
+Digital Archives of their discovery.  
+* [Verify](#verifying-object-records-exist-in-spec) objects records exist in SPEC  
+
+**Contact the processing archivist if the number of carriers and records don't match**  
 
 ### Handling Commercial Software  
 **These instructions are for Digital Preservation staff (including fellows) only.**
 * Label commercial software with a simple collection name.
     * `Crouch` for Stanley Crouch papers.
-* Select the issue dropdown Moved to software library for commercial software that has been inventoried as a media object in the media log.
+* Select issues from the object record menu in SPEC
+* Select Type: Digital Media
+* Enter Issue: Commercial Software
 * Image commercial software only when specifically instructed to do so.  
 
-## Creating Media objects in the Media Log
-* See [Digital Media Separation (inventory)](/accessioning/digitalmediaseparation.html){:target="_blank"} for instructions on inventorying media.   
