@@ -16,7 +16,7 @@ This page outlines the steps to take before transferring media objects.
     * How to choose in edge cases, e.g. nimbie vs single
 * Setting up space to store files on RAID
 
-## Carriers
+## Locating Carriers
 * Carriers are located on shelving by the entrance door
 * Carriers to be transferred are likely on `02.**` shelves
 * 
@@ -59,10 +59,49 @@ Digital Archives of their discovery.
 
 ### Handling Commercial Software  
 **These instructions are for Digital Preservation staff (including fellows) only.**
-* Label commercial software with a simple collection name.
+* Label commercial software with a simple acquisition name.
     * `Crouch` for Stanley Crouch papers.
 * Select issues from the object record menu in SPEC
 * Select Type: Digital Media
 * Enter Issue: Commercial Software
 * Image commercial software only when specifically instructed to do so.  
 
+## Choosing Transfer Methods
+File transfer is the most common method of migrating files to more stable storage.  
+Disk imaging is done when an image is required to access files, usually for emulation  
+of legacy file types.  
+
+File transfer methods include:
+* Rsync
+* Bagit
+* Mass Optical Disc File Transfer with Nimbie (creates bags and other transfer metadata)  
+* Cloud Transfer - Rclone
+* FTK Imager File Export
+* IsoBuster File Export
+
+Disk Imaging methods include:
+* Kryoflux Imaging
+* FTK Imager
+* dd
+
+### Choosing Transfer Method by Carrier
+
+Digital Archives has a standard transfer method for most of the carrier types we  
+encounter. Generally, carriers will transferred with the standard method unless  
+standard methods fail.  
+
+
+|       Carrier       |             Transfer             |
+|:-------------------:|:--------------------------------:|
+| External Hard Drive |           File Transfer          |
+| Internal Hard Drive |           File Transfer          |
+|     Thumb Drive     |           File Transfer          |
+|       SD Card       |           File Transfer          |
+|    Optical Media    |    Mass Optical Disc Transfer    |
+|     Floppy Disk     |  Floppy Disk Imaging - Kryoflux  |
+|     Iomega Disk     | Iomega Disk Imaging - FTK Imager |
+|     Google Drive    |   Cloud File Transfer - Rclone   |
+
+## Verifying Storage Space
+Before beginning transfer make sure Digital Archives Diskstation (DADS) has enough  
+space to store the transfers.  
